@@ -1,7 +1,9 @@
 # Open items (as of 2026-10-05)
 
 ## Content to supply
-- [ ] **Publications:** replace `content/publications.bib` with the full export. It is currently seeded with the 14 "Selected publications" from the Wix site. Add `theme` and, where useful, `pdf`/`preprint`/`code`/`data` fields (see EDITING.md).
+- [ ] **Publications – themes:** the 158 entries from `publications.txt` got their `theme` from keyword rules; 65 match no rule and only appear under "All themes". Please review/add `theme = {…}` in `content/publications.bib`.
+- [ ] **Publications – DOIs:** 24 entries still have no DOI (none in the list and no confident Crossref match). DOIs found via Crossref (105) were accepted only with a near-identical title; spot-check if in doubt.
+- [ ] **Publications – selected:** the 14 papers marked "selected" are still the ones from the old Wix site; adjust `keywords = {selected}` as you like (the home page shows the 3 newest).
 - [ ] **Project details:** status, years, funder and partners are empty for all 11 projects; a project URL is missing for 8 (PsyLetics, CHR prediction, CIP, cognitive training, PhenoNetz, symptom networks, TVB connectome, Digital Twins).
 - [ ] **Project summaries** (card text) were taken from the first sentences of each description. Please review; ≤ 40 words.
 - [ ] **Kathrin Seeger:** photo, and check the drafted bio.

@@ -6,3 +6,4 @@ dist/
 # raw Wix downloads (85 MB); optimized copies live in src/assets/
 content-export/images/
 __pycache__/
+scripts/.doi-cache.json

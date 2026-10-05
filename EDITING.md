@@ -105,6 +105,8 @@ Paste the BibTeX entry (e.g. exported from Zotero, PubMed or Google Scholar) int
 }
 ```
 
+To replace the whole list from a new reference-manager export in Vancouver style (one reference per paragraph, like `publications.txt`), run `python3 scripts/txt2bib.py publications.txt --doi`. It keeps existing `theme`/`selected` tags and looks up missing DOIs.
+
 Lab members (everyone in `team/` and `alumni/`) are highlighted automatically, matched by last name and first initial. The home page shows the three newest entries with `keywords = {selected}`. If an entry has a syntax error, the build log shows a `[publications.bib]` warning.
 
 ## Add a project

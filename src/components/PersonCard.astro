@@ -5,7 +5,7 @@ import { url } from '../lib/url';
 
 interface Props { person: CollectionEntry<'team'>; eager?: boolean }
 const { person, eager = false } = Astro.props;
-const { name, title, position, photo, show_photo, photo_focus } = person.data;
+const { name, title, position, photo, show_photo, photo_focus, group } = person.data;
 const initials = name.split(/\s+/).map((p) => p[0]).slice(0, 2).join('');
 ---
 
@@ -26,6 +26,7 @@ const initials = name.split(/\s+/).map((p) => p[0]).slice(0, 2).join('');
   </div>
   <h3 class="name"><a href={url(`/team/${person.id}/`)}>{name}</a></h3>
   <p class="meta">{title && <span>{title} · </span>}{position}</p>
+  {group && <p class="group">Head of {group.name}</p>}
 </article>
 
 <style>
@@ -53,4 +54,8 @@ const initials = name.split(/\s+/).map((p) => p[0]).slice(0, 2).join('');
   .name a::after { content: ''; position: absolute; inset: 0; }
   .person:hover .name a, .name a:focus-visible { color: var(--accent); text-decoration: underline; }
   .meta { font-size: 0.88rem; color: var(--muted); margin: 0; }
+  .group {
+    margin: 0.4rem 0 0; font-size: 0.82rem; font-weight: 600; line-height: 1.35; color: var(--accent-strong);
+    padding-left: 0.6rem; border-left: 2px solid var(--accent);
+  }
 </style>

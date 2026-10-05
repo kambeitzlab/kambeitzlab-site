@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 }
 
 const { person } = Astro.props;
-const { name, title, position, photo, show_photo, photo_focus, email, orcid } = person.data;
+const { name, title, position, photo, show_photo, photo_focus, email, orcid, group } = person.data;
 const { Content } = await render(person);
 const plain = person.body?.replace(/[*_#>\[\]]|\(http[^)]+\)/g, '').split(/\n/)[0].slice(0, 155);
 
@@ -25,6 +25,7 @@ const jsonLd = {
   email: email || undefined,
   sameAs: orcid ? [orcid] : undefined,
   affiliation: { '@type': 'ResearchOrganization', name: site.longName },
+  memberOf: group ? { '@type': 'ResearchOrganization', name: group.name, url: group.url || undefined } : undefined,
 };
 ---
 
@@ -47,6 +48,16 @@ const jsonLd = {
       <div>
         <p class="eyebrow">{position}</p>
         <h1>{title && <span class="title">{title}</span>} {name}</h1>
+        {
+          group && (
+            <aside class="group card" aria-label="Research group">
+              <p class="eyebrow">Head of research group</p>
+              <h2>{group.name}</h2>
+              {group.description && <p>{group.description}</p>}
+              {group.url && <a class="more-link" href={group.url} rel="noopener">Group website</a>}
+            </aside>
+          )
+        }
         <div class="prose"><Content /></div>
       </div>
     </div>
@@ -61,6 +72,10 @@ const jsonLd = {
   .contact { list-style: none; padding: 0; margin: 1rem 0 0; font-size: 0.95rem; }
   h1 { font-size: clamp(1.9rem, 1.4rem + 2vw, 2.8rem); }
   .title { color: var(--muted); font-weight: 400; }
+  .group { max-width: var(--measure); padding: 1.25rem 1.5rem; margin: 0.5rem 0 2rem; background: var(--accent-soft); border-color: transparent; box-shadow: none; }
+  .group .eyebrow { margin-bottom: 0.4rem; }
+  .group h2 { font-size: 1.25rem; margin-bottom: 0.4rem; }
+  .group p:not(.eyebrow) { margin-bottom: 0.75rem; }
   @media (max-width: 760px) {
     .layout { grid-template-columns: 1fr; }
     .side { max-width: 260px; }

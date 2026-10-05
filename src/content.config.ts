@@ -20,6 +20,10 @@ const team = defineCollection({
       show_photo: z.boolean().default(true),
       email: z.string().default(''),
       orcid: z.string().default(''),
+      // Own research group led by this person (shown on card, bio and research page)
+      group: z
+        .object({ name: z.string(), url: z.string().default(''), description: z.string().default('') })
+        .optional(),
     }),
 });
 

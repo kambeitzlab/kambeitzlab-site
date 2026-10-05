@@ -1,0 +1,631 @@
+
+    Stefanelli R, Oliver D, Damiani S, Orlandi M, Provenzani U, Bortolin E, Rovida M, Addington J, Alameda L, Arango C, Breitborde NJ, Broome M, Cadenhead KS, Calkins ME, Carrion RE, Castillo-Passi RI, Chen YHE, Choi J, Conus P, Cornblatt BA, Díaz-Caneja CM, Ellman LM, Gaspar PA, Gerber C, Birkedal Glenthøj L, Horton LE, Hui CL, Kambeitz J, Kambeitz-Ilankovic L, Keshavan MS, Kim M, Kim S-W, Koutsouleris N, Kwon JS, Langbein K, Mamah D, Mathalon DH, Mittal VA, Nordentoft M, Pearlson GD, Penzel N, Perez J, Perkins DO, Powers AR 3rd, Rogers JR, Sabb FW, Schiffman J, Shah J, Silverstein SM, Smesny S, Stone WS, Strauss GP, Thompson JL, Upthegrove R, Verma S, Wang J, Wolf DH, Zhang T, Bouix S, Corcoran CM, Kapur T, Pasternak O, Bearden C, Kahn RS, Kane JM, McGorry PD, Nelson B, Shenton ME, Woods SW, Accelerating Medicines Partnership Schizophrenia (AMP SCZ), Fusar-Poli P. External validation and refinement of the Psychosis Polyrisk Score to detect individuals at clinical high risk for psychosis. BMJ Ment Health 2026;29. https://doi.org/10.1136/bmjment-2026-302838.
+  
+
+
+    Damiani S, Orlandi M, Provenzani U, Bortolin E, Rovida M, Stefanelli R, Addington J, Alameda L, Arango C, Breitborde NJK, Broome MR, Cadenhead KS, Calkins ME, Carrion RE, Castillo-Passi RI, Chen EYH, Choi J, Conus P, Cornblatt BA, Diaz-Caneja CM, Ellman LM, Fogarty A, Gaspar PA, Gerber C, Glenthøj LB, Horton LE, Hui CLM, Kambeitz J, Kambeitz-Ilankovic L, Keshavan MS, Kim M, Kim S-W, Koutsouleris N, Kristof Z, Kwon JS, Langbein K, Mamah D, Mathalon DH, Mittal VA, Nguyen J, Nordentoft M, Pearlson GD, Penzel N, Perez J, Perkins DO, Powers AR 3rd, Rogers J, Sabb FW, Schiffman J, Shah JL, Silverstein SM, Smesny S, Stone WS, Strauss GP, Thompson JL, Upthegrove R, Verma S, Wannan C, Wang J, Wastler H, Wolf DH, Zhang T, Bouix S, Corcoran CM, Kapur T, Pasternak O, Bearden CE, Kahn RS, Kane JM, McGorry PD, Nelson B, Shenton ME, Woods SW, Fusar-Poli P. Unraveling suicidal ideation and behaviors in a global cohort of individuals at clinical high-risk for psychosis: Multivariable correlates and subthreshold psychotic symptoms. Acta Psychiatr Scand 2026. https://doi.org/10.1111/acps.70138.
+  
+
+
+    Penzel N, Cho KIK, Seitz-Holland J, Ruef A, Cabras G, Klein PC, Antonucci LA, Dwyer D, Betz LT, Cetin Karayumak S, Haas S, Zhang F, Urquijo Castro MF, Jacobs GR, Ettinger U, Falkai P, Pergola G, Upthegrove R, Borgwardt S, Brambilla P, Lencer R, Meisenzahl E, Schultze-Lutter F, Rosen M, Lichtenstein T, Kambeitz-Ilankovic L, Ruhrmann S, Salokangas RRK, Wood SJ, Pantelis C, Bertolino A, Shenton ME, Koutsouleris N, PRONIA Consortium, Pasternak O, Kambeitz J. Disentangling white matter correlates of symptom severity and general impairment in early psychosis. Mol Psychiatry 2026. https://doi.org/10.1038/s41380-026-03832-9.
+  
+
+
+    Pratt DN, Lewandowski KE, Hacker H, Kambeitz-Ilankovic L, Yassin W, Shah J, Allott K, Stone WS, Addington J, Yung AR, Williams TF, Cowan HR, He S, Schiffman J, Carrión RE, Torous J, Fusar-Poli P, Lepage M, Kim S-W, Verma S, Nordentoft M, Glenthøj LB, Smesny S, Conus P, Broome MR, Hui CLM, Sabb FW, Perkins DO, Powers AR 3rd, Calkins ME, Wolf DH, Corcoran CM, Horton LE, Ellman LM, Strauss GP, Mamah D, Pearlson GD, Choi J, Kim M, Kambeitz J, Gaspar PA, Mathalon DH, Cadenhead KS, Perez J, Arango C, Koutsouleris N, Silverstein S, Breitborde NJK, Bouix S, Baker JT, Kapur T, Pasternak O, Kahn RS, Cecchi G, Coleman MJ, Kane JM, McGorry PD, Bearden CE, Nelson B, Shenton ME, Woods SW, Mittal VA. Processing speed and verbal learning ability as predictors of assessor-rated and Ecological Momentary Assessment self-reported functioning: Findings from AMP SCZ. Schizophr Bull 2026;52. https://doi.org/10.1093/schbul/sbag056.
+  
+
+
+    Stainton A, Gao CX, Thomas GD, Zhou M, Hester R, Bryce S, Chisholm K, Griffiths SL, Kambeitz-Ilankovic L, Wenzel J, Bonivento C, Brambilla P, Iqbal M, Lichtenstein TK, Rosen M, Antonucci LA, Maggioni E, Kambeitz J, Borgwardt S, Riecher-Rössler A, Andreou C, Schmidt A, Schultze-Lutter F, Meisenzahl E, Ruhrmann S, Salokangas RKR, Pantelis C, Lencer R, Bienek O, Romer G, Dannlowski U, Bertolino A, Upthegrove R, Dwyer DB, Koutsouleris N, Wood SJ, Allott K, PRONIA Consortium. Cognitive trajectories in the nine months following recent-onset major depressive disorder. J Affect Disord 2026:122371.
+  
+
+
+    Hacker H, Hoheisel L, Buciuman M-O, Böke A, Lichtenstein T, Rosen M, Haas SS, Ruef A, Dwyer DB, Brambilla P, Bonivento C, Upthegrove R, Wood SJ, Borgwardt S, Meisenzahl E, Ruhrmann S, Salokangas RKR, Bertolino A, Lencer R, Dannlowski U, Koutsouleris N, Kambeitz-Ilankovic L, Kambeitz J, on behalf of the PRONIA Consortium. Disrupted hierarchical functional brain organization in affective and psychotic disorders: insights from functional brain gradients. Transl Psychiatry 2026;16. https://doi.org/10.1038/s41398-026-04206-z.
+  
+
+
+    Wastler HM, Moe A, Blouin AM, Bozzay M, Kilicoglu MFV, Arango C, Bouix S, Broome MR, Calkins ME, Conus P, Corcoran CM, Crawford C, Diaz-Caneja CM, Damiani S, Fusar-Poli P, Keshavan MS, Mittal VA, Nguyen J, Schiffman J, Shah JL, Yassin W, Yung A, Addington J, Alameda L, Cadenhead KS, Carrion RE, Castillo-Passi RI, Chen EYH, Choi J, Cornblatt BA, Ellman LM, Gaspar PA, Gerber C, Glenthøj LB, Horton LE, Hui CLM, Kambeitz J, Kambeitz-Ilankovic L, Kim M, Kim S-W, Koutsouleris N, Kwon JS, Langbein K, Mamah D, Mathalon DH, Nordentoft M, Pearlson GD, Perez J, Perkins DO, Powers AR Iii, Rogers J, Sabb FW, Silverstein SM, Smesny S, Stone WS, Strauss GP, Thompson JL, Upthegrove R, Verma S, Wang J, Wolf DH, Zhang T, Pasternak O, Kahn RS, Shenton ME, McGorry PD, Nelson B, Kane JM, Bearden CE, Woods SW, Accelerating Medicines Partnership® Schizophrenia (AMP® SCZ), Breitborde N, Accelerating Medicines Partnership® Schizophrenia (AMP® SCZ). Relationship among sleep disturbance, stress, and suicidal ideation in clinical high risk for psychosis. Schizophr Bull Open 2026;7:sgag024.
+  
+
+
+    Cowan HR, Pratt D, Shah JL, Woods SW, Alameda L, Lepage M, Shankman SA, Addington J, Arango C, Bearden CE, Bouix S, Breitborde NJK, Broome MR, Cadenhead KS, Calkins ME, Castillo-Passi RI, Chen EYH, Choi J, Conus P, Corcoran CM, Cornblatt BA, Diaz-Caneja CM, Ellman LM, Fusar-Poli P, Gaspar PA, Gerber C, Glenthøj LB, Gonçalves C, Horton LE, Hui CLM, Kambeitz J, Kambeitz-Ilankovic L, Kahn RS, Kane JM, Keshavan MS, Kim M, Kim S-W, Koutsouleris N, Kwon JS, Langbein K, Mamah D, Mathalon DH, McGorry PD, Nelson B, Nordentoft M, Pasternak O, Pearlson GD, Perez J, Perkins DO, Powers AR, Rogers J, Sabb FW, Schiffman J, Shenton ME, Silverstein SM, Smesny S, Stone WS, Strauss GP, Thompson JL, Upthegrove R, Verma S, Wang J, Wolf DH, Yung A, Zhang T, Crawford C, Yassin W, Kelly S, Coleman M, Jacobs G, Lewandowski KE, Penzel N, Baker J, Cecci G, Allott K, Buccilli K, Tod S, Addamo L, Xu L, Accelerating Medicines Partnership®-Schizophrenia (AMP® SCZ), Mittal VA. Premorbid adjustment problems, negative symptoms, and cognitive impairment in a large international sample at clinical high risk for psychosis: Findings from the Accelerating Medicines Partnership-Schizophrenia. Schizophr Bull 2025. https://doi.org/10.1093/schbul/sbaf197.
+  
+
+
+    Kamp D, Riesbeck M, Lowe A, Weide K, Bechdolf A, Leopold K, Brockhaus-Dumke A, Klos B, Hurlemann R, Wasserthal S, Muthesius A, Kambeitz J, Klingberg S, Hölz L, Hellmich M, Rosenberger KD, Sadura S, Meyer-Lindenberg A, Wölwer W. Predictors of gains in social functioning after cognitive remediation in schizophrenia: Results from the multicenter ISST (Integrated Social Cognition and Social Skills Therapy) trial. Schizophr Res 2026;293:99–108.
+  
+
+
+    Rißmayer M, Fischer J, Hanssen R, Kretschmer AC, Blaschke SJ, Jelic S, Annas S, Rihm A, Markser A, Krombholz S, Thevis M, Hohmann C, Schönau E, Hokamp NG, Bloch W, Kambeitz J, Javelle F, Lichtenstein T. Physical exercise as a catalyst for neuroimmune balance in schizophrenia: Targeting the kynurenine pathway in the PsyLetics project. J Psychiatr Res 2026;198:142–50.
+  
+
+
+    Weyer C, Sarisik E, Tovar Perdomo S, Vetter C, Dwyer DB, Antonucci LA, Lichtenstein T, Kambeitz-Ilankovic L, Kambeitz J, Ruhrmann S, Chisholm K, Schultze-Lutter F, Falkai P, Schiltz K, Pergola G, Blasi G, Bertolino A, Romer G, Lencer R, Dannlowski U, Upthegrove R, Salokangas RKR, Pantelis C, Meisenzahl E, Wood SJ, Brambilla P, Borgwardt S, Koutsouleris N, Popovic D. Neurobiological signatures of trauma, personality, and depressivity: A transdiagnostic machine learning study in adolescents and young adults. Biol Psychiatry 2026. https://doi.org/10.1016/j.biopsych.2026.03.994.
+  
+
+
+    Verhees FG, Wiest IC, Kather JN, Kambeitz J, Mikolas P. Blocking the reflection: Milestones and hurdles for digital twins in mental health. Pharmacopsychiatry 2026. https://doi.org/10.1055/a-2816-2869.
+  
+
+
+    Van Rheenen TE, Ringin E, Meyer D, Allott K, Wenzel J, Upthegrove R, Stainton A, Salokangas RKR, Ruhrmann S, Rosen M, Meisenzahl E, Maggioni E, Lichtenstein T, Lencer R, Kambeitz J, Dannlowski U, Dwyer DB, Chisholm K, Borgwardt S, Bonivento C, Bertolino A, Antonucci L, Koutsouleris N, Brambilla P, Pantelis C, Kambeitz-Ilankovic L, Wood SJ, PRONIA Consortium. Evidence of phenotypes indexing cognitive resilience and vulnerability in the early course of mood and psychosis spectrum illness; mapping the latent structure, characteristics, and longitudinal stability of cognitive heterogeneity. Eur Neuropsychopharmacol 2026;107:112800.
+  
+
+
+    Koutsouleris N, Vetter C, Buciuman M, Neuner L-M, Weyer C, Urquijo-Castro MF, Penzel N, Popovic D, Hahn L, Haas SS, Kambeitz-Ilankovic L, Ruhrmann S, Kambeitz J, Lichtenstein T, Chisholm K, Romer G, Antonucci LA, Lalousis PA, Dwyer D, Riecher-Rössler A, Pantelis C, Falkai P, Hietala J, Salokangas RKR, Lencer R, Dannlowski U, Korda A, Bertolino A, Borgwardt S, Noethen M, Maj C, Brambilla P, Wood SJ, Upthegrove R, Heekeren K, Rössler W, Meisenzahl E, Theodoridou A, Schultze-Lutter F. Biosignatures of cognitive basic symptoms mark a distinct neurodevelopmental pathway to schizophrenia. Brain 2026. https://doi.org/10.1093/brain/awag100.
+  
+
+
+    Falkai P, Schneider F, Gründer G, Kambeitz J. Ätiopathogenetische Beiträge der Bildgebungsforschung in der Psychiatrie. Psychiatrie, Psychosomatik, Psychotherapie, Berlin, Heidelberg: Springer Berlin Heidelberg; 2017, p. 215–43.
+  
+
+
+    Lencer R, Sprenger A, Meyhöfer I, Dannlowski U, Romer G, Kambeitz-Ilankovic L, Kambeitz J, Lichtenstein T, Rosen M, Ruhrmann S, Haas SS, Salokangas RKR, Pantelis C, Bonivento C, Schultze-Lutter F, Meisenzahl E, Brambilla P, Bertolino A, Upthegrove R, Davatzikos C, Koutsouleris N, Borgwardt S, Andreou C, Korda A, PRONIA Consortium. Brain texture alterations predict subtle visual perceptual dysfunctions in recent onset psychosis and clinical high-risk state. Transl Psychiatry 2026. https://doi.org/10.1038/s41398-026-03840-x.
+  
+
+
+    Vogel DHV, Kambeitz J. Medical Intelligence vs. Artificial Intelligence — How psychiatrists arrive at Treatment Algorithms. Psychiatry Res 2026:117002.
+  
+
+
+    Schröder R, Faiola E, Fernanda Urquijo M, Bey K, Meyhöfer I, Steffens M, Kasparbauer A-M, Ruef A, Högenauer H, Hurlemann R, Kambeitz J, Philipsen A, Wagner M, Koutsouleris N, Ettinger U. Neural correlates of smooth pursuit eye movements in schizotypy and recent onset psychosis: A multivariate pattern classification approach. Schizophr Bull Open 2022;3:sgac034.
+  
+
+
+    Böke A, Hacker H, Chakraborty M, Baumeister-Lingens L, Vöckel J, Koenig J, Vogel DH, Lichtenstein TK, Vogeley K, Kambeitz-Ilankovic L, Kambeitz J. Observer-independent assessment of content overlap in mental health questionnaires: Large language model-based study. JMIR AI 2025;4:e79868.
+  
+
+
+    Popovic D, Weyer C, Dwyer DB, Griffiths SL, Lalousis PA, Barnes NM, Vetter C, Neuner L-M, Buciuman M-O, Sarisik E, Paolini M, Lichtenstein T, Kambeitz-Ilankovic L, Kambeitz J, Ruhrmann S, Chisholm K, Schultze-Lutter F, Falkai P, Schiltz K, Steiner J, Ziller M, Pergola G, Blasi G, Bertolino A, Romer G, Lencer R, Dannlowski U, Salokangas RKR, Pantelis C, Brambilla P, Borgwardt S, Wood SJ, Meisenzahl E, Koutsouleris N, Upthegrove R, PRONIA Consortium. Multivariate brain-blood signatures in early-stage depression and psychosis. JAMA Psychiatry 2025. https://doi.org/10.1001/jamapsychiatry.2025.3803.
+  
+
+
+    Khuntia A, Popovic D, Sarisik E, Buciuman MO, Pedersen ML, Westlye LT, Andreassen OA, Meyer-Lindenberg A, Kambeitz J, Salokangas RKR, Hietala J, Bertolino A, Borgwardt S, Brambilla P, Upthegrove R, Wood SJ, Lencer R, Meisenzahl E, Falkai P, Schwarz E, Wiegand A, Koutsouleris N. The BMIgap tool to quantify transdiagnostic brain signatures of current and future weight. Nat Ment Health 2025;3:1395–406.
+  
+
+
+    Kambeitz J, Schiffman J, Kambeitz-Ilankovic L, Mittal VA, Ettinger U, Vogeley K. The empirical structure of psychopathology is represented in large language models. Nat Ment Health 2025;3:1482–92.
+  
+
+
+    Howes OD, Kambeitz J, Kim E, Stahl D, Slifstein M, Abi-Dargham A, Kapur S. The nature of dopamine dysfunction in schizophrenia and what this means for treatment. Arch Gen Psychiatry 2012;69:776–86.
+  
+
+
+    Bilgrami ZR, Castro E, Agurto C, Liebenthal E, Ennis M, Baker JT, Scott I, Colton B-L, Cho KIK, Li L, Tamayo Z, Henecks M, Rahimi Eichi H, Henry T, Addington J, Alameda LK, Arango C, Breitborde NJK, Broome MR, Cadenhead KS, Calkins ME, Chen EYH, Choi J, Conus P, Cornblatt BA, Ellman LM, Fusar-Poli P, Gaspar PA, Gerber C, Glenthøj LB, Horton LE, Hui C, Kambeitz J, Kambeitz-Ilankovic L, Keshavan MS, Kim S-W, Koutsouleris N, Kwon JS, Langbein K, Mamah D, Diaz-Caneja CM, Mathalon DH, Mittal VA, Nordentoft M, Pearlson GD, Perez J, Perkins DO, Powers AR 3rd, Rogers J, Sabb FW, Schiffman J, Shah JL, Silverstein SM, Smesny S, Stone WS, Yassin W, Strauss GP, Thompson JL, Upthegrove R, Verma S, Wang J, Wolf DH, McGorry PD, Kahn RS, Kane JM, Anticevic A, Bearden CE, Dwyer D, Billah T, Bouix S, Pasternak O, Shenton ME, Woods SW, Nelson B, Accelerating Medicines Partnership® Schizophrenia (AMP® SCZ), Cecchi GA, Corcoran CM, Wolff PM. Collecting language, speech acoustics, and facial expression to predict psychosis and other clinical outcomes: strategies from the AMP® SCZ initiative. Schizophrenia (Heidelb) 2025;11:125.
+  
+
+
+    Salokangas RKR, Wenzel J, From T, Ilonen T, Armio R-L, Laurikainen H, Tuominen L, Walta M, Ruef A, Bonivento C, Dwyer D, Brambilla P, Wood S, Upthegrove R, Borgwardt S, Meisenzal E, Rosen M, Lichtenstein T, Ruhrmann S, Pantelis C, Lencer R, Bertolino A, Schultze-Lutter F, Riecher A, Kambeitz J, Kambeitz-Ilankovic L, Koutsouleris N, Hietala J, PRONIA consortium. Active treatment of affective disturbances may improve functional outcomes in patients in the early state of psychosis: Results of the PRONIA study. Eur Psychiatry 2025:1–38.
+  
+
+
+    Bechdolf A, Correll CU, Hellenschmidt T, Holzner L, von Hardenberg L, Jäckel D, Kambeitz J, Koutsouleris N, Kusserow N, Leopold K, Meisenzahl E, Pfennig A, Reif A, Reininghaus U, Schellong M, Shmuilovich O, Uhlhaas PJ, Domanska OM. Integrated Youth Mental Health Services – niederschwellige, integrierte Angebote für junge Menschen in psychischen Krisen: Internationale Erfahrungen und die aktuelle Situation in Deutschland. Nervenarzt 2025. https://doi.org/10.1007/s00115-025-01895-7.
+  
+
+
+    Hoheisel L, Hacker H, Fink GR, Daun S, Kambeitz J. Computational modelling reveals neurobiological contributions to static and dynamic functional connectivity patterns. Front Comput Neurosci 2025;19:1525785.
+  
+
+
+    Neuner L-M, Weyer C, Kambeitz-Ilankovic L, Korda A, Dwyer D, Antonucci LA, Kambeitz J, Upthegrove R, Salokangas RKR, Hietala J, Pantelis C, Lencer R, Wood SJ, Brambilla P, Borgwardt S, Bertolino A, Romer G, Meisenzahl E, Dannlowski U, Falkai P, Cannon TD, Koutsouleris N, Hahn L, For the PRONIA Consortium, Haas S, Hasan A, Hoff C, Khanyaree I, Krämer C, Melo A, Muckenhuber-Sternbauer S, Köhler Y, Oeztuerk OF, Penzel N, Popovic D, Rangnick A, von Saldern S, Sanfelici R, Spangemacher M, Tupac A, Fernanda Urquijo M, Weiske J, Wosgien A, Blume K, Hedderich D, Julkowski D, Kaiser N, Lichtenstein T, Milz R, Nikolaides A, Pilgram T, Seves M, Wassen M, Andreou C, Egloff L, Harrisberger F, Heitz U, Lenz C, Leanza L, Mackintosh A, Smieskova R, Studerus E, Walter A, Widmayer S, Day C, Lowri Griffiths S, Iqbal M, Pelton M, Mallikarjun P, Stainton A, Lin A, Denissoff A, Ellilä A, From T, Heinimaa M, Ilonen T, Jalo P, Laurikainen H, Luutonen A, Mäkela A, Paju J, Pesonen H, Säilä R-L, Toivonen A, Turtonen O, Botterweck S, Kluthausen N, Antoch G, Caspers J, Wittsack H-J, Blasi G, Pergola G, Caforio G, Fazio L, Quarto T, Gelao B, Romano R, Andriola I, Falsetti A, Barone M, Passiatore R, Sangiuliano M, Surmann M, Bienek O, Beatriz Solana A, Abraham M, Schirmer T, Altamura C, Belleri M, Bottinelli F, Ferro A, Re M, Monzani E, Sberna M, D’Agostino A, Del Fabro L, Perna G, Nobile M, Alciati A, Balestrieri M, Bonivento C, Cabras G, Fabbro F, Garzitto M, Piccin S. Decoding psychosis risk: Neuroanatomical correlates of the NAPLS-2 calculator in the PRONIA cohort. Schizophr Bull 2025. https://doi.org/10.1093/schbul/sbaf135.
+  
+
+
+    Addington J, Shalev A, Liu L, Jahraus C, Chu M, Farina E, Fusar Poli P, Marcy PJ, Nunez AR, Calkins ME, Alameda L, Arango C, Borders O, Bouix S, Breitborde NJK, Broome MR, Cadenhead KS, Carrion RE, Castillo-Passi RI, Chen EYH, Choi J, Coleman MJ, Conus P, Corcoran CM, Diaz-Caneja CM, Ellman LM, Gaspar PA, Gerber C, Glenthøj LB, Horton LE, Hui CLM, Kambeitz J, Kambeitz-Ilankovic L, Kapur T, Kelly S, Kerr MJ, Keshavan MS, Kim M, Kim S-W, Koutsouleris N, Kwon JS, Langbein K, Lewandowski KE, Mamah D, Mathalon DH, Mittal VA, Mourgues C, Nordentoft M, Pasternak O, Pearlson GD, Penzel N, Perez J, Perkins DO, Powers AR III, Rogers J, Sabb FW, Schiffman J, Seitz-Holland J, Shah JL, Silverstein SM, Smesny S, Stone WS, Strauss GP, Thompson JL, Upthegrove R, Verma S, Wang J, Wolf DH, Yung AR, Zhang T, Addamo L, Buccilli K, Todd S, Dwyer D, Bearden CE, Kane JM, McGorry PD, Kahn RS, Shenton ME, Woods SW, Accelerating Medicines Partnership® Schizophrenia Nelson Barnaby. Sample ascertainment and recruitment sources in the Accelerating Medicines Partnership Schizophrenia program. Schizophr Bull Open 2025;6. https://doi.org/10.1093/schizbullopen/sgaf013.
+  
+
+
+    Addington J, Liu L, Chu M, Jungert K, Penzel N, Pasternak O, Farina E, Carrion RE, Corcoran CM, Mittal VA, Strauss GP, Yung AR, Alameda L, Arango C, Borders O, Bouix S, Breitborde NJK, Broome MR, Cadenhead KS, Castillo-Passi RI, Chen EYH, Choi J, Coleman MJ, Conus P, Diaz-Caneja CM, Ellman LM, Poli PF, Gaspar PA, Gerber C, Glenthøj LB, Horton LE, Hui CLM, Kambeitz J, Kambeitz-Ilankovic L, Kapur T, Kelly S, Kerr MJ, Keshavan MS, Kim M, Kim S-W, Koutsouleris N, Kwon JS, Langbein K, Lewandowski KE, Mamah D, Marcy PJ, Mathalon DH, Mourgues C, Nordentoft M, Nunez AR, Pearlson GD, Perez J, Perkins DO, Powers AR III, Rogers J, Sabb FW, Schiffman J, Seitz-Holland J, Shah JL, Silverstein SM, Smesny S, Stone WS, Thompson JL, Upthegrove R, Verma S, Wang J, Wolf DH, Zhang T, Addamo L, Buccilli K, Dwyer D, Todd S, Cho YT, Fontenau C, Tamayo Z, Bearden CE, Kane JM, McGorry PD, Kahn RS, Shenton ME, Woods SW, Accelerating Medicines Partnership® Schizophrenia Nelson Barnaby, Calkins ME. Baseline clinical characterization of participants in the Accelerating Medicines Partnership Schizophrenia program. Schizophr Bull Open 2025;6. https://doi.org/10.1093/schizbullopen/sgaf012.
+  
+
+
+    Buciuman M-O, Haas SS, Antonucci LA, Sarisik E, Khuntia A, Lichtenstein T, Rosen M, Kambeitz J, Pantelis C, Lencer R, Bertolino A, Brambilla P, Upthegrove R, Wood SJ, Falkai P, Riecher-Rössler A, Ruhrmann S, Schultze-Lutter F, Meisenzahl E, Hietala J, Salokangas RKR, Borgwardt S, Dwyer DB, Kambeitz-Ilankovic L, Koutsouleris N, PRONIA Consortium. From snapshots to stable outcomes: Rs-fMRI-based prognosis of functioning in patients with psychosis risk or recent-onset depression. Biol Psychiatry 2025. https://doi.org/10.1016/j.biopsych.2025.07.003.
+  
+
+
+    Dünnwald K, Adam Y, von Freymann D, Synetou A, Kruse S, Pracht E, Rauschning D, Lehmann C, Kambeitz J, Lichtenstein TK. Psychopathological, neuropsychological and sociodemographic description of the population using a post-COVID outpatient clinic: results from the 2Long4COVID BLOOD study. Eur Arch Psychiatry Clin Neurosci 2025. https://doi.org/10.1007/s00406-025-02065-1.
+  
+
+
+    Wigman JTW, Ching AE, Chung Y, Eichi HR, Lane E, Langholm C, Vaidyam A, Byun AJS, Haidar A, Hartmann J, Nunez A, Dwyer D, Nasarudin AA, Borders O, Scott I, Tamayo Z, Matneja P, Cho K-I, Addington J, Alameda LK, Arango C, Breitborde NJK, Broome MR, Cadenhead KS, Calkins ME, Chen EYH, Choi J, Conus P, Corcoran CM, Cornblatt BA, Diaz-Caneja CM, Ellman LM, Fusar-Poli P, Gaspar PA, Gerber C, Glenthøj LB, Horton LE, Hui CLM, Kambeitz J, Kambeitz-Ilankovic L, Keshavan MS, Kim S-W, Koutsouleris N, Langbein K, Mamah D, Mathalon DH, Mittal VA, Nordentoft M, Pearlson GD, Perez J, Perkins DO, Powers AR 3rd, Rogers J, Sabb FW, Schiffman J, Shah JL, Silverstein SM, Smesny S, Yassin W, Stone WS, Strauss GP, Thompson JL, Upthegrove R, Verma S, Wang J, Wolf DH, Wolff P, Accelerating Medicines Partnership® Schizophrenia (AMP® SCZ), Rowland LM, D’Alfonso S, Pasternak O, Bouix S, McGorry PD, Kahn RS, Kane JM, Bearden CE, Woods SW, Shenton ME, Nelson B, Baker JT, Torous J. Digital health technologies in the accelerating medicines Partnership® Schizophrenia Program. Schizophrenia (Heidelb) 2025;11:83.
+  
+
+
+    Mathalon DH, Nicholas S, Roach BJ, Billah T, Lavoie S, Whitford T, Hamilton HK, Addamo L, Anohkin A, Bekinschtein T, Belger A, Buccilli K, Cahill J, Carrión RE, Damiani S, Dzafic I, Ebdrup BH, Izyurov I, Jarcho J, Jenni R, Jo A, Kerins S, Lee C, Martin EA, Mayol-Troncoso R, Niznikiewicz MA, Parvaz M, Pogarell O, Prieto-Montalvo J, Rabin R, Roalf DR, Rogers J, Salisbury DF, Shaik R, Shankman S, Stevens MC, Suen YN, Swann NC, Tang X, Thompson JL, Tso I, Wenzel J, Zhou JH, Addington J, Alameda L, Arango C, Breitborde NJK, Broome MR, Cadenhead KS, Calkins ME, Castillo-Passi RI, Chen EYH, Choi J, Conus P, Corcoran CM, Cornblatt BA, Diaz-Caneja CM, Ellman LM, Fusar-Poli P, Gaspar PA, Gerber C, Glenthøj LB, Horton LE, Hui CLM, Kambeitz J, Kambeitz-Ilankovic L, Keshavan MS, Kim M, Kim S-W, Koutsouleris N, Kwon JS, Langbein K, Mamah D, Mittal VA, Nordentoft M, Pearlson GD, Perez J, Perkins DO, Powers AR, Sabb FW, Schiffman J, Shah JL, Silverstein SM, Smesny S, Stone WS, Strauss GP, Upthegrove R, Verma SK, Wang J, Wolf DH, Zhang T, Bouix S, Pasternak O, Cho K-IK, Coleman MJ, Dwyer D, Nunez A, Tamayo Z, Wood SJ, Kahn RS, Kane JM, McGorry PD, Bearden CE, Nelson B, Woods SW, Shenton ME, Accelerating Medicines Partnership® Schizophrenia Program, Light GA. The electroencephalography protocol for the Accelerating Medicines Partnership® Schizophrenia Program: Reliability and stability of measures. Schizophrenia (Heidelb) 2025;11:85.
+  
+
+
+    Vetter CS, Bender A, Dwyer DB, Montembeault M, Ruef A, Chisholm K, Kambeitz-Ilankovic L, Antonucci LA, Ruhrmann S, Kambeitz J, Rosen M, Lichtenstein T, Riecher-Rössler A, Upthegrove R, Salokangas RKR, Hietala J, Pantelis C, Lencer R, Meisenzahl E, Wood SJ, Brambilla P, Borgwardt S, Falkai P, Bertolino A, Koutsouleris N, PRONIA Consortium. Exploring the predictive value of structural covariance networks for the diagnosis of schizophrenia. Front Psychiatry 2025;16:1570797.
+  
+
+
+    Bommhardt T, Peschl J, Schultze-Lutter F, Koutsouleris N, Meisenzahl E, Köberlein-Neu J, CARE Study Group. Enhancing early detection and treatment of psychosis in Germany: a protocol for the health economic evaluation of an artificial intelligence-guided complex intervention. BMJ Open 2025;15:e103151.
+  
+
+
+    Woods SW, Parker S, Kerr MJ, Walsh BC, Wijtenburg SA, Prunier N, Nunez AR, Buccilli K, Mourgues-Codern C, Brummitt K, Kinney KS, Trankler C, Szacilo J, Colton B-L, Ali M, Haidar A, Billah T, Huynh K, Ahmed U, Adery LL, Marcy PJ, Allott K, Amminger P, Arango C, Broome MR, Cadenhead KS, Chen EYH, Choi J, Conus P, Cornblatt BA, Glenthøj LB, Horton LE, Kambeitz J, Kapur T, Keshavan MS, Koutsouleris N, Langbein K, Lavoie S, Diaz-Caneja CM, Mathalon DH, Mittal VA, Nordentoft M, Pasternak O, Pearlson GD, Gaspar PA, Shah JL, Smesny S, Stone WS, Strauss GP, Wang J, Corcoran CM, Perkins DO, Schiffman J, Perez J, Mamah D, Ellman LM, Powers AR 3rd, Coleman MJ, Anticevic A, Fusar-Poli P, Kane JM, Kahn RS, McGorry PD, Bearden CE, Shenton ME, Nelson B, Calkins ME, Hendricks L, Bouix S, Addington J, McGlashan TH, Yung AR, Accelerating Medicines Partnership Schizophrenia. Development of the PSYCHS: Positive SYmptoms and Diagnostic Criteria for the CAARMS Harmonized with the SIPS. Early Interv Psychiatry 2024;18:255–72.
+  
+
+
+    Allott K, Yassin W, Alameda L, Billah T, Borders O, Buccilli K, Carrión RE, Castillo-Passi RI, Cho KIK, Chin K, Coleman MJ, Colton B-L, Corral S, Dwyer D, Gundersen KB, Gur RC, Hoftman GD, Jacobs GR, Kelly S, Lewandowski KE, Marcy PJ, Matneja P, McLaughlin D, Nunez AR, Parsa S, Penzel N, Ray S, Reinen JM, Ruparel K, Sand MS, Santorelli G, Seitz-Holland J, Spark J, Tamayo Z, Thompson A, Tod S, Wannan CMJ, Wickham A, Wood SJ, Zoupou E, Addington J, Anticevic A, Arango C, Breitborde NJK, Broome MR, Cadenhead KS, Calkins ME, Chen EYH, Choi J, Conus P, Corcoran CM, Cornblatt BA, Ellman LM, Fusar-Poli P, Gaspar PA, Gerber C, Glenthøj LB, Horton LE, Hui CLM, Kambeitz J, Kambeitz-Ilankovic L, Keshavan M, Kim S-W, Koutsouleris N, Kwon JS, Langbein K, Mamah D, Diaz-Caneja CM, Mathalon DH, Mittal VA, Nordentoft M, Pearlson GD, Perkins DO, Perez J, Powers AR 3rd, Rogers J, Sabb FW, Schiffman J, Shah JL, Silverstein SM, Smesny S, Strauss GP, Thompson JL, Upthegrove R, Verma SK, Wang J, Wolf DH, Pasternak O, Bouix S, McGorry PD, Kane JM, Kahn RS, Bearden CE, Shenton ME, Woods SW, Nelson B, Accelerating Medicines Partnership® Schizophrenia (AMP® SCZ), Stone WS. Cognitive assessment in the Accelerating Medicines Partnership® Schizophrenia Program: harmonization priorities and strategies in a diverse international sample. Schizophrenia (Heidelb) 2025;11:49.
+  
+
+
+    Harms MP, Cho K-IK, Anticevic A, Bolo NR, Bouix S, Campbell D, Cannon TD, Cecchi G, Goncalves M, Haidar A, Hughes DE, Izyurov I, John O, Kapur T, Kim N, Kotler E, Kubicki M, Kuperman JM, Laulette K, Lindberg U, Markiewicz C, Ning L, Poldrack RA, Rathi Y, Romo PA 3rd, Tamayo Z, Wannan C, Wickham A, Yassin W, Zhou JH, Addington J, Alameda L, Arango C, Breitborde NJK, Broome MR, Cadenhead KS, Calkins ME, Chen EYH, Choi J, Conus P, Corcoran CM, Cornblatt BA, Diaz-Caneja CM, Ellman LM, Fusar-Poli P, Gaspar PA, Gerber C, Glenthøj LB, Horton LE, Hui CLM, Kambeitz J, Kambeitz-Ilankovic L, Keshavan MS, Kim S-W, Koutsouleris N, Kwon JS, Langbein K, Mamah D, Mathalon DH, Mittal VA, Nordentoft M, Pearlson GD, Perez J, Perkins DO, Powers AR 3rd, Rogers J, Sabb FW, Schiffman J, Shah JL, Silverstein SM, Smesny S, Stone WS, Strauss GP, Thompson JL, Upthegrove R, Verma SK, Wang J, Wolf DH, Kahn RS, Kane JM, McGorry PD, Nelson B, Woods SW, Shenton ME, Wood SJ, Bearden CE, Accelerating Medicines Partnership® Schizophrenia (AMP® SCZ), Pasternak O. The MR neuroimaging protocol for the Accelerating Medicines Partnership® Schizophrenia Program. Schizophrenia (Heidelb) 2025;11:52.
+  
+
+
+    Penzel N, Polosecki P, Addington J, Arango C, Asgari-Targhi A, Billah T, Bouix S, Calkins ME, Campbell DE, Cannon TD, Castro E, Cho KIK, Coleman MJ, Corcoran CM, Dwyer D, Frangou S, Fusar-Poli P, Glynn RJ, Haidar A, Harms MP, Jacobs GR, Kambeitz J, Kapur T, Kelly SM, Koutsouleris N, Abhinandan KR, Kucukemiroglu S, Kwon JS, Lewandowski KE, Li QS, Mantua V, Mathalon DH, Mittal VA, Nicholas S, Pandina GJ, Perkins DO, Potter A, Reichenberg A, Reinen J, Sand MS, Seitz-Holland J, Shah JL, Srinivasan V, Srivastava A, Stone WS, Torous J, Vangel MG, Wang J, Wolff P, Yao B, Anticevic A, Wolf DH, Zhu H, Bearden CE, McGorry PD, Nelson B, Kane JM, Woods SW, Kahn RS, Shenton ME, Accelerating Medicines Partnership® Schizophrenia (AMP® SCZ), Cecchi G, Pasternak O. Data analysis strategies for the Accelerating Medicines Partnership® Schizophrenia Program. Schizophrenia (Heidelb) 2025;11:53.
+  
+
+
+    Addington J, Liu L, Braun A, Auther A, Calkins ME, Cornblatt BA, Corcoran CM, Fusar-Poli P, Kerr MJ, Mourgues-Codern CV, Nunez AR, Oliver D, Strauss GP, Walsh BC, Alameda LK, Arango C, Breitborde NJK, Broome MR, Cadenhead KS, Carrion RE, Chen EYH, Choi J, Coleman MJ, Conus P, Diaz-Caneja CM, Dwyer D, Ellman LM, Faghankhani M, Gaspar PA, Gerber C, Glenthøj LB, Horton LE, Hui C, Jacobs GR, Kambeitz J, Kambeitz-Ilankovic L, Keshavan MS, Kim S-W, Koutsouleris N, Kwon JS, Langbein K, Lewandowski KE, Mamah D, Marcy PJ, Mathalon DH, Mittal VA, Nordentoft M, Pearlson GD, Penzel N, Perez J, Perkins DO, Powers AR 3rd, Rogers J, Sabb FW, Schiffman J, Shah JL, Silverstein SM, Smesny S, Stone WS, Thompson A, Thompson JL, Upthegrove R, Verma S, Wang J, Wastler HM, Wickham A, Rossum IW, Wolf DH, Bouix S, Pasternak O, Kahn RS, Bearden CE, Kane JM, McGorry PD, Buccilli K, Nelson B, Shenton ME, Woods SW, Accelerating Medicines Partnership® -Schizophrenia, Yung AR. Sample ascertainment and clinical outcome measures in the Accelerating Medicines Partnership® Schizophrenia Program. Schizophrenia (Heidelb) 2025;11:54.
+  
+
+
+    Kamp D, Lowe A, Weide K, Riesbeck M, Bechdolf A, Leopold K, Brockhaus-Dumke A, Klos B, Hurlemann R, Wasserthal S, Muthesius A, Kambeitz J, Klingberg S, Hölz L, Hellmich M, Rosenberger KD, Sadura S, Meyer-Lindenberg A, Wölwer W. Efficacy of integrated social cognitive remediation vs neurocognitive remediation in schizophrenia: Results from the multicenter randomized controlled ISST (Integrated Social Cognition And Social Skills Therapy) study. Schizophr Res 2025;277:44–56.
+  
+
+
+    Kambeitz J, Meyer-Lindenberg A. Modelling the impact of environmental and social determinants on mental health using generative agents. NPJ Digit Med 2025;8:36.
+  
+
+
+    Koutsouleris N, Khuntia AT, Popovic D, Sarisik E, Buciuman MO, Pedersen ML, Westlye LT, Andreassen O, Meyer-Lindenberg A, Kambeitz J, Salokangas R, Hietala J, Bertolino A, Borgwardt S, Brambilla P, Upthegrove R, Wood S, Lencer R, Meisenzahl E, Falkai P, Schwarz E, Wiegand A. BMIgap: a new tool to quantify transdiagnostic brain signatures of current and future weight. Res Sq 2024. https://doi.org/10.21203/rs.3.rs-5259910/v1.
+  
+
+
+    Chang Z, Osman N, Doll CM, Lichtenstein TK, Rosen M, Meisenzahl E, Kadel H, Kambeitz J, Vogeley K, Schultze-Lutter F. Do coping strategies mediate the effects of childhood adversities and traumata on clinical high-risk of psychosis, depression, and social phobia? A cross-sectional study on patients of an early detection service. BMC Psychiatry 2025;25. https://doi.org/10.1186/s12888-024-06435-2.
+  
+
+
+    Stüble M, Schultze-Lutter F, Kaess M, Franscini M, Traber-Walker N, Walger P, Schimmelmann BG, Vogeley K, Kambeitz J, Kindler J, Michel C. Clinical and neurocognitive profiles of a combined clinical high risk for psychosis and clinical control sample: latent class analysis. BJPsych Open 2024;10:e226.
+  
+
+
+    Bienek O, Allott K, Antonucci L, Bertolino A, Bonivento C, Borgwardt S, Brambilla P, Chisholm K, Dannlowski U, Lichtenstein TK, Kambeitz J, Kambeitz-Ilankovic L, Koutsouleris N, Lencer R, Griffiths SL, Maggioni E, Meisenzahl E, Pantelis C, Rosen M, Ruhrmann S, Salokangas RKR, Stainton A, Surmann M, Upthegrove R, Wenzel J, Wood SJ, Romer G, Müller JM, PRONIA Consortium. Neurocognitive dysfunction in adolescents with recent onset major depressive disorder: a cross-sectional comparative study. Eur Child Adolesc Psychiatry 2024. https://doi.org/10.1007/s00787-024-02599-0.
+  
+
+
+    Lalousis PA, Malaviya A, Khatibi A, Saberi M, Kambeitz-Ilankovic L, Haas SS, Wood SJ, Barnes NM, Rogers J, Chisholm K, Bertolino A, Borgwardt S, Brambilla P, Kambeitz J, Lencer R, Pantelis C, Ruhrmann S, Salokangas RKR, Schultze-Lutter F, Schmidt A, Meisenzahl E, Dwyer D, Koutsouleris N, Upthegrove R, Griffiths SL, PRONIA Consortium. Anhedonia as a potential transdiagnostic phenotype with immune-related changes in recent onset mental health disorders. Biol Psychiatry 2024. https://doi.org/10.1016/j.biopsych.2024.05.019.
+  
+
+
+    Zeyen P, Sannemann L, Hu X, Kambeitz J, Rietz C, Wagner M, Woopen C, Zank S, Jessen F, Dafsari FS. Prediction of depressive symptoms at high age (80+) by psychological, biological and functional factors. J Affect Disord 2024. https://doi.org/10.1016/j.jad.2024.05.059.
+  
+
+
+    Koutsouleris N, Buciuman M-O, Vetter CS, Weyer CFC, Zhutovsky P, Perdomo ST, Khuntia A, Milaneschi Y, Popovic D, Ruef A, Dwyer D, Chisholm K, Kambeitz L, Antonucci L, Ruhrmann S, Kambeitz J, Riecher-Rössler A, Upthegrove R, Salokangas R, Hietala J, Pantelis C, Lencer R, Meisenzahl E, Wood S, Brambilla P, Borgwardt S, Bertolino A, Falkai P. Distinct multimodal biological and functional profiles of symptom-based subgroups in recent-onset psychosis. Res Sq 2024. https://doi.org/10.21203/rs.3.rs-3949072/v1.
+  
+
+
+    Bonivento C, Kambeitz-Ilankovic L, Maggioni E, Borgwardt S, Lencer R, Meisenzahl E, Kambeitz J, Ruhrmann S, Salokangas RKR, Bertolino A, Stainton A, Wenzel J, Pantelis C, Wood SJ, Upthegrove R, Koutsouleris N, Brambilla P, PRONIA Consortium. Neurocognitive skills and vulnerability for psychosis in depression and across the psychotic spectrum: findings from the PRONIA Consortium - CORRIGENDUM. Br J Psychiatry 2024:1.
+  
+
+
+    Hoheisel L, Kambeitz-Ilankovic L, Wenzel J, Haas SS, Antonucci LA, Ruef A, Penzel N, Schultze-Lutter F, Lichtenstein T, Rosen M, Dwyer DB, Salokangas RKR, Lencer R, Brambilla P, Borgwardt S, Wood SJ, Upthegrove R, Bertolino A, Ruhrmann S, Meisenzahl E, Koutsouleris N, Fink GR, Daun S, Kambeitz J, PRONIA Consortium. Alterations of Functional Connectivity Dynamics in Affective and Psychotic Disorders. Biol Psychiatry Cogn Neurosci Neuroimaging 2024. https://doi.org/10.1016/j.bpsc.2024.02.013.
+  
+
+
+    Wannan CMJ, Nelson B, Addington J, Allott K, Anticevic A, Arango C, Baker JT, Bearden CE, Billah T, Bouix S, Broome MR, Buccilli K, Cadenhead KS, Calkins ME, Cannon TD, Cecci G, Chen EYH, Cho KIK, Choi J, Clark SR, Coleman MJ, Conus P, Corcoran CM, Cornblatt BA, Diaz-Caneja CM, Dwyer D, Ebdrup BH, Ellman LM, Fusar-Poli P, Galindo L, Gaspar PA, Gerber C, Glenthøj LB, Glynn R, Harms MP, Horton LE, Kahn RS, Kambeitz J, Kambeitz-Ilankovic L, Kane JM, Kapur T, Keshavan MS, Kim S-W, Koutsouleris N, Kubicki M, Kwon JS, Langbein K, Lewandowski KE, Light GA, Mamah D, Marcy PJ, Mathalon DH, McGorry PD, Mittal VA, Nordentoft M, Nunez A, Pasternak O, Pearlson GD, Perez J, Perkins DO, Powers AR 3rd, Roalf DR, Sabb FW, Schiffman J, Shah JL, Smesny S, Spark J, Stone WS, Strauss GP, Tamayo Z, Torous J, Upthegrove R, Vangel M, Verma S, Wang J, Rossum IW, Wolf DH, Wolff P, Wood SJ, Yung AR, Agurto C, Alvarez-Jimenez M, Amminger P, Armando M, Asgari-Targhi A, Cahill J, Carrión RE, Castro E, Cetin-Karayumak S, Mallar Chakravarty M, Cho YT, Cotter D, D’Alfonso S, Ennis M, Fadnavis S, Fonteneau C, Gao C, Gupta T, Gur RE, Gur RC, Hamilton HK, Hoftman GD, Jacobs GR, Jarcho J, Ji JL, Kohler CG, Lalousis PA, Lavoie S, Lepage M, Liebenthal E, Mervis J, Murty V, Nicholas SC, Ning L, Penzel N, Poldrack R, Polosecki P, Pratt DN, Rabin R, Rahimi Eichi H, Rathi Y, Reichenberg A, Reinen J, Rogers J, Ruiz-Yu B, Scott I, Seitz-Holland J, Srihari VH, Srivastava A, Thompson A, Turetsky BI, Walsh BC, Whitford T, Wigman JTW, Yao B, Yuen HP, Ahmed U, Byun AJS, Chung Y, Do K, Hendricks L, Huynh K, Jeffries C, Lane E, Langholm C, Lin E, Mantua V, Santorelli G, Ruparel K, Zoupou E, Adasme T, Addamo L, Adery L, Ali M, Auther A, Aversa S, Baek S-H, Bates K, Bathery A, Bayer JMM, Beedham R, Bilgrami Z, Birch S, Bonoldi I, Borders O, Borgatti R, Brown L, Bruna A, Carrington H, Castillo-Passi RI, Chen J, Cheng N, Ching AE, Clifford C, Colton B-L, Contreras P, Corral S, Damiani S, Done M, Estradé A, Etuka BA, Formica M, Furlan R, Geljic M, Germano C, Getachew R, Goncalves M, Haidar A, Hartmann J, Jo A, John O, Kerins S, Kerr M, Kesselring I, Kim H, Kim N, Kinney K, Krcmar M, Kotler E, Lafanechere M, Lee C, Llerena J, Markiewicz C, Matnejl P, Maturana A, Mavambu A, Mayol-Troncoso R, McDonnell A, McGowan A, McLaughlin D, McIlhenny R, McQueen B, Mebrahtu Y, Mensi M, Hui CLM, Suen YN, Wong SMY, Morrell N, Omar M, Partridge A, Phassouliotis C, Pichiecchio A, Politi P, Porter C, Provenzani U, Prunier N, Raj J, Ray S, Rayner V, Reyes M, Reynolds K, Rush S, Salinas C, Shetty J, Snowball C, Tod S, Turra-Fariña G, Valle D, Veale S, Whitson S, Wickham A, Youn S, Zamorano F, Zavaglia E, Zinberg J, Woods SW, Shenton ME. Accelerating Medicines Partnership® Schizophrenia (AMP® SCZ): Rationale and Study Design of the Largest Global Prospective Cohort Study of Clinical High Risk for Psychosis. Schizophr Bull 2024. https://doi.org/10.1093/schbul/sbae011.
+  
+
+
+    Wasserthal S, Muthesius A, Hurlemann R, Ruhrmann S, Schmidt SJ, Hellmich M, Schultze-Lutter F, Klosterkötter J, Müller H, Meyer-Lindenberg A, Poeppl TB, Walter H, Hirjak D, Koutsouleris N, Fallgatter AJ, Bechdolf A, Brockhaus-Dumke A, Mulert C, Philipsen A, Kambeitz J. N-acetylcysteine and a specialized preventive intervention for individuals at high risk for psychosis: A randomized double-blind multicenter trial. Schizophr Bull Open 2024;5:sgae005.
+  
+
+
+    Rißmayer M, Kambeitz J, Javelle F, Lichtenstein TK. Systematic Review and Meta-analysis of Exercise Interventions for Psychotic Disorders: The Impact of Exercise Intensity, Mindfulness Components, and Other Moderators on Symptoms, Functioning, and Cardiometabolic Health. Schizophr Bull 2024. https://doi.org/10.1093/schbul/sbae015.
+  
+
+
+    Chekroud AM, Hawrilenko M, Loho H, Bondar J, Gueorguieva R, Hasan A, Kambeitz J, Corlett PR, Koutsouleris N, Krumholz HM, Krystal JH, Paulus M. Illusory generalizability of clinical prediction models. Science 2024;383:164–7.
+  
+
+
+    Şahin D, Kambeitz-Ilankovic L, Wood S, Dwyer D, Upthegrove R, Salokangas R, Borgwardt S, Brambilla P, Meisenzahl E, Ruhrmann S, Schultze-Lutter F, Lencer R, Bertolino A, Pantelis C, Koutsouleris N, Kambeitz J, PRONIA Study Group. Algorithmic fairness in precision psychiatry: analysis of prediction models in individuals at clinical high risk for psychosis. Br J Psychiatry 2024;224:55–65.
+  
+
+
+    Mueller JK, Ahrens KF, Bauer M, Baune BT, Borgwardt S, Deckert J, Domschke K, Ellwanger R, Fallgatter A, Frodl T, Gallinat J, Gottschalk R, Grabe HJ, Hasan A, Herpertz SC, Hurlemann R, Jessen F, Kambeitz J, Kircher T, Kornhuber J, Lieb K, Meyer-Lindenberg A, Rupprecht R, Scherbaum N, Schlang C, Schneider A, Schomerus G, Thoma A, Unterecker S, Walter M, Walter H, Reif A, Reif-Leonhard C. Prevalence of COVID-19 and Psychotropic Drug Treatment in Psychiatric In-patients in Germany in 2020: Results from a Nationwide Pilot Survey. Pharmacopsychiatry 2023;56:227–38.
+  
+
+
+    Bonivento C, Kambeitz-Ilankovic L, Maggioni E, Borgwardt S, Lencer R, Meisenzahl E, Kambeitz J, Ruhrmann S, Salokangas RKR, Bertolino A, Stainton A, Wenzel J, Pantelis C, Wood SJ, Upthegrove R, Koutsouleris N, Brambilla P, PRONIA Consortium. Neurocognitive skills and vulnerability for psychosis in depression and across the psychotic spectrum: findings from the PRONIA Consortium. Br J Psychiatry 2023;223:485–92.
+  
+
+
+    Wenzel J, Badde L, Haas SS, Bonivento C, Van Rheenen TE, Antonucci LA, Ruef A, Penzel N, Rosen M, Lichtenstein T, Lalousis PA, Paolini M, Stainton A, Dannlowski U, Romer G, Brambilla P, Wood SJ, Upthegrove R, Borgwardt S, Meisenzahl E, Salokangas RKR, Pantelis C, Lencer R, Bertolino A, Kambeitz J, Koutsouleris N, Dwyer DB, Kambeitz-Ilankovic L, PRONIA consortium. Transdiagnostic subgroups of cognitive impairment in early affective and psychotic illness. Neuropsychopharmacology 2023. https://doi.org/10.1038/s41386-023-01729-7.
+  
+
+
+    Theisen C, Rosen M, Meisenzahl E, Koutsouleris N, Lichtenstein T, Ruhrmann S, Kambeitz J, Kambeitz-Ilankovic L, Riecher-Rössler A, Chisholm K, Upthegrove R, Antonucci LA, Bertolino A, Pigoni A, Salokangas RKR, Pantelis C, Wood SJ, Lencer R, Falkai P, Hietala J, Brambilla P, Schmidt A, Andreou C, Borgwardt S, Osman N, Schultze-Lutter F. The heterogeneity of attenuated and brief limited psychotic symptoms: association of contents with age, sex, country, religion, comorbidities, and functioning. Front Psychiatry 2023;14:1209485.
+  
+
+
+    Walter N, Wenzel J, Haas SS, Squarcina L, Bonivento C, Ruef A, Dwyer D, Lichtenstein T, Bastruk Ö, Stainton A, Antonucci L, Brambilla P, Wood SJ, Upthegrove R, Borgwardt S, Lencer R, Meisenzahl E, Salokangas RKR, Pantelis C, Bertolino A, Koutsouleris N, Kambeitz J, Kambeitz-Ilankovic L, PRONIA consortium. A multivariate cognitive approach to predict social functioning in recent onset psychosis in response to computerized cognitive training. Prog Neuropsychopharmacol Biol Psychiatry 2023:110864.
+  
+
+
+    Wenzel J, Dreschke N, Hanssen E, Rosen M, Ilankovic A, Kambeitz J, Fett A-K, Kambeitz-Ilankovic L. Ecological momentary assessment (EMA) combined with unsupervised machine learning shows sensitivity to identify individuals in potential need for psychiatric assessment. Eur Arch Psychiatry Clin Neurosci 2024;274:1639–49.
+  
+
+
+    Stainton A, Chisholm K, Griffiths SL, Kambeitz-Ilankovic L, Wenzel J, Bonivento C, Brambilla P, Iqbal M, Lichtenstein TK, Rosen M, Antonucci LA, Maggioni E, Kambeitz J, Borgwardt S, Riecher-Rössler A, Andreou C, Schmidt A, Schultze-Lutter F, Meisenzahl E, Ruhrmann S, Salokangas RKR, Pantelis C, Lencer R, Romer G, Bertolino A, Upthegrove R, Koutsouleris N, Allott K, Wood SJ, PRONIA Consortium, PRONIA Consortium. Prevalence of cognitive impairments and strengths in the early course of psychosis and depression. Psychol Med 2023:1–13.
+  
+
+
+    Buciuman M-O, Oeztuerk OF, Popovic D, Enrico P, Ruef A, Bieler N, Sarisik E, Weiske J, Dong MS, Dwyer DB, Kambeitz-Ilankovic L, Haas SS, Stainton A, Ruhrmann S, Chisholm K, Kambeitz J, Riecher-Rössler A, Upthegrove R, Schultze-Lutter F, Salokangas RKR, Hietala J, Pantelis C, Lencer R, Meisenzahl E, Wood SJ, Brambilla P, Borgwardt S, Falkai P, Antonucci LA, Bertolino A, Liddle P, Koutsouleris N, PRONIA Consortium. Structural and functional brain patterns predict formal thought disorder’s severity and its persistence in recent-onset psychosis: Results from the PRONIA Study. Biol Psychiatry Cogn Neurosci Neuroimaging 2023. https://doi.org/10.1016/j.bpsc.2023.06.001.
+  
+
+
+    Betz LT, Penzel N, Rosen M, Bhui K, Upthegrove R, Kambeitz J. Disentangling heterogeneity of psychosis expression in the general population: sex-specific moderation effects of environmental risk factors on symptom networks. Psychol Med 2023;53:1860–9.
+  
+
+
+    de Erausquin GA, Snyder H, Brugha TS, Seshadri S, Carrillo M, Sagar R, Huang Y, Newton C, Tartaglia C, Teunissen C, Håkanson K, Akinyemi R, Prasad K, D’Avossa G, Gonzalez-Aleman G, Hosseini A, Vavougios GD, Sachdev P, Bankart J, Mors NPO, Lipton R, Katz M, Fox PT, Katshu MZ, Iyengar MS, Weinstein G, Sohrabi HR, Jenkins R, Stein DJ, Hugon J, Mavreas V, Blangero J, Cruchaga C, Krishna M, Wadoo O, Becerra R, Zwir I, Longstreth WT, Kroenenberg G, Edison P, Mukaetova-Ladinska E, Staufenberg E, Figueredo-Aguiar M, Yécora A, Vaca F, Zamponi HP, Re VL, Majid A, Sundarakumar J, Gonzalez HM, Geerlings MI, Skoog I, Salmoiraghi A, Boneschi FM, Patel VN, Santos JM, Arroyo GR, Moreno AC, Felix P, Gallo C, Arai H, Yamada M, Iwatsubo T, Sharma M, Chakraborty N, Ferreccio C, Akena D, Brayne C, Maestre G, Blangero SW, Brusco LI, Siddarth P, Hughes TM, Zuñiga AR, Kambeitz J, Laza AR, Allen N, Panos S, Merrill D, Ibáñez A, Tsuang D, Valishvili N, Shrestha S, Wang S, Padma V, Anstey KJ, Ravindrdanath V, Blennow K, Mullins P, Łojek E, Pria A, Mosley TH, Gowland P, Girard TD, Bowtell R, Vahidy FS. Chronic neuropsychiatric sequelae of SARS-CoV-2: Protocol and methods from the Alzheimer’s Association Global Consortium. Alzheimers Dement 2022;8:e12348.
+  
+
+
+    Kambeitz-Ilankovic L, Rzayeva U, Völkel L, Wenzel J, Weiske J, Jessen F, Reininghaus U, Uhlhaas PJ, Alvarez-Jimenez M, Kambeitz J. A systematic review of digital and face-to-face cognitive behavioral therapy for depression. NPJ Digit Med 2022;5:144.
+  
+
+
+    Müller H, Betz LT, Kambeitz J, Falkai P, Gaebel W, Heinz A, Hellmich M, Juckel G, Lambert M, Meyer-Lindenberg A, Schneider F, Wagner M, Zink M, Klosterkötter J, Bechdolf A. Bridging the phenomenological gap between predictive basic-symptoms and attenuated positive symptoms: a cross-sectional network analysis. Schizophrenia (Heidelb) 2022;8:68.
+  
+
+
+    Schwarzer JM, Meyhoefer I, Antonucci LA, Kambeitz-Ilankovic L, Surmann M, Bienek O, Romer G, Dannlowski U, Hahn T, Korda A, Dwyer DB, Ruef A, Haas SS, Rosen M, Lichtenstein T, Ruhrmann S, Kambeitz J, Salokangas RKR, Pantelis C, Schultze-Lutter F, Meisenzahl E, Brambilla P, Bertolino A, Borgwardt S, Upthegrove R, Koutsouleris N, Lencer R, PRONIA Consortium. The impact of visual dysfunctions in recent-onset psychosis and clinical high-risk state for psychosis. Neuropsychopharmacology 2022;47:2051–60.
+  
+
+
+    Betz LT, Rosen M, Salokangas RKR, Kambeitz J. Disentangling the impact of childhood abuse and neglect on depressive affect in adulthood: A machine learning approach in a general population sample. J Affect Disord 2022;315:17–26.
+  
+
+
+    Rosen M, Betz LT, Montag C, Kannen C, Kambeitz J. Transdiagnostic Psychopathology in a Help-Seeking Population of an Early Recognition Center for Mental Disorders: Protocol for an Experience Sampling Study. JMIR Res Protoc 2022;11:e35206.
+  
+
+
+    Koutsouleris N, Pantelis C, Velakoulis D, McGuire P, Dwyer DB, Urquijo-Castro M-F, Paul R, Dong S, Popovic D, Oeztuerk O, Kambeitz J, Salokangas RKR, Hietala J, Bertolino A, Brambilla P, Upthegrove R, Wood SJ, Lencer R, Borgwardt S, Maj C, Nöthen M, Degenhardt F, Polyakova M, Mueller K, Villringer A, Danek A, Fassbender K, Fliessbach K, Jahn H, Kornhuber J, Landwehrmeyer B, Anderl-Straub S, Prudlo J, Synofzik M, Wiltfang J, Riedl L, Diehl-Schmid J, Otto M, Meisenzahl E, Falkai P, Schroeter ML, International FTD-Genetics Consortium (IFGC), the German Frontotemporal Lobar Degeneration (FTLD) Consortium, and the PRONIA Consortium. Exploring Links Between Psychosis and Frontotemporal Dementia Using Multimodal Machine Learning: Dementia Praecox Revisited. JAMA Psychiatry 2022;79:907–19.
+  
+
+
+    Lalousis PA, Schmaal L, Wood SJ, Reniers RLEP, Barnes NM, Chisholm K, Griffiths SL, Stainton A, Wen J, Hwang G, Davatzikos C, Wenzel J, Kambeitz-Ilankovic L, Andreou C, Bonivento C, Dannlowski U, Ferro A, Lichtenstein T, Riecher-Rössler A, Romer G, Rosen M, Bertolino A, Borgwardt S, Brambilla P, Kambeitz J, Lencer R, Pantelis C, Ruhrmann S, Salokangas RKR, Schultze-Lutter F, Schmidt A, Meisenzahl E, Koutsouleris N, Dwyer D, Upthegrove R, PRONIA Consortium. Neurobiologically Based Stratification of Recent-Onset Depression and Psychosis: Identification of Two Distinct Transdiagnostic Phenotypes. Biol Psychiatry 2022;92:552–62.
+  
+
+
+    Dwyer DB, Buciuman M-O, Ruef A, Kambeitz J, Sen Dong M, Stinson C, Kambeitz-Ilankovic L, Degenhardt F, Sanfelici R, Antonucci LA, Lalousis PA, Wenzel J, Urquijo-Castro MF, Popovic D, Oeztuerk OF, Haas SS, Weiske J, Hauke D, Neufang S, Schmidt-Kraepelin C, Ruhrmann S, Penzel N, Lichtenstein T, Rosen M, Chisholm K, Riecher-Rössler A, Egloff L, Schmidt A, Andreou C, Hietala J, Schirmer T, Romer G, Michel C, Rössler W, Maj C, Borisov O, Krawitz PM, Falkai P, Pantelis C, Lencer R, Bertolino A, Borgwardt S, Noethen M, Brambilla P, Schultze-Lutter F, Meisenzahl E, Wood SJ, Davatzikos C, Upthegrove R, Salokangas RKR, Koutsouleris N, PRONIA Consortium. Clinical, Brain, and Multilevel Clustering in Early Psychosis and Affective Stages. JAMA Psychiatry 2022;79:677–89.
+  
+
+
+    Antonucci LA, Penzel N, Sanfelici R, Pigoni A, Kambeitz-Ilankovic L, Dwyer D, Ruef A, Sen Dong M, Öztürk ÖF, Chisholm K, Haidl T, Rosen M, Ferro A, Pergola G, Andriola I, Blasi G, Ruhrmann S, Schultze-Lutter F, Falkai P, Kambeitz J, Lencer R, Dannlowski U, Upthegrove R, Salokangas RKR, Pantelis C, Meisenzahl E, Wood SJ, Brambilla P, Borgwardt S, Bertolino A, Koutsouleris N, PRONIA Consortium. Using combined environmental-clinical classification models to predict role functioning outcome in clinical high-risk states for psychosis and recent-onset depression. Br J Psychiatry 2022;220:1–17.
+  
+
+
+    Betz LT, Penzel N, Kambeitz J. A network approach to relationships between cannabis use characteristics and psychopathology in the general population. Sci Rep 2022;12:7163.
+  
+
+
+    Haas SS, Doucet GE, Antoniades M, Modabbernia A, Corcoran CM, Kahn RS, Kambeitz J, Kambeitz-Ilankovic L, Borgwardt S, Brambilla P, Upthegrove R, Wood SJ, Salokangas RKR, Hietala J, Meisenzahl E, Koutsouleris N, Frangou S. Evidence of discontinuity between psychosis-risk and non-clinical samples in the neuroanatomical correlates of social function. Schizophr Res Cogn 2022;29:100252.
+  
+
+
+    Koutsouleris N, Worthington M, Dwyer DB, Kambeitz-Ilankovic L, Sanfelici R, Fusar-Poli P, Rosen M, Ruhrmann S, Anticevic A, Addington J, Perkins DO, Bearden CE, Cornblatt BA, Cadenhead KS, Mathalon DH, McGlashan T, Seidman L, Tsuang M, Walker EF, Woods SW, Falkai P, Lencer R, Bertolino A, Kambeitz J, Schultze-Lutter F, Meisenzahl E, Salokangas RKR, Hietala J, Brambilla P, Upthegrove R, Borgwardt S, Wood S, Gur RE, McGuire P, Cannon TD. Toward Generalizable and Transdiagnostic Tools for Psychosis Prediction: An Independent Validation and Improvement of the NAPLS-2 Risk Calculator in the Multisite PRONIA Cohort. Biol Psychiatry 2021;90:632–42.
+  
+
+
+    Rosen M, Betz LT, Kaiser N, Penzel N, Dwyer D, Lichtenstein TK, Schultze-Lutter F, Kambeitz-Ilankovic L, Bertolino A, Borgwardt S, Brambilla P, Lencer R, Meisenzahl E, Pantelis C, Salokangas RKR, Upthegrove R, Wood S, Ruhrmann S, Koutsouleris N, Kambeitz J, PRONIA consortium. Detailed clinical phenotyping and generalisability in prognostic models of functioning in at-risk populations. Br J Psychiatry 2021:1–4.
+  
+
+
+    Penzel N, Sanfelici R, Antonucci LA, Betz LT, Dwyer D, Ruef A, Cho KIK, Cumming P, Pogarell O, Howes O, Falkai P, Upthegrove R, Borgwardt S, Brambilla P, Lencer R, Meisenzahl E, Schultze-Lutter F, Rosen M, Lichtenstein T, Kambeitz-Ilankovic L, Ruhrmann S, Salokangas RKR, Pantelis C, Wood SJ, Quednow BB, Pergola G, Bertolino A, Koutsouleris N, Kambeitz J, PRONIA Consortium. Pattern of predictive features of continued cannabis use in patients with recent-onset psychosis and clinical high-risk for psychosis. Schizophrenia (Heidelb) 2022;8:19.
+  
+
+
+    Jimeno N, Gomez-Pilar J, Poza J, Hornero R, Vogeley K, Meisenzahl E, Lichtenstein TK, Rosen M, Kambeitz J, Klosterkötter J, Schultze-Lutter F. (Attenuated) hallucinations join basic symptoms in a transdiagnostic network cluster analysis. Schizophr Res 2022;243:43–54.
+  
+
+
+    Squarcina L, Kambeitz-Ilankovic L, Bonivento C, Prunas C, Oldani L, Wenzel J, Ruef A, Dwyer D, Ferro A, Borgwardt S, Kambeitz J, Lichtenstein TK, Meisenzahl E, Pantelis C, Rosen M, Upthegrove R, Antonucci LA, Bertolino A, Lencer R, Ruhrmann S, Salokangas RRK, Schultze-Lutter F, Chisholm K, Stainton A, Wood SJ, Koutsouleris N, Brambilla P, PRONIA consortium. Relationships between global functioning and neuropsychological predictors in subjects at high risk of psychosis or with a recent onset of depression. World J Biol Psychiatry 2022;23:573–81.
+  
+
+
+    Hanke N, Penzel N, Betz LT, Rohde M, Kambeitz-Ilankovic L, Kambeitz J. Personality traits differentiate patients with bipolar disorder and healthy controls - A meta-analytic approach. J Affect Disord 2022;302:401–11.
+  
+
+
+    Dizinger JMB, Doll CM, Rosen M, Gruen M, Daum L, Schultze-Lutter F, Betz L, Kambeitz J, Vogeley K, Haidl TK. Does childhood trauma predict schizotypal traits? A path modelling approach in a cohort of help-seeking subjects. Eur Arch Psychiatry Clin Neurosci 2022;272:909–22.
+  
+
+
+    Padberg F, Bulubas L, Mizutani-Tiebel Y, Burkhardt G, Kranz GS, Koutsouleris N, Kambeitz J, Hasan A, Takahashi S, Keeser D, Goerigk S, Brunoni AR. The intervention, the patient and the illness - Personalizing non-invasive brain stimulation in psychiatry. Exp Neurol 2021;341:113713.
+  
+
+
+    Herstell S, Betz LT, Penzel N, Chechelnizki R, Filihagh L, Antonucci L, Kambeitz J. Insecure attachment as a transdiagnostic risk factor for major psychiatric conditions: A meta-analysis in bipolar disorder, depression and schizophrenia spectrum disorder. J Psychiatr Res 2021;144:190–201.
+  
+
+
+    Oeztuerk OF, Pigoni A, Wenzel J, Haas SS, Popovic D, Ruef A, Dwyer DB, Kambeitz-Ilankovic L, Ruhrmann S, Chisholm K, Lalousis P, Griffiths SL, Lichtenstein T, Rosen M, Kambeitz J, Schultze-Lutter F, Liddle P, Upthegrove R, Salokangas RKR, Pantelis C, Meisenzahl E, Wood SJ, Brambilla P, Borgwardt S, Falkai P, Antonucci LA, Koutsouleris N, PRONIA Consortium. The clinical relevance of formal thought disorder in the early stages of psychosis: results from the PRONIA study. Eur Arch Psychiatry Clin Neurosci 2022;272:403–13.
+  
+
+
+    Sanfelici R, Ruef A, Antonucci LA, Penzel N, Sotiras A, Dong MS, Urquijo-Castro M, Wenzel J, Kambeitz-Ilankovic L, Hettwer MD, Ruhrmann S, Chisholm K, Riecher-Rössler A, Falkai P, Pantelis C, Salokangas RKR, Lencer R, Bertolino A, Kambeitz J, Meisenzahl E, Borgwardt S, Brambilla P, Wood SJ, Upthegrove R, Schultze-Lutter F, Koutsouleris N, Dwyer DB, PRONIA Consortium. Novel Gyrification Networks Reveal Links with Psychiatric Risk Factors in Early Illness. Cereb Cortex 2022;32:1625–36.
+  
+
+
+    Haidl TK, Hedderich DM, Rosen M, Kaiser N, Seves M, Lichtenstein T, Penzel N, Wenzel J, Kambeitz-Ilankovic L, Ruef A, Popovic D, Schultze-Lutter F, Chisholm K, Upthegrove R, Salokangas RKR, Pantelis C, Meisenzahl E, Wood SJ, Brambilla P, Borgwardt S, Ruhrmann S, Kambeitz J, Koutsouleris N. The non-specific nature of mental health and structural brain outcomes following childhood trauma. Psychol Med 2023;53:1005–14.
+  
+
+
+    Preuss UW, Huestis MA, Schneider M, Hermann D, Lutz B, Hasan A, Kambeitz J, Wong JWM, Hoch E. Cannabis Use and Car Crashes: A Review. Front Psychiatry 2021;12:643315.
+  
+
+
+    Chamorro Y, Betz LT, Philipsen A, Kambeitz J, Ettinger U. The Eyes Have It: A Meta-analysis of Oculomotor Inhibition in Attention-Deficit/Hyperactivity Disorder. Biol Psychiatry Cogn Neurosci Neuroimaging 2022;7:1090–102.
+  
+
+
+    Dwyer D, Kalman J, Budde M, Kambeitz J, Kambeitz-Ilankovic L, Heilbronner U, Papiol S, Falkai P, Schulze T, Koutsouleris N. Rethinking Clinical Subtyping for Psychosis: New Methods, Prognostic Validation, and Exploration of Genetic Relationships. Biol Psychiatry 2020;87:S29.
+  
+
+
+    Goerigk SA, Padberg F, Chekroud A, Kambeitz J, Bühner M, Brunoni AR. Parsing the antidepressant effects of non-invasive brain stimulation and pharmacotherapy: A symptom clustering approach on ELECT-TDCS. Brain Stimul 2021;14:906–12.
+  
+
+
+    Hauke DJ, Schmidt A, Studerus E, Andreou C, Riecher-Rössler A, Radua J, Kambeitz J, Ruef A, Dwyer DB, Kambeitz-Ilankovic L, Lichtenstein T, Sanfelici R, Penzel N, Haas SS, Antonucci LA, Lalousis PA, Chisholm K, Schultze-Lutter F, Ruhrmann S, Hietala J, Brambilla P, Koutsouleris N, Meisenzahl E, Pantelis C, Rosen M, Salokangas RKR, Upthegrove R, Wood SJ, Borgwardt S, PRONIA Group. Multimodal prognosis of negative symptom severity in individuals at increased risk of developing psychosis. Transl Psychiatry 2021;11:312.
+  
+
+
+    Haidl TK, Gruen M, Dizinger J, Rosen M, Doll CM, Penzel N, Daum L, Große Hokamp N, Klosterkötter J, Ruhrmann S, Vogeley K, Schultze-Lutter F, Kambeitz J. Is there a diagnosis-specific influence of childhood trauma on later educational attainment? A machine learning analysis in a large help-seeking sample. J Psychiatr Res 2021;138:591–7.
+  
+
+
+    Wenzel J, Haas SS, Dwyer DB, Ruef A, Oeztuerk OF, Antonucci LA, von Saldern S, Bonivento C, Garzitto M, Ferro A, Paolini M, Blautzik J, Borgwardt S, Brambilla P, Meisenzahl E, Salokangas RKR, Upthegrove R, Wood SJ, Kambeitz J, Koutsouleris N, Kambeitz-Ilankovic L, PRONIA consortium. Cognitive subtypes in recent onset psychosis: distinct neurobiological fingerprints? Neuropsychopharmacology 2021;46:1475–83.
+  
+
+
+    Penzel N, Antonucci LA, Betz LT, Sanfelici R, Weiske J, Pogarell O, Cumming P, Quednow BB, Howes O, Falkai P, Upthegrove R, Bertolino A, Borgwardt S, Brambilla P, Lencer R, Meisenzahl E, Rosen M, Haidl T, Kambeitz-Ilankovic L, Ruhrmann S, Salokangas RRK, Pantelis C, Wood SJ, Koutsouleris N, Kambeitz J, PRONIA Consortium. Association between age of cannabis initiation and gray matter covariance networks in recent onset psychosis. Neuropsychopharmacology 2021;46:1484–93.
+  
+
+
+    Rosen M, Betz LT, Schultze-Lutter F, Chisholm K, Haidl TK, Kambeitz-Ilankovic L, Bertolino A, Borgwardt S, Brambilla P, Lencer R, Meisenzahl E, Ruhrmann S, Salokangas RKR, Upthegrove R, Wood SJ, Koutsouleris N, Kambeitz J, PRONIA Consortium. Towards clinical application of prediction models for transition to psychosis: A systematic review and external validation study in the PRONIA sample. Neurosci Biobehav Rev 2021;125:478–92.
+  
+
+
+    Lalousis PA, Wood SJ, Schmaal L, Chisholm K, Griffiths SL, Reniers RLEP, Bertolino A, Borgwardt S, Brambilla P, Kambeitz J, Lencer R, Pantelis C, Ruhrmann S, Salokangas RKR, Schultze-Lutter F, Bonivento C, Dwyer D, Ferro A, Haidl T, Rosen M, Schmidt A, Meisenzahl E, Koutsouleris N, Upthegrove R, PRONIA Consortium. Heterogeneity and Classification of Recent Onset Psychosis and Depression: A Multimodal Machine Learning Approach. Schizophr Bull 2021;47:1130–40.
+  
+
+
+    Antonucci LA, Penzel N, Pigoni A, Dominke C, Kambeitz J, Pergola G. Flexible and specific contributions of thalamic subdivisions to human cognition. Neurosci Biobehav Rev 2021;124:35–53.
+  
+
+
+    Walger H, Antonucci LA, Pigoni A, Upthegrove R, Salokangas RKR, Lencer R, Chisholm K, Riecher-Rössler A, Haidl T, Meisenzahl E, Rosen M, Ruhrmann S, Kambeitz J, Kambeitz-Ilankovic L, Falkai P, Ruef A, Hietala J, Pantelis C, Wood SJ, Brambilla P, Bertolino A, Borgwardt S, Koutsouleris N, Schultze-Lutter F. Basic Symptoms Are Associated With Age in Patients With a Clinical High-Risk State for Psychosis: Results From the PRONIA Study. Front Psychiatry 2020;11:552175.
+  
+
+
+    Betz LT, Penzel N, Kambeitz-Ilankovic L, Rosen M, Chisholm K, Stainton A, Haidl TK, Wenzel J, Bertolino A, Borgwardt S, Brambilla P, Lencer R, Meisenzahl E, Ruhrmann S, Salokangas RKR, Schultze-Lutter F, Wood SJ, Upthegrove R, Koutsouleris N, Kambeitz J, PRONIA consortium. General psychopathology links burden of recent life events and psychotic symptoms in a network approach. NPJ Schizophr 2020;6:40.
+  
+
+
+    Klein PC, Ettinger U, Schirner M, Ritter P, Rujescu D, Falkai P, Koutsouleris N, Kambeitz-Ilankovic L, Kambeitz J. Brain Network Simulations Indicate Effects of Neuregulin-1 Genotype on Excitation-Inhibition Balance in Cortical Dynamics. Cereb Cortex 2021;31:2013–25.
+  
+
+
+    Koutsouleris N, Dwyer DB, Degenhardt F, Maj C, Urquijo-Castro MF, Sanfelici R, Popovic D, Oeztuerk O, Haas SS, Weiske J, Ruef A, Kambeitz-Ilankovic L, Antonucci LA, Neufang S, Schmidt-Kraepelin C, Ruhrmann S, Penzel N, Kambeitz J, Haidl TK, Rosen M, Chisholm K, Riecher-Rössler A, Egloff L, Schmidt A, Andreou C, Hietala J, Schirmer T, Romer G, Walger P, Franscini M, Traber-Walker N, Schimmelmann BG, Flückiger R, Michel C, Rössler W, Borisov O, Krawitz PM, Heekeren K, Buechler R, Pantelis C, Falkai P, Salokangas RKR, Lencer R, Bertolino A, Borgwardt S, Noethen M, Brambilla P, Wood SJ, Upthegrove R, Schultze-Lutter F, Theodoridou A, Meisenzahl E, PRONIA Consortium. Multimodal Machine Learning Workflows for Prediction of Psychosis in Patients With Clinical High-Risk Syndromes and Recent-Onset Depression. JAMA Psychiatry 2021;78:195–209.
+  
+
+
+    Haas SS, Antonucci LA, Wenzel J, Ruef A, Biagianti B, Paolini M, Rauchmann B-S, Weiske J, Kambeitz J, Borgwardt S, Brambilla P, Meisenzahl E, Salokangas RKR, Upthegrove R, Wood SJ, Koutsouleris N, Kambeitz-Ilankovic L. A multivariate neuromonitoring approach to neuroplasticity-based computerized cognitive training in recent onset psychosis. Neuropsychopharmacology 2021;46:828–35.
+  
+
+
+    Popovic D, Ruef A, Dwyer DB, Antonucci LA, Eder J, Sanfelici R, Kambeitz-Ilankovic L, Oztuerk OF, Dong MS, Paul R, Paolini M, Hedderich D, Haidl T, Kambeitz J, Ruhrmann S, Chisholm K, Schultze-Lutter F, Falkai P, Pergola G, Blasi G, Bertolino A, Lencer R, Dannlowski U, Upthegrove R, Salokangas RKR, Pantelis C, Meisenzahl E, Wood SJ, Brambilla P, Borgwardt S, Koutsouleris N, PRONIA Consortium. Traces of Trauma: A Multivariate Pattern Analysis of Childhood Trauma, Brain Structure, and Clinical Phenotypes. Biol Psychiatry 2020;88:829–42.
+  
+
+
+    Haidl TK, Schneider N, Dickmann K, Ruhrmann S, Kaiser N, Rosen M, Seves M, Lichtenstein T, Upthegrove R, Salokangas RKR, Pantelis C, Meisenzahl E, Wood SJ, Brambilla P, Borgwardt S, Rebekka L, Kambeitz J, Koutsouleris N, Schultze-Lutter F, PRONIA-consortium. Validation of the Bullying Scale for Adults - Results of the PRONIA-study. J Psychiatr Res 2020;129:88–97.
+  
+
+
+    Upthegrove R, Lalousis P, Mallikarjun P, Chisholm K, Griffiths SL, Iqbal M, Pelton M, Reniers R, Stainton A, Rosen M, Ruef A, Dwyer DB, Surman M, Haidl T, Penzel N, Kambeitz-Llankovic L, Bertolino A, Brambilla P, Borgwardt S, Kambeitz J, Lencer R, Pantelis C, Ruhrmann S, Schultze-Lutter F, Salokangas RKR, Meisenzahl E, Wood SJ, Koutsouleris N, PRONIA Consortium. The Psychopathology and Neuroanatomical Markers of Depression in Early Psychosis. Schizophr Bull 2021;47:249–58.
+  
+
+
+    Salokangas RKR, Hietala J, Armio RL, Laurikainen H, From T, Borgwardt S, Riecher-Rössler A, Brambilla P, Bonivento C, Meisenzahl E, Schultze-Lutter F, Haidl T, Ruhrmann S, Upthegrove R, Wood SJ, Pantelis C, Kambeitz-Ilankovic L, Ruef A, Dwyer DB, Kambeitz J, Koutsouleris N. Effect of childhood physical abuse on social anxiety is mediated via reduced frontal lobe and amygdala-hippocampus complex volume in adult clinical high-risk subjects. Schizophr Res 2021;227:101–9.
+  
+
+
+    Betz LT, Penzel N, Rosen M, Kambeitz J. Relationships between childhood trauma and perceived stress in the general population: a network perspective. Psychol Med 2021;51:2696–706.
+  
+
+
+    Burkhardt G, Adorjan K, Kambeitz J, Kambeitz-Ilankovic L, Falkai P, Eyer F, Koller G, Pogarell O, Koutsouleris N, Dwyer DB. A machine learning approach to risk assessment for alcohol withdrawal syndrome. Eur Neuropsychopharmacol 2020;35:61–70.
+  
+
+
+    Dwyer DB, Kalman JL, Budde M, Kambeitz J, Ruef A, Antonucci LA, Kambeitz-Ilankovic L, Hasan A, Kondofersky I, Anderson-Schmidt H, Gade K, Reich-Erkelenz D, Adorjan K, Senner F, Schaupp S, Andlauer TFM, Comes AL, Schulte EC, Klöhn-Saghatolislam F, Gryaznova A, Hake M, Bartholdi K, Flatau-Nagel L, Reitt M, Quast S, Stegmaier S, Meyers M, Emons B, Haußleiter IS, Juckel G, Nieratschker V, Dannlowski U, Yoshida T, Schmauß M, Zimmermann J, Reimer J, Wiltfang J, Reininghaus E, Anghelescu I-G, Arolt V, Baune BT, Konrad C, Thiel A, Fallgatter AJ, Figge C, von Hagen M, Koller M, Lang FU, Wigand ME, Becker T, Jäger M, Dietrich DE, Scherk H, Spitzer C, Folkerts H, Witt SH, Degenhardt F, Forstner AJ, Rietschel M, Nöthen MM, Mueller N, Papiol S, Heilbronner U, Falkai P, Schulze TG, Koutsouleris N. An Investigation of Psychosis Subgroups With Prognostic Validation and Exploration of Genetic Underpinnings: The PsyCourse Study. JAMA Psychiatry 2020;77:523–33.
+  
+
+
+    Kambeitz J, Goerigk S, Gattaz W, Falkai P, Benseñor IM, Lotufo PA, Bühner M, Koutsouleris N, Padberg F, Brunoni AR. Clinical patterns differentially predict response to transcranial direct current stimulation (tDCS) and escitalopram in major depression: A machine learning analysis of the ELECT-TDCS study. J Affect Disord 2020;265:460–7.
+  
+
+
+    Schoeler T, Kambeitz J, Behlke I, Murray R, Bhattacharyya S. The effects of cannabis on memory function in users with and without a psychotic disorder: findings from a combined meta-analysis. Psychol Med 2016;46:177–88.
+  
+
+
+    Kambeitz J, Kambeitz-Ilankovic L, Cabral C, Dwyer DB, Calhoun VD, van den Heuvel MP, Falkai P, Koutsouleris N, Malchow B. Aberrant Functional Whole-Brain Network Architecture in Patients With Schizophrenia: A Meta-analysis. Schizophr Bull 2016;42 Suppl 1:S13-21.
+  
+
+
+    Cabral C, Kambeitz-Ilankovic L, Kambeitz J, Calhoun VD, Dwyer DB, von Saldern S, Urquijo MF, Falkai P, Koutsouleris N. Classifying Schizophrenia Using Multimodal Multivariate Pattern Recognition Analysis: Evaluating the Impact of Individual Clinical Profiles on the Neurodiagnostic Performance. Schizophr Bull 2016;42 Suppl 1:S110-7.
+  
+
+
+    Koutsouleris N, Kambeitz-Ilankovic L, Ruhrmann S, Rosen M, Ruef A, Dwyer DB, Paolini M, Chisholm K, Kambeitz J, Haidl T, Schmidt A, Gillam J, Schultze-Lutter F, Falkai P, Reiser M, Riecher-Rössler A, Upthegrove R, Hietala J, Salokangas RKR, Pantelis C, Meisenzahl E, Wood SJ, Beque D, Brambilla P, Borgwardt S, PRONIA Consortium. Prediction Models of Functional Outcomes for Individuals in the Clinical High-Risk State for Psychosis or With Recent-Onset Depression: A Multimodal, Multisite Machine Learning Analysis. JAMA Psychiatry 2018;75:1156–72.
+  
+
+
+    Baldinger-Melich P, Urquijo Castro MF, Seiger R, Ruef A, Dwyer DB, Kranz GS, Klöbl M, Kambeitz J, Kaufmann U, Windischberger C, Kasper S, Falkai P, Lanzenberger R, Koutsouleris N. Sex Matters: A Multivariate Pattern Analysis of Sex- and Gender-Related Neuroanatomical Differences in Cis- and Transgender Individuals Using Structural Magnetic Resonance Imaging. Cereb Cortex 2020;30:1345–56.
+  
+
+
+    Schmidt SJ, Hurlemann R, Schultz J, Wasserthal S, Kloss C, Maier W, Meyer-Lindenberg A, Hellmich M, Muthesius-Digón A, Pantel T, Wiesner P-S, Klosterkötter J, Ruhrmann S, ESPRIT-B1 Group. Multimodal prevention of first psychotic episode through N-acetyl-l-cysteine and integrated preventive psychological intervention in individuals clinically at high risk for psychosis: Protocol of a randomized, placebo-controlled, parallel-group trial. Early Interv Psychiatry 2019;13:1404–15.
+  
+
+
+    Proebstl L, Kamp F, Manz K, Krause D, Adorjan K, Pogarell O, Koller G, Soyka M, Falkai P, Kambeitz J. Effects of stimulant drug use on the dopaminergic system: A systematic review and meta-analysis of in vivo neuroimaging studies. Eur Psychiatry 2019;59:15–24.
+  
+
+
+    Kambeitz-Ilankovic L, Betz LT, Dominke C, Haas SS, Subramaniam K, Fisher M, Vinogradov S, Koutsouleris N, Kambeitz J. Multi-outcome meta-analysis (MOMA) of cognitive remediation in schizophrenia: Revisiting the relevance of human coaching and elucidating interplay between multiple outcomes. Neurosci Biobehav Rev 2019;107:828–45.
+  
+
+
+    Antonucci LA, Penzel N, Pergola G, Kambeitz-Ilankovic L, Dwyer D, Kambeitz J, Haas SS, Passiatore R, Fazio L, Caforio G, Falkai P, Blasi G, Bertolino A, Koutsouleris N. Multivariate classification of schizophrenia and its familial risk based on load-dependent attentional control brain functional connectivity. Neuropsychopharmacology 2020;45:613–21.
+  
+
+
+    Kambeitz-Ilankovic L, Haas SS, Meisenzahl E, Dwyer DB, Weiske J, Peters H, Möller H-J, Falkai P, Koutsouleris N. Neurocognitive and neuroanatomical maturation in the clinical high-risk states for psychosis: A pattern recognition study. Neuroimage Clin 2018. https://doi.org/10.1016/j.nicl.2018.101624.
+  
+
+
+    Walter M, Alizadeh S, Jamalabadi H, Lueken U, Dannlowski U, Walter H, Olbrich S, Colic L, Kambeitz J, Koutsouleris N, Hahn T, Dwyer DB. Translational machine learning for psychiatric neuroimaging. Prog Neuropsychopharmacol Biol Psychiatry 2019;91:113–21.
+  
+
+
+    Kamp F, Proebstl L, Penzel N, Adorjan K, Ilankovic A, Pogarell O, Koller G, Soyka M, Falkai P, Koutsouleris N, Kambeitz J. Effects of sedative drug use on the dopamine system: a systematic review and meta-analysis of in vivo neuroimaging studies. Neuropsychopharmacology 2019;44:660–7.
+  
+
+
+    Betz LT, Brambilla P, Ilankovic A, Premkumar P, Kim M-S, Raffard S, Bayard S, Hori H, Lee K-U, Lee SJ, Koutsouleris N, Kambeitz J. Deciphering reward-based decision-making in schizophrenia: A meta-analysis and behavioral modeling of the Iowa Gambling Task. Schizophr Res 2019;204:7–15.
+  
+
+
+    Dwyer DB, Cabral C, Kambeitz-Ilankovic L, Sanfelici R, Kambeitz J, Calhoun V, Falkai P, Pantelis C, Meisenzahl E, Koutsouleris N. Brain Subtyping Enhances The Neuroanatomical Discrimination of Schizophrenia. Schizophr Bull 2018;44:1060–9.
+  
+
+
+    Kambeitz J, Cabral C, Sacchet MD, Gotlib IH, Zahn R, Serpa MH, Walter M, Falkai P, Koutsouleris N. Reply to: Sample Size, Model Robustness, and Classification Accuracy in Diagnostic Multivariate Neuroimaging Analyses. Biol Psychiatry 2018;84:e83–4.
+  
+
+
+    Steffens M, Meyhöfer I, Fassbender K, Ettinger U, Kambeitz J. Association of Schizotypy With Dimensions of Cognitive Control: A Meta-Analysis. Schizophr Bull 2018;44:S512–24.
+  
+
+
+    Schmitt A, Rujescu D, Gawlik M, Hasan A, Hashimoto K, Iceta S, Jarema M, Kambeitz J, Kasper S, Keeser D, Kornhuber J, Koutsouleris N, Lanzenberger R, Malchow B, Saoud M, Spies M, Stöber G, Thibaut F, Riederer P, Falkai P, WFSBP Task Force on Biological Markers. Consensus paper of the WFSBP Task Force on Biological Markers: Criteria for biomarkers and endophenotypes of schizophrenia part II: Cognition, neuroimaging and genetics. World J Biol Psychiatry 2016;17:406–28.
+  
+
+
+    Kambeitz J, Cabral C, Sacchet MD, Gotlib IH, Zahn R, Serpa MH, Walter M, Falkai P, Koutsouleris N. Detecting Neuroimaging Biomarkers for Depression: A Meta-analysis of Multivariate Pattern Recognition Studies. Biol Psychiatry 2017;82:330–8.
+  
+
+
+    Kambeitz J, Howes OD. Consistent biological findings in major depression: Results from serotonin transporter meta-analyses. J Affect Disord 2016;199:171.
+  
+
+
+    Kambeitz J, la Fougère C, Werner N, Pogarell O, Riedel M, Falkai P, Ettinger U. Nicotine-dopamine-transporter interactions during reward-based decision making. Eur Neuropsychopharmacol 2016;26:938–47.
+  
+
+
+    Ettinger U, Merten N, Kambeitz J. Meta-analysis of the association of the SLC6A3 3’-UTR VNTR with cognition. Neurosci Biobehav Rev 2016;60:72–81.
+  
+
+
+    Mechelli A, Prata D, Papagni SA, Tognin S, Kambeitz J, Fu C, Picchioni M, Walshe M, Toulopoulou T, Bramon E, Murray R, McGuire P. Genetic vulnerability to psychosis and cortical function: epistatic effects between DAAO and G72. Curr Pharm Des 2012;18:510–7.
+  
+
+
+    Kambeitz J, Abi-Dargham A, Kapur S, Howes OD. Alterations in cortical and extrastriatal subcortical dopamine function in schizophrenia: systematic review and meta-analysis of imaging studies. Br J Psychiatry 2014;204:420–9.
+  
+
+
+    Koutsouleris N, Riecher-Rössler A, Meisenzahl EM, Smieskova R, Studerus E, Kambeitz-Ilankovic L, von Saldern S, Cabral C, Reiser M, Falkai P, Borgwardt S. Detecting the psychosis prodrome across high-risk populations using neuroanatomical biomarkers. Schizophr Bull 2015;41:471–82.
+  
+
+
+    Kambeitz-Ilankovic L, Hennig-Fast K, Benetti S, Kambeitz J, Pettersson-Yeo W, O’Daly O, McGuire P, Allen P. Attentional modulation of source attribution in first-episode psychosis: a functional magnetic resonance imaging study. Schizophr Bull 2013;39:1027–36.
+  
+
+
+    Allen P, Luigjes J, Howes OD, Egerton A, Hirao K, Valli I, Kambeitz J, Fusar-Poli P, Broome M, McGuire P. Transition to psychosis associated with prefrontal and subcortical dysfunction in ultra high-risk individuals. Schizophr Bull 2012;38:1268–76.
+  
+
+
+    Koutsouleris N, Meisenzahl EM, Borgwardt S, Riecher-Rössler A, Frodl T, Kambeitz J, Köhler Y, Falkai P, Möller H-J, Reiser M, Davatzikos C. Individualized differential diagnosis of schizophrenia and mood disorders using neuroanatomical biomarkers. Brain 2015;138:2059–73.
+  
+
+
+    Kambeitz J, Romanos M, Ettinger U. Meta-analysis of the association between dopamine transporter genotype and response to methylphenidate treatment in ADHD. Pharmacogenomics J 2014;14:77–84.
+  
+
+
+    Kambeitz J, Kambeitz-Ilankovic L, Leucht S, Wood S, Davatzikos C, Malchow B, Falkai P, Koutsouleris N. Detecting neuroimaging biomarkers for schizophrenia: a meta-analysis of multivariate pattern recognition studies. Neuropsychopharmacology 2015;40:1742–51.
+  
+
+
+    Bhattacharyya S, Atakan Z, Martin-Santos R, Crippa JA, Kambeitz J, Prata D, Williams S, Brammer M, Collier DA, McGuire PK. Preliminary report of biological basis of sensitivity to the effects of cannabis on psychosis: AKT1 and DAT1 genotype modulates the effects of δ-9-tetrahydrocannabinol on midbrain and striatal function. Mol Psychiatry 2012;17:1152–5.
+  
+
+
+    Kambeitz-Ilankovic L, Meisenzahl EM, Cabral C, von Saldern S, Kambeitz J, Falkai P, Möller H-J, Reiser M, Koutsouleris N. Prediction of outcome in the psychosis prodrome using neuroanatomical pattern classification. Schizophr Res 2016;173:159–65.
+  
+
+
+    Benetti S, Pettersson-Yeo W, Hutton C, Catani M, Williams SC, Allen P, Kambeitz-Ilankovic LM, McGuire P, Mechelli A. Elucidating neuroanatomical alterations in the at risk mental state and first episode psychosis: a combined voxel-based morphometry and voxel-based cortical thickness study. Schizophr Res 2013;150:505–11.
+  
+
+
+    Trzesniak C, Kempton MJ, Busatto GF, de Oliveira IR, Galvão-de Almeida A, Kambeitz J, Ferrari MCF, Filho AS, Chagas MHN, Zuardi AW, Hallak JEC, McGuire PK, Crippa JAS. Adhesio interthalamica alterations in schizophrenia spectrum disorders: A systematic review and meta-analysis. Prog Neuropsychopharmacol Biol Psychiatry 2011;35:877–86.
+  
+
+
+    Ilankovic LM, Allen PP, Engel R, Kambeitz J, Riedel M, Müller N, Hennig-Fast K. Attentional modulation of external speech attribution in patients with hallucinations and delusions. Neuropsychologia 2011;49:805–12.
+  
+
+
+    Papagni SA, Mechelli A, Prata DP, Kambeitz J, Fu CHY, Picchioni M, Walshe M, Toulopoulou T, Bramon E, Murray RM, Collier DA, Bellomo A, McGuire P. Differential effects of DAAO on regional activation and functional connectivity in schizophrenia, bipolar disorder and controls. Neuroimage 2011;56:2283–91.
+  
+
+
+    Kambeitz JP, Bhattacharyya S, Kambeitz-Ilankovic LM, Valli I, Collier DA, McGuire P. Effect of BDNF val(66)met polymorphism on declarative memory and its neural substrate: a meta-analysis. Neurosci Biobehav Rev 2012;36:2165–77.
+  
+
+
+    Bhattacharyya S, Atakan Z, Martin-Santos R, Crippa JA, Kambeitz J, Malhi S, Giampietro V, Williams S, Brammer M, Rubia K, Collier DA, McGuire PK. Impairment of inhibitory control processing related to acute psychotomimetic effects of cannabis. Eur Neuropsychopharmacol 2015;25:26–37.
+  
+
+
+    Werner NS, Schweitzer N, Meindl T, Duschek S, Kambeitz J, Schandry R. Interoceptive awareness moderates neural activity during decision-making. Biol Psychol 2013;94:498–506.
+  
+
+
+    Stone JM, Howes OD, Egerton A, Kambeitz J, Allen P, Lythgoe DJ, O’Gorman RL, McLean MA, Barker GJ, McGuire P. Altered relationship between hippocampal glutamate levels and striatal dopamine function in subjects at ultra high risk of psychosis. Biol Psychiatry 2010;68:599–602.
+  
+
+
+    Kambeitz J, Koutsouleris N. [Neuroimaging in psychiatry: multivariate analysis techniques for diagnosis and prognosis]. Nervenarzt 2014;85:714–9.
+  
+
+
+    Prata DP, Papagni SA, Mechelli A, Fu CHY, Kambeitz J, Picchioni M, Kane F, Kalidindi S, McDonald C, Kravariti E, Toulopoulou T, Bramon E, Walshe M, Murray R, Collier DA, McGuire PK. Effect of D-amino acid oxidase activator (DAOA; G72) on brain function during verbal fluency. Hum Brain Mapp 2012;33:143–53.
+  
+
+
+    Howes OD, Kambeitz J, Kim E, Stahl D, Slifstein M, Abi-Dargham A, Kapur S. The nature of dopamine dysfunction in schizophrenia and what this means for treatment. Arch Gen Psychiatry 2012;69:776–86.
+  
+
+
+    Bhattacharyya S, Crippa JA, Allen P, Martin-Santos R, Borgwardt S, Fusar-Poli P, Rubia K, Kambeitz J, O’Carroll C, Seal ML, Giampietro V, Brammer M, Zuardi AW, Atakan Z, McGuire PK. Induction of psychosis by Δ9-tetrahydrocannabinol reflects modulation of prefrontal and striatal function during attentional salience processing. Arch Gen Psychiatry 2012;69:27–36.
+  
+
+
+    Kambeitz JP, Howes OD. The serotonin transporter in depression: Meta-analysis of in vivo and post mortem findings and implications for understanding and treating depression. J Affect Disord 2015;186:358–66.
+  

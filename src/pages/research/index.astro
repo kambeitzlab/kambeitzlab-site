@@ -8,6 +8,7 @@ import { themes } from '../../data/themes';
 import { url } from '../../lib/url';
 
 const projects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
+const groupLeads = (await getCollection('team')).filter((p) => p.data.group);
 ---
 
 <Base title="Research" description="Research themes and projects of the Kambeitz Lab: prediction, language and digital markers, computational modelling and clinical interventions.">
@@ -26,6 +27,25 @@ const projects = (await getCollection('projects')).sort((a, b) => a.data.order -
     </nav>
 
     <div class="prose about"><About /></div>
+
+    {
+      groupLeads.length > 0 && (
+        <section class="groups" aria-labelledby="groups-title">
+          <h2 id="groups-title">Research groups</h2>
+          <ul role="list">
+            {groupLeads.map((p) => (
+              <li class="card">
+                <h3>{p.data.group!.url ? <a href={p.data.group!.url} rel="noopener">{p.data.group!.name}</a> : p.data.group!.name}</h3>
+                <p class="lead-by">
+                  Led by <a href={url(`/team/${p.id}/`)}>{p.data.title} {p.data.name}</a>
+                </p>
+                {p.data.group!.description && <p>{p.data.group!.description}</p>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
 
     {
       themes.map((t) => {
@@ -62,6 +82,15 @@ const projects = (await getCollection('projects')).sort((a, b) => a.data.order -
   .theme-nav a:hover { border-color: var(--accent); color: var(--accent); }
   .about { margin-bottom: clamp(3rem, 6vw, 4.5rem); }
   .about :global(h2) { font-size: 1.4rem; margin-top: 2rem; }
+  .groups { margin-bottom: clamp(3rem, 6vw, 4.5rem); }
+  .groups h2 { font-size: 1.4rem; }
+  .groups ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(min(420px, 100%), 1fr)); }
+  .groups li { padding: 1.25rem 1.5rem; border-left: 4px solid var(--accent); }
+  .groups h3 { font-size: 1.15rem; margin-bottom: 0.25rem; }
+  .groups h3 a { color: var(--text); }
+  .groups h3 a:hover { color: var(--accent); }
+  .groups .lead-by { font-size: 0.9rem; color: var(--muted); margin-bottom: 0.6rem; }
+  .groups li p:last-child { margin-bottom: 0; color: var(--muted); font-size: 0.95rem; }
   .theme { padding-top: 2.5rem; margin-top: 1rem; border-top: 1px solid var(--border); scroll-margin-top: 5rem; }
   .theme-head { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem; }
   .theme-head h2 { margin-bottom: 0.25rem; }

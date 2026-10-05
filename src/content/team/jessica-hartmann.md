@@ -8,6 +8,10 @@ photo: ../../assets/team/jessica-hartmann.png
 show_photo: true
 email: ''
 orcid: ''
+group:
+  name: AG Dynamics of Risk and Resilience
+  url: https://psychiatrie-psychotherapie.uk-koeln.de/forschung/ag-dynamics-of-risk-and-resilience/
+  description: Mental health is not a static state but a dynamic process. The group studies how mental illness develops across early stages and transdiagnostic trajectories, combining clinical longitudinal research with digital methods such as ecological momentary assessment and smartphone sensing.
 ---
 
 Dr Jessica Hartmann joined the team in April 2025 as a Senior Research Fellow. She specialises in predicting and mitigating emerging mental ill-health, focusing on at-risk mental states, transdiagnostic approaches, and clinical staging. Dr Hartmann's research uses intensive longitudinal data and dynamic modelling to improve early detection and intervention strategies in psychiatry, with a particular emphasis on the role of sleep in the onset of mental illness.
