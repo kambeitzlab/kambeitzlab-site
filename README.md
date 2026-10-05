@@ -38,10 +38,6 @@ Preview deployments are marked `noindex` and their `robots.txt` blocks crawlers,
 
 **Add new site → Import an existing project → GitHub → this repository.** Netlify reads `netlify.toml`; the preview URL is `https://<name>.netlify.app`. Works with private repositories.
 
-## Going live on kambeitzlab.com (later)
-
-Only when you are ready to switch from Wix: add the custom domain under Settings → Pages (or in Netlify), then change the DNS records at the domain registrar as GitHub/Netlify instruct. Choose the matching hosting section in `src/pages/datenschutz.md` and remove `draft: true` from the legal pages first.
-
 ## Structure
 
 ```
