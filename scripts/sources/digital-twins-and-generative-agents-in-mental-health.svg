@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Abstract illustration of interacting agents">
+  <rect width="800" height="450" fill="#0e3b3e"/>
+  <g stroke="#5fc4bf" stroke-opacity=".35" stroke-width="1.5" fill="none">
+    <path d="M140 300 L260 180 L400 240 L540 150 L660 260 L520 340 L400 240 L300 350 L140 300"/>
+    <path d="M260 180 L300 350 M540 150 L520 340 M400 240 L660 260"/>
+    <circle cx="400" cy="240" r="120" stroke-dasharray="4 8"/>
+  </g>
+  <g fill="#5fc4bf">
+    <circle cx="140" cy="300" r="9"/><circle cx="260" cy="180" r="12"/><circle cx="540" cy="150" r="10"/>
+    <circle cx="660" cy="260" r="9"/><circle cx="520" cy="340" r="11"/><circle cx="300" cy="350" r="8"/>
+  </g>
+  <g fill="#f4efe6">
+    <circle cx="400" cy="240" r="22"/>
+    <circle cx="400" cy="240" r="34" fill="none" stroke="#f4efe6" stroke-opacity=".5" stroke-width="2"/>
+  </g>
+</svg>

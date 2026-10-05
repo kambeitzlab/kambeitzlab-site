@@ -1,0 +1,97 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PersonCard from '../../components/PersonCard.astro';
+import { url } from '../../lib/url';
+
+const GROUPS = [
+  { roles: ['lead'], title: 'Lab leads' },
+  { roles: ['senior', 'postdoc'], title: 'Senior researchers & postdocs' },
+  { roles: ['phd'], title: 'PhD students' },
+  { roles: ['student'], title: 'MSc & MD students' },
+];
+
+const team = (await getCollection('team')).sort(
+  (a, b) => a.data.order - b.data.order || a.data.name.localeCompare(b.data.name),
+);
+const alumni = (await getCollection('alumni')).sort((a, b) => a.data.name.localeCompare(b.data.name));
+let first = true;
+---
+
+<Base title="Team" description="The people of the Kambeitz Lab: clinicians, psychologists, neuroscientists and data scientists.">
+  <div class="wrap section">
+    <header class="page-head">
+      <p class="eyebrow">Team</p>
+      <h1>People</h1>
+      <p class="lead">
+        Methodologically oriented clinicians and clinically oriented methodologists, working together across psychiatry, psychology,
+        neuroscience and data science.
+      </p>
+    </header>
+
+    {
+      GROUPS.map(({ roles, title }) => {
+        const role = roles[0];
+        const members = team.filter((p) => roles.includes(p.data.role));
+        if (!members.length) return null;
+        const eager = first;
+        first = false;
+        return (
+          <section class="group" aria-labelledby={`g-${role}`}>
+            <h2 id={`g-${role}`}>{title}</h2>
+            <ul class="people" role="list">
+              {members.map((person) => (
+                <li>
+                  <PersonCard person={person} eager={eager} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        );
+      })
+    }
+
+    <section class="group alumni" aria-labelledby="g-alumni">
+      <h2 id="g-alumni">Alumni</h2>
+      <table>
+        <caption class="visually-hidden">Former lab members and their degree</caption>
+        <thead>
+          <tr><th scope="col">Name</th><th scope="col">Degree</th></tr>
+        </thead>
+        <tbody>
+          {
+            alumni.map(({ data }) => (
+              <tr>
+                <th scope="row">{data.name}</th>
+                <td>{data.degree}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+      <p class="join-hint">Want to be part of the team? <a href={url('/join/')}>See open positions and theses</a>.</p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .page-head { margin-bottom: clamp(2rem, 5vw, 3.5rem); }
+  .group { margin-bottom: clamp(2.5rem, 5vw, 4rem); }
+  .group h2 {
+    font-size: 1.35rem; padding-bottom: 0.6rem; margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .people {
+    list-style: none; margin: 0; padding: 0;
+    display: grid; gap: clamp(1rem, 2.5vw, 1.75rem);
+    grid-template-columns: repeat(auto-fill, minmax(min(170px, 42vw), 1fr));
+  }
+  @media (min-width: 1100px) { .people { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+
+  table { width: 100%; max-width: 560px; border-collapse: collapse; font-size: 0.97rem; }
+  th, td { text-align: left; padding: 0.65rem 1rem 0.65rem 0; border-bottom: 1px solid var(--border); vertical-align: top; }
+  thead th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; }
+  tbody th { font-weight: 600; }
+  td { color: var(--muted); }
+  .join-hint { margin-top: 2rem; color: var(--muted); }
+</style>

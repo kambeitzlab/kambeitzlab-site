@@ -1,0 +1,67 @@
+---
+import type { Publication } from '../lib/publications';
+import { themeById } from '../data/themes';
+
+interface Props { pub: Publication; maxAuthors?: number; showThemes?: boolean }
+const { pub, maxAuthors = 8, showThemes = false } = Astro.props;
+
+// Long author lists: first authors, every lab member, and the last author;
+// gaps are shown as "…".
+const n = pub.authors.length;
+const keep = pub.authors
+  .map((a, i) => ({ a, i }))
+  .filter(({ a, i }) => n <= maxAuthors || i < maxAuthors - 2 || i === n - 1 || a.isMember);
+const authors = keep.map(({ a, i }, k) => ({ ...a, gapBefore: k > 0 && i - keep[k - 1].i > 1 }));
+const details = [pub.volume, pub.pages].filter(Boolean).join(', ');
+const titleHref = pub.links.find((l) => l.label === 'DOI')?.href;
+---
+
+<article class="pub">
+  <h3 class="title">
+    {titleHref ? <a href={titleHref} set:html={pub.title} /> : <span set:html={pub.title} />}
+  </h3>
+  <p class="authors">
+    {
+      authors.map((a, i) => (
+        <>
+          {a.gapBefore && <span title="further authors">…, </span>}
+          {a.isMember ? <strong class="member">{a.display}</strong> : a.display}
+          {i < authors.length - 1 ? ', ' : ''}
+        </>
+      ))
+    }
+  </p>
+  <p class="venue">
+    <em set:html={pub.venue} />{details && ` ${details}`} · {pub.year}
+  </p>
+  {
+    (pub.links.length > 0 || (showThemes && pub.themes.length > 0)) && (
+      <p class="badges">
+        {pub.links.map((l) => (
+          <a class="badge" href={l.href} rel="noopener">
+            {l.label}
+            <span class="visually-hidden"> for “{pub.title.replace(/<[^>]+>/g, '')}”</span>
+          </a>
+        ))}
+        {showThemes && pub.themes.map((t) => <span class="tag">{themeById[t]?.short ?? t}</span>)}
+      </p>
+    )
+  }
+</article>
+
+<style>
+  .pub { padding-block: 1rem; border-bottom: 1px solid var(--border); }
+  .pub:first-child { padding-top: 0; }
+  .title { font: 600 1.02rem/1.35 var(--font-body); margin: 0 0 0.3rem; }
+  .title a { color: var(--text); text-decoration: none; }
+  .title a:hover { color: var(--accent); text-decoration: underline; }
+  .authors { font-size: 0.9rem; color: var(--muted); margin: 0 0 0.15rem; }
+  .member { color: var(--text); font-weight: 650; }
+  .venue { font-size: 0.9rem; color: var(--muted); margin: 0; }
+  .badges { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.6rem 0 0; }
+  .badge {
+    font: 600 0.75rem/1 var(--font-body); padding: 0.35rem 0.6rem; border-radius: 6px;
+    border: 1px solid var(--accent); color: var(--accent); text-decoration: none;
+  }
+  .badge:hover { background: var(--accent); color: var(--on-accent); }
+</style>

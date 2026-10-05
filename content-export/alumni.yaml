@@ -1,0 +1,104 @@
+# Exported from Wix CMS collection "LabAlumni" on 2026-10-05
+# photo: Wix media id -> https://static.wixstatic.com/media/<photo>
+
+- name: Alina Zubair
+  title: Dr.
+  photo: 9bdb64_3be04d2578e94af380c5348d7b41ba6b~mv2.jpeg
+
+- name: Nina Walter
+  title: Dr.
+  photo: 9bdb64_babc520386334461ab9ae7f35b6bc077~mv2.jpg
+
+- name: Marlene Rosen
+  title: Dr.
+  photo: 9bdb64_58063d52543c4ee6a6947d44ca144617~mv2.jpg
+
+- name: Linnea Hoheisel
+  now: INSPIRE Lab, University of Maryland
+  title: Dr.
+  photo: 9bdb64_51c5713e324b402f82dcd419925bc40e~mv2.jpg
+  bio: |
+    After successfully finishing her PhD at our lab Linnea moved to University of Maryland for a Post-Doc: https://www.inspirelab.site/members/linnea-hoheisel.html
+
+- name: Uma Rzayeva
+  title: MD
+  photo: 9bdb64_fc582860074f40fa86d728d9f58e89cd~mv2.jpg
+  bio: |
+    Uma is in her final year of medical school and currently working on her doctoral thesis. In her project she is comparing the effects of behavioral interventions delivered in digital and human form in mental health disorders.
+
+- name: Sophie Müller
+  title: MSc.
+  photo: 9bdb64_b7bf80053b9a44d9a9cfd5e807f8fda8~mv2.jpg
+  bio: |
+    I studied Psychology at Maastricht University and joined Kambeitz Lab in January 2022 as a Master's student to write my thesis focussing on personalized cognitive training in patients with psychosis. I am currently in further education to become a licensed CBT Psychotherapist and work as a Psychologist at the Early Recognition Centre (FETZ).
+
+- name: Hanna Kadel
+  title: MSc.
+  photo: 9bdb64_af8f961e00f849e599006b77f92d7d63~mv2.png
+  bio: |
+    I studied Psychology at the University of Marburg (Germany), where I also gained research experience after my diploma. From 2014 to 2018, I employed psychophysical and psychophysiological methods to investigate the interaction of learning and visual attention in the general population (e.g. in the SFB-project "Cardinal Mechanisms of Perception"). I then went to work as a lab assistant at the Max-Planck-Institute for Empirical Aesthetics (Frankfurt am Main) for 3 years, broadening my knowledge in psychophysiological methods and study designs.
+
+    In April 2022, I became part of the work group of Dr. Frauke Schultze-Lutter at the Department of Psychiatry and Psychotherapy of the Heinrich-Heine University / LVR clinic in Düsseldorf. In this capacity, I joined Kambeitz Lab as a visiting scholar for a long-term follow-up project in the Cologne FETZ, with which we are looking to improve early detection of various forms of psychosis. Furthermore, the project investigates long-term progression of symptoms, psychosocial functioning and quality of life in relation to earlier clinical assessments.
+
+- name: Julian Wenzel
+  title: Dr.
+  photo: 9bdb64_5c73b3847aa644d698836ef3983f7b59~mv2.jpg
+  bio: |
+    I studied Psychology at the University of Salzburg (Austria). In the first half of my PhD degree from 2018 to 2019, which I'm pursuing at the Ludwig-Maximilians-University Munich (Germany), I gained scientific and clinical knowledge about machine learning and early diagnosis of psychosis working at the Munich site of the EU multicenter study PRONIA (https://www.pronia.eu). I joined Kambeitz Lab in September 2019 to continue my PhD project on neurocognition in psychosis. Using supervised and unsupervised machine learning, I investigate neurocognitive heterogeneity in (transdiagnostic) psychiatric phenotypes to help personalize modern neurocognitive interventions. Therefore, I'm part of the 'Personalisiertes Neuro-Kognitives Training (PNKT) zur Verbesserung des Funktionsniveaus bei Psychosen' project.
+
+- name: Susanne Inanloo
+  title: MSc.
+  photo: 9bdb64_b1458785c3df44fea25864fb9804d386~mv2.jpg
+  bio: |
+    I studied psychology at the University of Cologne and joined the Kambeitz lab as research assistant in 2021. I am part of the upcoming multicenter studies PRESCIENT and CARE focussing on individuals with a clinical high risk for psychosis. As part of the training as CBT psychotherapist, I started working in the Early Recognition and Intervention Centre for Psychiatric Disorders (FETZ) in 2022.
+
+- name: Ana Muthesius
+  title: Dr.
+  photo: 9bdb64_9b545bd4ae754dfc8f545a43e46afd57~mv2.jpg
+  bio: |
+    I studied medicine at the University of Cologne and since 2012 I'm working at the Department of Psychiatry and Psychotherapy at the University Hospital of Cologne. Since 2017 I started working at the Early Recognition an Intervention Centre for Psychiatric Disorders (FETZ) which is specialized in the early detection of individuals with a clinical high-risk for psychosis. I joined Kambeitz Lab as a clinican-scientist in 2019 and have expertise in supervising clinical-and other trials. My main interest is social cognition in schizophrenia and at-risk states.
+
+- name: Carolin Doll
+  title: MSc.
+  photo: 9bdb64_d1f6df1945ec4240b3ca8f7d022a80e1~mv2.jpg
+  bio: |
+    I studied at the Maastricht University (the Netherlands), at the Dalhousie University (Canada) and at the Karl-Franzens-Universität Graz (Austria). From 2017 to 2019, I continued gaining scientific knowledge at the ESPRIT C4 and B1 Multi-Center study, which aims at the evaluation and investigation of novel psychotherapy manuals for schizophrenia and high-risk patients. During this time, I also worked on my qualification as a cognitive behavioral therapist. In January 2019, I started working as a research fellow and PhD student in the work group of Dr. Frauke Schultze-Lutter at the Department of Psychiatry and Psychotherapy of the Heinrich-Heine University / LVR clinic in Düsseldorf. In doing so, I'm involved in a longitudinal project of the early detection of psychosis conducted in the FETZ and, in January 2019, have become a visiting scholar in Dr. Joseph Kambeitz Lab at the Department of Psychiatry and Psychotherapy of the University of Cologne. My doctoral thesis is on the impact of mental health literacy and stigmatization on help-seeking behavior.
+
+- name: Alessandra Raio
+  title: MSc.
+  photo: 9bdb64_b48a13da335048f0a18bf67162a61281~mv2.jpg
+  bio: |
+    From November 2022, I joined the Kambeitz lab as a visiting research student. I studied psychology in Italy, at both the University of Bari (bachelor degree) and the University of Padua (master degree). I joined the Psychiatric Neuroscience Group at the DiBrain Department of the Univerisity of Bari in 2020 for a research fellowship in clinical neuropsychology and, at the end of the same year, I started a Ph.D. program in Applied Neuroscience. I am particularly interested in investigating how multi-dimensional interactions might contribute to psychosis risk development across the lifespan at the individual level, with the aim to better inform personalized early identification and intervention programs. Particularly, my present research is focused on how developmental changes over time in cognition and personality might play a role in gene-by-environment interactions, contributing to psychosis susceptibility in naturalistic populations. To this aim, over the last two years, I started to improve my expertise in combining methods of longitudinal data analyses with multivariate supervised machine learning approaches to support individualized predictions of clinical and functional outcomes.
+
+- name: Linda Betz
+  now: GAIA
+  title: Dr.
+  photo: 9bdb64_59c34cce4f6a40329b9b8c0b6d1f5cff~mv2.jpg
+  bio: |
+    I studied at University of Regensburg (Germany), University of the Incarnate Word in San Antonio (Texas, USA) and Ludwig-Maximilians-University Munich (Germany). During my master's degree from 2016 to 2018, I gained scientific knowledge at the Munich site of the PRONIA multicenter study. I joined Kambeitz Lab in February 2019 and currently, I'm involved in a PhD project at the intersection of psychiatry, epidemiology, and methodology, using data-driven statistical methods such as probabilistic graphical modelling, machine learning and meta-analysis to reveal complex patterns in behaviour and the environment. I am particularly interested in the role of early and recent stressful life events in onset, progression and maintenance of mental disorders.
+
+- name: Nora Penzel
+  now: Harvard
+  title: Dr.
+  photo: 9bdb64_5bb6d6c2f8dc429e9912987e7026f067~mv2.jpg
+  bio: |
+    I studied at SRH Heidelberg (Germany) and the Ludwig-Maximilians-University Munich (Germany). During my master thesis and the first part of my PhD from 2017 till 2019, I gained scientific knowledge about machine learning and neuroscience in psychosis at the Munich site of the PRONIA multicenter study. I joined Kambeitz Lab in May 2019 and proceeded with my PhD project about the role of cannabis on brain development. Thereby, I am developing expertise in diffusion-imaging and I am involved in generating a robust pipeline for harmonization and processing of the DTI data in the PRONIA study.
+
+- name: Pilar Albert Porcar
+  title: MD
+  photo: 9bdb64_42c65b4adcb34109a80897b68c3c28c1~mv2.jpg
+  bio: |
+    After completing my Medicine Studies 2019 in Valencia (Spain), I perceived an opportunity working in Germany, so I started working as a medical doctor at the Department of Psychiatry and Psychotherapy of the University Hospital of Cologne. Beside my clinical activity, I go along with clinical research, currently focusing on the field of metaanalysis; in this case, the impact of childhood trauma as a transdiagnostic risk factor for various major psychiatric disorders.
+
+- name: Simon Herstell
+  title: MD
+  photo: 9bdb64_bfd919f6b5fd4ac4b3093b729783e4c3~mv2.png
+  bio: |
+    Simon is in his final year of medical school and currently working on his doctoral thesis, looking into the connection of insecure attachment style patterns and psychopathology in a transdiagnostic context.
+
+- name: Pedro Costa Klein
+  now: Uni Göttingen
+  title: MSc.
+  photo: 9bdb64_a531ac8b9d764bf7a73c5d33da4ba182~mv2.jpg
+  bio: |
+    Originally from Brazil, I studied Computer Science at the University of Santa Cruz do Sul (Brazil) and at the Pontifical Catholic University of Rio Grande do Sul (PUCRS, Brazil). I started a Doctorate at Ludwig-Maximilians-University Munich (LMU, Germany) in 2017, and then moved to a PhD in the Interdisciplinary Program in Health Sciences at the University of Cologne in 2019. During my master's degree, from 2014 to 2016, I gained scientific knowledge at computer vision applied to medical imaging at the Virtual Reality Group, at PUCRS. After completing my master, from 2017 to 2018, I worked for prof. Kambeitz at the LMU studying the mechanisms underlying brain's functioning using neuronal simulation models, aiming at the mechanistic understanding of aberrant whole-brain functional connectivitiy observed in patients with schizophrenia. I joined Kambeitz Lab in April 2019 and currently, I'm involved in a PhD project following this line of research.

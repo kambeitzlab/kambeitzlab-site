@@ -1,0 +1,52 @@
+---
+import { Picture } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import { themeById } from '../data/themes';
+import { url } from '../lib/url';
+
+interface Props { project: CollectionEntry<'projects'>; showTheme?: boolean }
+const { project, showTheme = true } = Astro.props;
+const { title, summary, image, image_fit, status, theme } = project.data;
+---
+
+<article class="project card">
+  <div class={`media ${image_fit}`}>
+    {image && (
+      <Picture formats={['avif', 'webp']} src={image} alt="" widths={[360, 640, 900]}
+        sizes="(max-width: 640px) 92vw, (max-width: 1000px) 45vw, 360px" />
+    )}
+  </div>
+  <div class="body">
+    <p class="tags">
+      {status && <span class={`tag status-${status}`}>{status}</span>}
+      {showTheme && <span class="tag tag-accent">{themeById[theme].short}</span>}
+    </p>
+    <h3><a href={url(`/projects/${project.id}/`)}>{title}</a></h3>
+    <p class="summary">{summary}</p>
+  </div>
+</article>
+
+<style>
+  .project { position: relative; display: flex; flex-direction: column; overflow: hidden; height: 100%; }
+  .project:hover { border-color: var(--accent); }
+  .project:focus-within { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .media { position: relative; aspect-ratio: 16 / 9; background: var(--surface-2); }
+  .media.contain { background: #fff; border-bottom: 1px solid var(--border); }
+  .media :global(img) { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .media.contain :global(img) { inset: 1rem 1.5rem; width: calc(100% - 3rem); height: calc(100% - 2rem); }
+  .media.cover :global(img) { object-fit: cover; }
+  .media.contain :global(img) { object-fit: contain; }
+  .body { padding: 1.1rem 1.25rem 1.4rem; display: flex; flex-direction: column; flex: 1; }
+  .tags { display: flex; gap: 0.4rem; flex-wrap: wrap; margin: 0 0 0.6rem; }
+  .status-active { background: #e2f3e8; color: #1d5e33; border-color: transparent; }
+  .status-completed { background: var(--surface-2); }
+  h3 { font-size: 1.12rem; margin: 0 0 0.45rem; }
+  h3 a { color: var(--text); text-decoration: none; }
+  h3 a::after { content: ''; position: absolute; inset: 0; }
+  h3 a:focus-visible { outline: none; }
+  .project:hover h3 a { color: var(--accent); }
+  .summary {
+    color: var(--muted); font-size: 0.93rem; margin: 0;
+    display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+  }
+</style>

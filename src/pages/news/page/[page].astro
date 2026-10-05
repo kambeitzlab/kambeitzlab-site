@@ -1,0 +1,21 @@
+---
+// Pages 2..n of the news list (page 1 is /news/).
+import NewsListing from '../../../components/NewsListing.astro';
+import { NEWS_PER_PAGE, getNews } from '../../../lib/news';
+
+export async function getStaticPaths() {
+  const posts = await getNews();
+  const last = Math.ceil(posts.length / NEWS_PER_PAGE);
+  return Array.from({ length: Math.max(last - 1, 0) }, (_, i) => {
+    const page = i + 2;
+    return {
+      params: { page: String(page) },
+      props: { posts: posts.slice((page - 1) * NEWS_PER_PAGE, page * NEWS_PER_PAGE), current: page, last },
+    };
+  });
+}
+
+const { posts, current, last } = Astro.props;
+---
+
+<NewsListing posts={posts} current={current} last={last} />

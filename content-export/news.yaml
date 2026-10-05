@@ -1,0 +1,264 @@
+# Exported from Wix CMS collection "News" on 2026-10-05 (35 items), newest first
+# date: from Wix "createdat" field (the display date on the live site)
+# image: main image (Wix media id -> https://static.wixstatic.com/media/<image>)
+# gallery: extra images, only listed where there is more than the main image
+
+- title: PsyAgent AI Agent Psychological Research Platform
+  date: 2026-05-01
+  image: 9bdb64_28071973cdf04376bf91dcaa792ce22c~mv2.png
+  body: |
+    We are developing PsyAgent - a research platform to model mental health in virtual environments using LLM-based generative agents. The concept is based on a previous publication by Park et al. https://arxiv.org/abs/2304.03442. See also our previous work "Modelling the impact of environmental and social determinants on mental health using generative agents" https://www.nature.com/articles/s41746-024-01422-z and our new preprint "LLM-Based Generative Agents Simulate Mental-Health Trajectories Under Adverse Socio-Environmental Conditions" https://www.researchsquare.com/article/rs-9291631/v1
+
+    Still work in progress but feel free to have a look!
+
+    https://github.com/joonspk-research/generative_agents
+
+- title: "\u201cNormaler als du denkst\u201d"
+  date: 2026-01-01
+  image: 9bdb64_c71b562c4cd4451bac88172cbfbc076d~mv2.jpg
+  note: body text is cut off mid-word in Wix ("A concise and infor")
+  body: |
+    In this video, Priv.-Doz. Dr. Lana Kambeitz-Ilankovic explains severe mental disorders such as psychosis in an accessible and stigma-free way. She highlights early warning signs, practical strategies for prevention, and why timely support and treatment can make a decisive difference. A concise and infor
+
+- title: "New paper! Can AI minds help understand mental health?"
+  date: 2025-01-17
+  image: 9bdb64_ab34e614c9a94440af3f8e5b6c839d81~mv2.png
+  note: Wix title was a full LinkedIn post; shortened here. Original title text kept in body's first paragraph.
+  body: |
+    We propose using generative agents to simulate how environment & social factors impact mental health. Think virtual cities with AI citizens to study what shapes wellbeing. Read more: https://www.nature.com/articles/s41746-024-01422-z
+
+    Can artificial minds help us understand determinants of mental health? Excited to share our new paper in npj Digital Medicine with Andreas Meyer-Lindenberg!
+
+    **Real World Example:** Picture a person navigating a busy city - their mental wellbeing shaped by countless factors from noise levels to social interactions. Traditional research can only scratch the surface of these complex dynamics.
+
+    **Technical Innovation:** We propose using generative agents (Park et al.) - AI entities powered by Large Language Models (LLMs) - to simulate human behavior in virtual environments in order to investigate determinants of mental health.
+
+    **Technical Architecture:** The innovation lies in how these agents combine: memory systems that store past experiences; the ability to process environmental cues; realistic social interactions; capacity to report mental health symptoms. This allows researchers to study how different factors interact over time in ways that would be impossible in real-world studies.
+
+    **Why This Matters:** This could offer a new approach to how we study mental health by:
+    - Enabling controlled experiments impossible in real life
+    - Accelerating intervention development
+    - Informing urban planning for better mental health
+    - Advancing precision psychiatry
+
+- title: Lab at DGPPN conference in Berlin!
+  date: 2024-11-28
+  image: 9bdb64_dd6ff5aaca8e430c847a3ee680e22104~mv2.jpg
+  gallery:
+    - 9bdb64_dd6ff5aaca8e430c847a3ee680e22104~mv2.jpg
+    - 9bdb64_3c66139e2f0b413f886694fe233816ea~mv2.jpg
+    - 9bdb64_cb3c5b8b0c284cff8380d78068a9bbac~mv2.jpg
+  body: |
+    Every year a few weeks before the festive season, it is time to travel to Berlin for the DGPPN conference. We had a great time presenting, listening and discussing - and also celebrating a bit... ;)
+
+- title: New Preprint!
+  date: 2024-10-04
+  image: 9bdb64_272e4178af0e4b58a71a64fb88c30bea~mv2.png
+  body: |
+    Our latest study reveals neurobiological contributions to both static and dynamic functional connectivity (FC) using computational brain modeling. Learn how specific regions shape sFC and dFC patterns!
+    Check it out: https://www.biorxiv.org/content/10.1101/2024.10.01.614888v1
+
+- title: Joseph joins editorial board of NPJ Digital Medicine
+  date: 2024-09-01
+  image: 9bdb64_096fd70282474a3cbb7fd9bfc8c227df~mv2.png
+  body: ""
+
+- title: KambeitzLab@ECNP!
+  date: 2024-09-25
+  image: 9bdb64_3fea52375b114e16acc5a14131769794~mv2.jpg
+  note: Wix title says "ENCP" (typo)
+  gallery:
+    - 9bdb64_a94423523f884cd981cc0c47b69ead6e~mv2.jpg
+    - 9bdb64_30630d35b5194348a6a994e4f2b38e4c~mv2.jpg
+    - 9bdb64_c74c0f27524f4cdba88df2a259667a57~mv2.jpg
+    - 9bdb64_2c09d2b95270487c90cd5e0b42057818~mv2.jpg
+    - 9bdb64_430d7c23ea6b4abcb03c1d66b884fc80~mv2.jpg
+    - 9bdb64_2a48732bec9e428cac00cd1bb2bbfdf5~mv2.jpg
+    - 9bdb64_1559e5d512964177a4dfa766fd227867~mv2.jpg
+    - 9bdb64_e8a0b18499764d95a2702440bd8516d6~mv2.jpg
+    - 9bdb64_9e20d575b43446b0bf22d8c1b9f44639~mv2.jpg
+    - 9bdb64_8c39fa9a429e4716a67089f662fcbe5e~mv2.jpg
+    - 9bdb64_36062d67a25e42beae7c5b8260c36cce~mv2.jpg
+  body: |
+    We had a great time visiting European College of Neuropsychopharmacology in Milano this year. Lot of great interactions around exciting topics: A.I., patient stratification and of course: better treatment for patients with psychosis and depression...
+
+- title: 1st Cologne Summer School in Biological Psychiatry
+  date: 2024-07-04
+  image: 9bdb64_601c65578ea4445da0902f542b6e258c~mv2.png
+  body: |
+    We are very pleased to announce the "**1st Cologne Summer School in Biological Psychiatry**" (CSSBP), taking place from August 26 to 30, 2024 at the University of Cologne. The CSS in Biological Psychiatry is jointly organized by Prof. Dr. Koenig (Biological Child and Adolescent Psychiatry) and Prof. Dr. Kambeitz (Biological Psychiatry). This year's thematic focus will be on "*Transitions & Frontiers*" addressing recent developments and new advances in Biological Psychiatry. We are happy that we were able to secure some of the top speakers and lectures in our field. The time table and final list of lecturers will be announced soon. Beyond lectures and practical workshops by experts, the CSSBP will comprise a cultural and social program to enable close exchange and interaction. The cultural focus of this year will address **Biological Psychiatry in NS Germany**, with a particular focus on the Medical Faculty at the University of Cologne.
+
+- title: "WDR Podcast: interview with Lana on work in Precision Psychiatry!"
+  date: 2024-05-23
+  image: 9bdb64_1b836a81cf0447cdbf458d7d517d28a0~mv2.png
+  body: |
+    Here is a recent WDR podcast on Precision Psychiatry - great to see our work covered in public media!
+
+- title: "New Homepage for our project: \"ABCD-J: A digital platform for neuro-medicine\""
+  date: 2024-02-19
+  image: 9bdb64_23a4305d26304d40afd738deee0e1991~mv2.png
+  body: |
+    We are creating a digital platform for neuro-medicine in the ABCD region with @INM7_ISN - exciting steps towards harmonized databases across psychiatry and neurology and federated machine-learning analysis. Check out our homepage: https://abcd-j.de More to come!
+
+- title: "AI & Precision Psychiatry: cover of our work and brief interview of Joseph"
+  date: 2024-01-20
+  image: 9bdb64_815c89632baf48e696d5f19952804754~mv2.png
+  body: |
+    We received lots of feedback regarding our recent paper in Science (led by Adam Chekroud). EuroNews did a great cover of our work and a brief interview - check it out here: https://uk.news.yahoo.com/study-fragile-ai-predictive-models-060018731.html
+
+- title: New work out in Science!
+  date: 2024-01-12
+  image: 9bdb64_b341846df4f04b8c8839c77706d628db~mv2.png
+  body: |
+    Happy to have contributed to a recent publication in Science - a true team-effort led by Adam Chekroud. In a nutshell: a central open question in precision psychiatry is the extend to which prediction models can generalize to different samples. In our recent work, we generate models to predict treatment success with antipsychotics in schiozphrenia. While the models work well within the study they are trained on, they do not generalize to other studies. We hope that our results can facilitate the search for robust and generalizable markers in psychiatry...
+
+    https://www.science.org/doi/full/10.1126/science.adg8538
+
+- title: Mental Health matters...!
+  date: 2023-12-13
+  image: 9bdb64_4fdfbe02fa5742968c834894b4a8e660~mv2.jpg
+  body: |
+    Thanks Paula und Julian for advocating for mental health in the Cologne area and promote our early recognition service at FETZ!
+
+- title: Pre-X-Mas times...
+  date: 2023-12-08
+  image: 9bdb64_d09525fc86744cd2a4a7a31cd8c55584~mv2.jpeg
+  body: |
+    Two parties within one week - not bad to get together with this fantastic crowd! Happy X-Mas brainy gang...
+
+- title: Welcome Hannah!
+  date: 2023-11-02
+  image: 9bdb64_f3f3cdbd888541028f813f7af4c004d4~mv2.jpg
+  note: duplicate of the 2023-08-01 "Welcome Hannah!" post - keep one
+  body: |
+    Hannah is joining us for her master thesis on using computational models to investigate brain activity and analyze functional connectivity. Great to have you with us!
+
+- title: Welcome Annkathrin!
+  date: 2023-11-01
+  image: 9bdb64_a8721e34a6f64fddba99ce8dfcda3e83~mv2.jpg
+  body: |
+    We are happy to welcome Annkathrin to our lab as a PhD-student!
+
+    Annkathrin has a background in biology, cognitive neuroscience and neuroimaging. During her PhD she will focus language markers and brain dysfunction in early psychosis. Great to have you on board!
+
+- title: PRESCIENT starts...
+  date: 2023-10-30
+  image: 9bdb64_7e56c3ce606e4e98ab23d752993335e1~mv2.png
+  body: |
+    We are thrilled to get started with the fantastic project PRESCIENT! It is an international network led by Prof. Barnaby Nelson in Melbourne. The aim is to create a unique dataset including numerous data modalities such as neuroimaging, language & activitiy markers or blood markers to create robust predictors for individuals at risk for psychosis.
+
+- title: New Preprint!
+  date: 2023-09-14
+  image: 9bdb64_46aa05dc53d34edd98bffb450dbd4c09~mv2.png
+  body: |
+    We are excited to share our new preprint - a collaborative work with our colleagues Ulrich Ettinger, Jason Schiffman and Kai Vogeley. In this work we use large-language models (LLM) to explore the semantic properties of questionnaires for the assessment of psychopathology. Our results indicate that LLMs can to a great part represent the empirical structure of psychopathology. This might offer a range of interesting application including the generation of better questionnaires, validating existing questionnaires or even informing empirical and theoretical research. https://www.researchsquare.com/article/rs-3347850/v1
+
+- title: Advocating for Mental Health in Young People
+  date: 2023-08-28
+  image: 9bdb64_0c1ff57a5b4541bf983bd2b2e4a2ac34~mv2.jpg
+  body: |
+    We had a fantastic time advocating for mental health last weekend at the famous "Dürener Straßenfest" in Cologne! The Kölner Verein f. Seelische Gesundheit (https://kvsg.de) is supporting our service for young people with mental distress (http://fetz-koeln.com)
+
+- title: Award for our PhD student Linnea
+  date: 2023-08-02
+  image: 9bdb64_fdad132622d149bdbfaa5840733b5296~mv2.png
+  body: |
+    Linnea was just awarded the ECNP Excellence Award for her work on alterations of functional connectivity dynamics in affective and psychotic disorders. She will present her exciting work in this years ECNP conference in Barcelona. Looking forward to a great meeting and more to come...
+
+- title: Welcome Hannah!
+  date: 2023-08-01
+  image: 9bdb64_f3f3cdbd888541028f813f7af4c004d4~mv2.jpg
+  body: |
+    We are happy to welcome Hannah as our newest lab member! Hannah has a background in psychology as well as mathematics and joins us for an exciting Master project using computational models for brain activity and employ machine learning for efficient model parameter selection.
+
+- title: New open position!
+  date: 2023-06-01
+  image: 9bdb64_8b6c7dd2539c4d6990e99baffec8cc19~mv2.png
+  note: position presumably filled - consider dropping
+  body: |
+    We are looking for a new lab member! In an exciting interdisciplinary project (2 years) including psychiatry and linguistics in Cologne, we plan to investigate language in patients with psychosis. The project involves a collaboration with Prof. Vogeley (Psychiatry) and Dr. Cokal and Prof. von Heusinger (Institut für deutsche Sprache und Literatur I – Sprachwissenschaft).
+
+- title: Welcome Millennia!
+  date: 2023-05-01
+  image: 9bdb64_d560d2b6d73e421a8a51a26c7bffa75d~mv2.jpg
+  body: |
+    Millennia is pursuing a Master's degree in Experimental and Clinical Neuroscience at the University of Cologne. She joined us for her master's thesis under the supervision of Lana and will explore language and speech analysis in the context of psychosis. Glad to have you with us, Millennia!
+
+- title: Initiation of the CARE-network!
+  date: 2023-03-02
+  image: 9bdb64_eb952ff3839740229ba6e6f4edbc83c8~mv2.png
+  body: |
+    Great two days in Düsseldorf participating in the study initiation of the CARE-network for the first risk-stratified trial for psychosis-risk patients!
+
+- title: Successful funding for the ABCD-region!
+  date: 2023-03-01
+  image: 9bdb64_20e1691049e34eeb917d13646e790285~mv2.png
+  body: |
+    Our proposal "Accessing Behavior for Clinical Data and Joint Usage (ABCD-JU) – Eine Plattform für Verhaltensmarker der digitalen Neuro-Medizin in NRW" was evaluated positively for funding!
+
+- title: Welcome Öznur!
+  date: 2023-01-09
+  image: 9bdb64_bf6adb190506476ea0359e0591fc40f4~mv2.jpeg
+  body: |
+    Welcome Öznur to our lab! Öznur is a MSc student from the Programm in Experimental and Clinical Neuroscience at the University of Cologne. She will join us for her master thesis project on different neuroanatomical subtypes in response to computerized cognitive intervention in psychosis.
+
+- title: Merry X-mas everyone!
+  date: 2022-12-15
+  image: 9bdb64_a9c04f55bb0a4ad999874218624595a7~mv2.jpg
+  body: |
+    Nice get together of our group to celebrate this eventful year 2022! We had a blast doing what we do...
+
+    See you in 2023 - your brainy gang!
+
+- title: DGPPN conference in Berlin
+  date: 2022-11-27
+  image: 9bdb64_875d392e16314bba8e33a2b4e2b1725e~mv2.png
+  body: |
+    We had a great time in Berlin at the DGPPN conference. Lots of inspiring session and great discussions with dear colleagues!
+
+- title: Welcome Alessandra!
+  date: 2022-11-04
+  image: 9bdb64_b48a13da335048f0a18bf67162a61281~mv2.jpg
+  body: |
+    We are happy to welcome Alessandra Raio to our lab!
+
+    Alessandra is a PhD student from the University of Bari (Italy) where she works with Linda Antonucci, Guilio Pergola and Alessandra Bertolino. She joins us for a period of 6 months and will work on an exciting project to find out if developmental changes over time in cognition and personality might play a role in gene-by-environment interactions, contributing to psychosis susceptibility.
+
+- title: Habilitation & Approbation of Lana Kambeitz-Ilankovic
+  date: 2022-10-28
+  image: 9bdb64_1385c008ae2546988f39899cbd4a748a~mv2.png
+  body: |
+    Lana successfully finalized two major milestones: habilitation at the University of Munich and the approbation as a clinical psychotherapist. Moreover, Lana was appointed to be a handling editor for British Journal of Psychiatry - great news!
+
+- title: Habilitation of Theresa Lichtenstein
+  date: 2022-10-28
+  image: 9bdb64_c0883bdffb014514bdeee795b88ecfaa~mv2.jpg
+  body: |
+    We are happy to congratulate Dr. Theresa Lichtenstein for her habilitation!
+
+- title: Successful PhDs 2022!
+  date: 2022-10-28
+  image: 9bdb64_6bd47774157e451ea0ff134923ebf79c~mv2.png
+  body: |
+    Congratulations for Nora Penzel and Linda Betz for finishing their PhDs successfully in 2022!
+
+- title: Julian's PhD thesis!
+  date: 2022-08-10
+  image: 9bdb64_a314c8c4bb2a4911836e78ddad8ac429~mv2.jpg
+  body: |
+    Started in Munich, finalized in Cologne!
+
+    Congrats to Julian for finishing his PhD supervised by Lana & with so many exciting collaboration...
+
+- title: DGPPN 2021 Award winning
+  date: 2021-11-29
+  image: 9bdb64_c87fcb9421614519b360725b949d6acf~mv2.png
+  body: |
+    Congratulations to Lana Kambeitz-Ilankovic for winning the 2021 DGPPN award for predictive, preventive and personalized medicine in psychiatry!
+
+- title: PhD Position in Computational Neurosciences / Translational Clinical Neurosciences
+  date: 2021-04-21
+  image: 9bdb64_4d4de14b18b24a16b53617f4946144e5~mv2.jpg
+  note: position long filled - consider dropping
+  body: |
+    We have an open PhD position @kambeitzlab in cooperation with the Forschungszentrum Jülich, Institute of Neuroscience and Medicine - Cognitive Neuroscience (INM-3) in the area Computational Neurosciences / Translational Clinical Neurosciences. The scope of the research is the investigation of neurobiological mechanisms underlying brain dynamics using multimodal neuroimaging data and computational neurosciences approaches, more specifically the changes of brain dynamics in the context of psychological or neurological disorders, as well as the relationship to risk- and resilience-factors. More information: https://www.fz-juelich.de/SharedDocs/Stellenangebote/_common/dna/2021D-053-EN-INM-3.html

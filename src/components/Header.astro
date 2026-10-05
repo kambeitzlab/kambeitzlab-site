@@ -1,0 +1,94 @@
+---
+import { nav, site } from '../data/site';
+import { url } from '../lib/url';
+import ThemeToggle from './ThemeToggle.astro';
+
+const current = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ''), '');
+const isActive = (href: string) => current === href || current.startsWith(href);
+---
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href={url('/')}>
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+        <circle cx="8" cy="22" r="4" /><circle cx="16" cy="9" r="4" /><circle cx="25" cy="20" r="4" />
+        <path d="M8 22 16 9 25 20 8 22" fill="none" stroke="currentColor" stroke-width="2" />
+      </svg>
+      <span>{site.name}</span>
+    </a>
+
+    <nav aria-label="Main">
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="main-menu">
+        <span class="visually-hidden">Menu</span>
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+      </button>
+      <ul id="main-menu" class="menu">
+        {
+          nav.map((item) => (
+            <li>
+              <a href={url(item.href)} aria-current={isActive(item.href) ? 'page' : undefined}>
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    <ThemeToggle />
+  </div>
+</header>
+
+<script>
+  const btn = document.querySelector<HTMLButtonElement>('.menu-btn');
+  const menu = document.getElementById('main-menu');
+  btn?.addEventListener('click', () => {
+    const open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    menu?.classList.toggle('open', !open);
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && btn?.getAttribute('aria-expanded') === 'true') {
+      btn.setAttribute('aria-expanded', 'false');
+      menu?.classList.remove('open');
+      btn.focus();
+    }
+  });
+</script>
+
+<style>
+  .site-header {
+    position: sticky; top: 0; z-index: 50;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: saturate(1.4) blur(10px);
+    border-bottom: 1px solid var(--border);
+  }
+  .bar { display: flex; align-items: center; gap: 1rem; min-height: 4rem; }
+  .brand {
+    display: inline-flex; align-items: center; gap: 0.6rem; margin-right: auto;
+    font: 650 1.2rem/1 var(--font-head); color: var(--text); text-decoration: none;
+  }
+  .mark { width: 28px; height: 28px; color: var(--accent); fill: var(--accent); }
+  .menu { display: flex; gap: 0.25rem; list-style: none; margin: 0; padding: 0; }
+  .menu a {
+    display: block; padding: 0.5rem 0.75rem; border-radius: 8px;
+    color: var(--text); text-decoration: none; font-weight: 500; font-size: 0.97rem;
+  }
+  .menu a:hover { background: var(--surface-2); }
+  .menu a[aria-current='page'] { color: var(--accent); box-shadow: inset 0 -2px 0 var(--accent); border-radius: 0; }
+  .menu-btn {
+    display: none; background: none; border: 0; color: var(--text);
+    padding: 0.5rem; border-radius: 8px; cursor: pointer;
+  }
+  @media (max-width: 860px) {
+    .menu-btn { display: inline-flex; }
+    nav { order: 3; }
+    .menu {
+      display: none; position: absolute; left: 0; right: 0; top: 100%;
+      flex-direction: column; padding: 0.5rem var(--gutter) 1rem;
+      background: var(--bg); border-bottom: 1px solid var(--border);
+    }
+    .menu.open { display: flex; }
+    .menu a { padding: 0.8rem 0.5rem; font-size: 1.05rem; }
+    .menu a[aria-current='page'] { box-shadow: inset 3px 0 0 var(--accent); padding-left: 0.9rem; }
+  }
+</style>

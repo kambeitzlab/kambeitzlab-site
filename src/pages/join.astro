@@ -1,0 +1,163 @@
+---
+import Base from '../layouts/Base.astro';
+import { site } from '../data/site';
+import { url } from '../lib/url';
+
+// Open positions: add entries here; the section shows "none at the moment" while empty.
+// { title: 'PhD position: …', text: 'One sentence.', href: 'link to full ad (PDF or page)', deadline: '2026-12-01' }
+const positions: { title: string; text: string; href?: string; deadline?: string }[] = [];
+
+const mail = (subject: string) => `mailto:${site.applyEmail}?subject=${encodeURIComponent(subject)}`;
+---
+
+<Base title="Join us" description="Open positions, PhD projects, MD theses (Doktorarbeit), MSc theses and research stays at the Kambeitz Lab in Cologne.">
+  <div class="wrap section">
+    <header class="page-head">
+      <p class="eyebrow">Join us</p>
+      <h1>Work with us</h1>
+      <p class="lead">
+        We are an interdisciplinary team of clinicians, psychologists, neuroscientists and data scientists in Cologne. If you want to use AI and
+        computational methods to improve mental health care, we would like to hear from you.
+      </p>
+    </header>
+
+    <nav class="toc" aria-label="On this page">
+      <ul role="list">
+        <li><a href="#open-positions">Open positions</a></li>
+        <li><a href="#phd">PhD</a></li>
+        <li><a href="#doktorarbeit" lang="de">Doktorarbeit (Medizin)</a></li>
+        <li><a href="#msc">MSc thesis</a></li>
+        <li><a href="#visiting">Internships &amp; visiting researchers</a></li>
+      </ul>
+    </nav>
+
+    <section id="open-positions" class="block" aria-labelledby="open-positions-title">
+      <h2 id="open-positions-title">Open positions</h2>
+      {
+        positions.length === 0 ? (
+          <p class="none">There are no open positions at the moment. Unsolicited applications are always welcome; see below.</p>
+        ) : (
+          <ul class="positions" role="list">
+            {positions.map((p) => (
+              <li class="card">
+                <h3>{p.href ? <a href={p.href}>{p.title}</a> : p.title}</h3>
+                <p>{p.text}</p>
+                {p.deadline && <p class="deadline">Apply by {p.deadline}</p>}
+              </li>
+            ))}
+          </ul>
+        )
+      }
+    </section>
+
+    <section id="phd" class="block" aria-labelledby="phd-title">
+      <h2 id="phd-title">PhD</h2>
+      <div class="cols">
+        <div>
+          <h3>What we look for</h3>
+          <p>
+            A Master's degree in psychology, neuroscience, computer science, physics, mathematics, medicine or a related field; solid programming
+            skills (Python or R); experience with statistics or machine learning; and a genuine interest in mental health.
+          </p>
+        </div>
+        <div>
+          <h3>What to send</h3>
+          <ul>
+            <li>A short motivation letter (max. one page) naming the theme you are interested in</li>
+            <li>CV and transcripts</li>
+            <li>Names of two referees</li>
+            <li>Optional: a link to code you have written (GitHub, GitLab)</li>
+          </ul>
+        </div>
+      </div>
+      <p class="to">Send to: <a href={mail('PhD application')}>{site.applyEmail}</a>, subject "PhD application"</p>
+    </section>
+
+    <section id="doktorarbeit" class="block" lang="de" aria-labelledby="doktorarbeit-title">
+      <h2 id="doktorarbeit-title">Doktorarbeit (Medizin)</h2>
+      <div class="cols">
+        <div>
+          <h3>Was wir suchen</h3>
+          <p>
+            Medizinstudierende mit Interesse an Psychiatrie, Psychotherapie und datengetriebener Forschung. Vorkenntnisse in
+            Statistik oder Programmierung sind hilfreich, aber keine Voraussetzung. Wichtig sind Zuverlässigkeit und genügend Zeit für ein eigenes
+            Projekt.
+          </p>
+          <p>
+            Wir bieten experimentelle und klinische Doktorarbeiten, z. B. zu Sprachmarkern, kognitivem Training, Früherkennung und Prädiktion von
+            Psychosen, mit enger Betreuung und der Möglichkeit, die Ergebnisse zu publizieren.
+          </p>
+        </div>
+        <div>
+          <h3>Was Sie schicken</h3>
+          <ul>
+            <li>Kurzes Anschreiben: Interessen, Zeitrahmen, ggf. Freisemester</li>
+            <li>Lebenslauf</li>
+            <li>Aktueller Leistungsnachweis</li>
+          </ul>
+        </div>
+      </div>
+      <p class="to">An: <a href={mail('Doktorarbeit – Anfrage')}>{site.applyEmail}</a>, Betreff „Doktorarbeit – Anfrage“</p>
+    </section>
+
+    <section id="msc" class="block" aria-labelledby="msc-title">
+      <h2 id="msc-title">MSc thesis</h2>
+      <div class="cols">
+        <div>
+          <h3>What we look for</h3>
+          <p>
+            Master's students in psychology, neuroscience (e.g. Experimental and Clinical Neuroscience, Cologne), data science or related programmes
+            who want to work with clinical, language, imaging or smartphone data. Basic programming skills are a plus.
+          </p>
+        </div>
+        <div>
+          <h3>What to send</h3>
+          <ul>
+            <li>A few sentences on your interests and planned start date</li>
+            <li>CV and current transcript</li>
+          </ul>
+        </div>
+      </div>
+      <p class="to">Send to: <a href={mail('MSc thesis enquiry')}>{site.applyEmail}</a>, subject "MSc thesis enquiry"</p>
+    </section>
+
+    <section id="visiting" class="block" aria-labelledby="visiting-title">
+      <h2 id="visiting-title">Internships &amp; visiting researchers</h2>
+      <p>
+        We regularly host interns and visiting PhD students and researchers, and we are happy to support applications for travel grants and
+        fellowships (e.g. DAAD, Erasmus+). Please get in touch at least three months before your planned stay with a short description of what you
+        would like to work on, your CV and the intended duration.
+      </p>
+      <p class="to">Send to: <a href={mail('Research stay enquiry')}>{site.applyEmail}</a>, subject "Research stay enquiry"</p>
+    </section>
+
+    <p class="note">
+      We do not use an online form. Your email is only used to handle your enquiry; see our <a href={url('/datenschutz/')}>privacy policy</a>.
+    </p>
+  </div>
+</Base>
+
+<style>
+  .page-head { margin-bottom: 2rem; }
+  .toc ul { list-style: none; padding: 0; margin: 0 0 3rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .toc a {
+    display: inline-block; padding: 0.4rem 0.85rem; border-radius: 999px;
+    border: 1px solid var(--border); background: var(--surface);
+    color: var(--text); text-decoration: none; font-size: 0.93rem;
+  }
+  .toc a:hover { border-color: var(--accent); color: var(--accent); }
+  .block { max-width: 920px; padding-block: 2rem; border-top: 1px solid var(--border); scroll-margin-top: 5rem; }
+  .block h2 { margin-bottom: 1rem; }
+  .block h3 { font: 600 0.82rem/1.3 var(--font-body); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .cols ul { padding-left: 1.2rem; margin: 0; }
+  .cols li + li { margin-top: 0.3rem; }
+  .to { margin-top: 1rem; font-weight: 600; }
+  .none { color: var(--muted); }
+  .positions { list-style: none; padding: 0; display: grid; gap: 1rem; }
+  .positions .card { padding: 1.25rem; }
+  .positions h3 { font: 600 1.1rem/1.3 var(--font-head); text-transform: none; letter-spacing: 0; color: var(--text); }
+  .deadline { font-size: 0.9rem; color: var(--muted); margin: 0; }
+  .note { margin-top: 2rem; color: var(--muted); font-size: 0.93rem; max-width: 70ch; }
+  @media (max-width: 720px) { .cols { grid-template-columns: 1fr; gap: 0.5rem; } }
+</style>

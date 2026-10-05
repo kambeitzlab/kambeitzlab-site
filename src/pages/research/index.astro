@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import ThemeIcon from '../../components/ThemeIcon.astro';
+import { Content as About } from '../../data/about.md';
+import { themes } from '../../data/themes';
+import { url } from '../../lib/url';
+
+const projects = (await getCollection('projects')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base title="Research" description="Research themes and projects of the Kambeitz Lab: prediction, language and digital markers, computational modelling and clinical interventions.">
+  <div class="wrap section">
+    <header class="page-head">
+      <p class="eyebrow">Research</p>
+      <h1>Bridging clinic and computation</h1>
+    </header>
+
+    <nav class="theme-nav" aria-label="Research themes">
+      <ul role="list">
+        {themes.map((t) => (
+          <li><a href={`#${t.id}`}><ThemeIcon id={t.id} size={28} /> {t.title}</a></li>
+        ))}
+      </ul>
+    </nav>
+
+    <div class="prose about"><About /></div>
+
+    {
+      themes.map((t) => {
+        const items = projects.filter((p) => p.data.theme === t.id);
+        return (
+          <section class="theme" id={t.id} aria-labelledby={`${t.id}-title`}>
+            <div class="theme-head">
+              <ThemeIcon id={t.id} />
+              <div>
+                <h2 id={`${t.id}-title`}><a href={url(`/research/${t.id}/`)}>{t.title}</a></h2>
+                <p>{t.description}</p>
+              </div>
+            </div>
+            <ul class="cards" role="list">
+              {items.map((project) => <li><ProjectCard project={project} showTheme={false} /></li>)}
+            </ul>
+          </section>
+        );
+      })
+    }
+
+    <p class="code-hint">Looking for software? See our <a href={url('/code/')}>code &amp; tools</a>.</p>
+  </div>
+</Base>
+
+<style>
+  .page-head { margin-bottom: 2rem; }
+  .theme-nav ul { list-style: none; padding: 0; margin: 0 0 3rem; display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .theme-nav a {
+    display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.45rem 0.9rem 0.45rem 0.6rem;
+    border: 1px solid var(--border); border-radius: 999px; background: var(--surface);
+    color: var(--text); text-decoration: none; font-size: 0.93rem; font-weight: 500;
+  }
+  .theme-nav a:hover { border-color: var(--accent); color: var(--accent); }
+  .about { margin-bottom: clamp(3rem, 6vw, 4.5rem); }
+  .about :global(h2) { font-size: 1.4rem; margin-top: 2rem; }
+  .theme { padding-top: 2.5rem; margin-top: 1rem; border-top: 1px solid var(--border); scroll-margin-top: 5rem; }
+  .theme-head { display: flex; gap: 1rem; align-items: flex-start; margin-bottom: 1.5rem; }
+  .theme-head h2 { margin-bottom: 0.25rem; }
+  .theme-head h2 a { color: var(--text); text-decoration: none; }
+  .theme-head h2 a:hover { color: var(--accent); text-decoration: underline; }
+  .theme-head p { color: var(--muted); margin: 0; }
+  .cards {
+    list-style: none; padding: 0; margin: 0 0 1.5rem;
+    display: grid; gap: clamp(1rem, 2.5vw, 1.75rem);
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  }
+  .code-hint { margin-top: 3rem; color: var(--muted); }
+</style>

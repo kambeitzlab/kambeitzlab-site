@@ -1,0 +1,148 @@
+# Exported from Wix CMS collection "Team" (site: Prediction Lab / kambeitzlab.com) on 2026-10-05
+# order: Wix "titleId" (0 = head, 1 = co-lead, 2 = senior, 3 = postdoc, 4 = PhD/MSc, 5 = MD students)
+# photo: Wix media id -> https://static.wixstatic.com/media/<photo>
+# NOTE: several people here are ALSO listed in alumni.yaml (Badde, Völkel, Walter, Zubair, Hoheisel, Rosen) - review before publishing.
+
+- name: Joseph Kambeitz
+  title: Prof.
+  order: 0
+  slug: joseph-kambeitz
+  photo: 9bdb64_be6277064f6347298b7633bf4e523c2e~mv2.jpg
+  bio: |
+    Joseph is a psychologist, trained psychiatrist and mental health researcher. He is head of the KambeitzLab for Prevention and Prediction in Mental Health as well as the Early Recognition Service at the University of Cologne ([FETZ](https://psychiatrie-psychotherapie.uk-koeln.de/klinik/frueherkennungs-und-therapiezentrum-fetz/)). His main focus of research is the use of machine learning approaches to improve our understanding of the etiology of mental disorders and to generate tools the help clinicians provide efficient and personalised healthcare.
+
+- name: Lana Kambeitz-Ilankovic
+  title: PD Dr.
+  order: 1
+  slug: lana-kambeitz-ilankovic
+  photo: 9bdb64_9df48f4da6d84eb4830bc984a8bf3eb3~mv2.jpg
+  bio: |
+    **Priv.-Doz. Dr. Lana Kambeitz-Ilankovic** obtained her PhD in 2013 at Ludwig-Maximilian University Munich in collaboration with the Institute of Psychiatry at King's College London. She subsequently spent the majority of her postdoctoral training within the large multicenter EU project PRONIA, focusing on early detection and prediction of severe mental disorders.
+
+    In 2022, she completed her habilitation and obtained her clinical license in cognitive behavioral psychotherapy. Dr. Kambeitz-Ilankovic is the psychological head of the Early Recognition and Treatment Center (FETZ), where she has implemented short-term psychotherapeutic interventions and leads a transdiagnostic group therapy program ("Let's FETZ"). She is also actively involved in student mental health initiatives at the University of Cologne, organization of Cologne-Bonn mental health week to reduce stigma and improve outreach or mental care.
+
+    Her research focuses on Digital Health, Personalized Clinical Psychology, and biobehavioral modeling, with a particular emphasis on developing neuroimaging-, neurocognitive-, and behavioral biomarkers to predict illness onset, long-term functional outcomes, and response to non-pharmacological and digital interventions. Her work integrates machine learning, computational modeling, and real-world clinical data to inform individualized prevention and psychotherapy strategies.
+
+    This research program has been supported by multiple competitive grants, including awards from the Brain & Behavior Research Foundation (NARSAD Young Investigator), the National Institutes of Health, DFG Co-Fund LMUexcellent, and the Friedrich-Baur Foundation. Dr. Kambeitz-Ilankovic has published over 60 peer-reviewed, highly cited articles aimed at improving diagnostic and therapeutic decision-making in mental health care.
+
+    She serves as a Handling Editor for the British Journal of Psychiatry and was awarded the DGPPN Prize for Personalized, Predictive, and Precision Psychiatry in 2021. In addition, she is actively engaged in public outreach and science communication, including educational media addressing severe mental disorders such as psychosis (https://www.youtube.com/watch?v=iwZ9u9IbWLU).
+
+- name: Jessica Hartmann
+  title: Dr.
+  order: 2
+  slug: jessica-hartmann
+  photo: 9bdb64_1f6333923cf244669998ae0295eb37f8~mv2.png
+  bio: |
+    Dr Jessica Hartmann joined the team in April 2025 as a Senior Research Fellow. She specialises in predicting and mitigating emerging mental ill-health, focusing on at-risk mental states, transdiagnostic approaches, and clinical staging. Dr Hartmann's research uses intensive longitudinal data and dynamic modelling to improve early detection and intervention strategies in psychiatry, with a particular emphasis on the role of sleep in the onset of mental illness.
+
+    She holds a PhD from Maastricht University, where she focused on sleep, affect regulation, and digital interventions using Ecological Momentary Assessment (EMA). She was awarded the NWO Rubicon Fellowship and subsequently the UoM McKenzie Fellowship, which supported her postdoctoral research at the University of Melbourne and Orygen. During this time, she developed the CHARMS High-Risk Paradigm as part of the clinical staging framework and conducted research integrating dynamic systems theory to predict critical transitions in mental health. She also held a Research Fellow position (now Visiting Researcher) at the Department of Public Mental Health, Central Institute of Mental Health in Mannheim.
+
+    Dr Hartmann contributed to major projects funded by NIH, NHMRC, Wellcome Trust, and Horizon Europe, securing over AUD $40 million in competitive research funding. She is Co-Lead of the Digital Biomarkers and EMA Stream of Accelerating Medicines Partnership for Schizophrenia (AMP SCZ). Dr Hartmann has over 80 peer-reviewed publications, with more than 3,600 citations.
+
+- name: Lotta Pries
+  title: Dr.
+  order: 2
+  slug: lotta-pries
+  photo: 9bdb64_ecf6d9c610e745cca0917c754e4655c4~mv2.jpg
+  bio: |
+    I studied psychology and hold a PhD from Maastricht University, specializing in the gene-environment interaction in psychosis. My research utilized large-scale international datasets, including EU-GEI, TwinssCan, NEMESIS-2, and UKB, to investigate both clinical and non-clinical populations. I also played a key role in developing methodologies to assess exposomic vulnerability in mental health outcomes, capturing the full range of environmental exposures that shape individual risk profiles. Additionally, I contribute to the EU-funded Youth-GEMs project, which examines predictors of mental health trajectories in adolescents from the general population.
+
+    Currently, I am a postdoctoral fellow at the University Hospital of Cologne, working on the Prescient study (Trajectories and Predictors in the Clinical High Risk for Psychosis Population: Prediction Scientific Global Consortium). This international initiative aims to refine predictive tools for severe mental health outcomes and develop targeted treatment strategies for young individuals at clinical high risk for psychosis. My research interests focus on gender and sex-specific influences on these outcomes, aiming to bridge critical gaps in personalized mental health care.
+
+- name: Theresa Lichtenstein
+  title: PD Dr.
+  order: 2
+  slug: theresa-lichtenstein
+  photo: 9bdb64_363252121db042e2b5c799523a5d92c8~mv2.jpeg
+  bio: |
+    I studied medicine at the University of Münster, followed by my dissertation at the Department of Psychiatry and Psychotherapy at the University Hospital of Münster in the field of psychosis research. Since 2013 I am working as a medical doctor at the Department of Psychiatry and Psychotherapy at the University Hospital of Cologne, at the Early Recognition an Intervention Centre for Psychiatric Disorders (FETZ) which is specialized in the early detection of individuals with a clinical high-risk for psychosis. Together with Marlene Rosen, I was responsible for the PRONIA project ('Personalized Prognostic Tools for Early Psychosis Management'), funded by the European Union under the 7th Framework Programme (grant agreement n°602152), in Cologne. With my clinical expertise and my experience in clinical research, I joined Kambeitz Lab as a clinician-scientist in November 2019. The focus of my research is the role of childhood adverse events to improve our understanding of potential risk factors for the development of a later psychosis and poor functional outcome based on multivariate machine-learning approaches.
+
+- name: Sophie Fengler
+  title: Dr.
+  order: 3
+  slug: sophie-fengler
+  photo: 9bdb64_9e408f39daf041f590c5f442367e1ddb~mv2.jpg
+  bio: |
+    I graduated in Psychology with a specialisation in Clinical Neuropsychology at the University of Groningen (NL) before doing my PhD in Neuropsychology at the Department of Medical Psychology at the University of Cologne (in cooperation with the University of Vechta) on the subject of cognitive disorders in Parkinson's disease. At the same time, I trained in Cognitive Behavioural Therapy and worked mainly with patients with first-episode psychosis in inpatient and outpatient settings. Since February 2024 I have been working as a clinical researcher at the Early Recognition and Intervention Center for Mental Health Disorders (FETZ) at the University Hospital of Cologne. I am part of the Prescient study (Trajectories and Predictors in the Clinical High Risk for Psychosis Population: Prediction Scientific Global Consortium), which is looking at a range of potential risk factors for young people at ultra-high risk (UHR) for psychosis, with the aim of developing tools to better predict outcomes and develop the best possible treatment.
+
+- name: Marlene Rosen
+  title: Dr.
+  order: 3
+  slug: marlene-rosen
+  photo: 9bdb64_58063d52543c4ee6a6947d44ca144617~mv2.jpg
+  bio: |
+    I studied at the Ruprecht-Karls University of Heidelberg (Germany) and the University of Zurich (Switzerland). From 2014 to 2019, I completed my PhD at the PRONIA multicenter study and, in parallel, my qualification as a cognitive behavioral therapist. With my clinical and scientific expertise as a psychotherapist and my experiences in clinical research, I continued working in Kambeitz Lab as a clinician scientist. The focus of my research is to improve our understanding of early phases of psychiatric disorders, resilience and psychosocial functioning.
+
+- name: Hannah Hacker
+  title: MSc.
+  order: 4
+  slug: hannah-hacker
+  photo: 9bdb64_f3f3cdbd888541028f813f7af4c004d4~mv2.jpg
+  bio: |
+    I'm currently pursuing a master's degree in psychology at the University of Cologne, while simultaneously working on a bachelor's degree in mathematics. This is why I am interested in applying mathematical methods, such as computational modeling and machine learning, to explore psychological and neuroscientific questions and gain more insights into psychiatric disorders. For my Master's thesis, I have joined the Kambeitz lab, where I am working with computational models to investigate brain activity and analyze functional connectivity.
+
+- name: Annkathrin Böke
+  title: MSc.
+  order: 4
+  slug: annkathrin-boeke
+  photo: 9bdb64_a8721e34a6f64fddba99ce8dfcda3e83~mv2.jpg
+  bio: |
+    After completing my bachelor's degree in Biology, I focused on cognitive neuroscience and neuroimaging during my master's in neurosciences at the University of Bonn. After my master's degree, I worked as a research assistant at the Department of Psychiatry and Psychotherapy of the University of Münster. In this capacity, I contributed to the development of a task investigating the treatment effects of ketamine in individuals suffering from depression. Concurrently, I joined the Motivation & Cognitive Control lab at the Donders Institute as a research assistant and lab coordinator. Here, I was involved in a pharmaco-fMRI study investigating the role of dopamine in linguistic inference.
+
+    In November 2023, I became part of the Kambeitz lab for a PhD project. My research focus involves investigating language markers and brain dysfunction in early psychosis. I am particularly intrigued by understanding the neural correlates that underlie characteristic language alterations in early psychosis. My goal is to leverage this understanding for earlier diagnosis and improved treatment of psychotic diseases in the future.
+
+- name: Millennia Chakraborty
+  title: MSc.
+  order: 4
+  slug: millennia-chakraborty
+  photo: 9bdb64_d560d2b6d73e421a8a51a26c7bffa75d~mv2.jpg
+  bio: |
+    I hold a Bachelor's degree in Psychology from CHRIST (Deemed to be University), Delhi-NCR, India, which I obtained in 2022. Currently, I am pursuing a Master's degree in Experimental and Clinical Neuroscience at the University of Cologne. As part of my academic journey, I have joined the Kambeitz Lab, where I am focusing on conducting research for my master's thesis under the supervision of Priv.-Doz. Dr. Lana Kambeitz-Ilankovic. The primary objective of my thesis is to explore language and speech analysis in the context of psychosis. Specifically, I aim to investigate the semantic distinctions between experimental and control groups utilizing machine learning techniques.
+
+- name: Öznur Baştürk
+  title: MSc.
+  order: 4
+  slug: oeznur-basturk
+  photo: 9bdb64_bf6adb190506476ea0359e0591fc40f4~mv2.jpeg
+  bio: |
+    I received my Bachelor's degree in Psychology at Yaşar University in June 2021. I am currently enrolled Master of Science program in Experimental and Clinical Neuroscience at the University of Cologne. As from January 2023, to write my thesis focussing on personalized cognitive training in patients with psychosis I have become the member of Kambeitz Lab. I am investigating difference of different neuroanatomical subtypes in response to computerized cognitive intervention, under the supervision of Priv.-Doz. Dr. Lana Kambeitz-Ilankovic.
+
+- name: Linnea Hoheisel
+  title: MSc.
+  order: 4
+  slug: linnea-hoheisel
+  photo: 9bdb64_51c5713e324b402f82dcd419925bc40e~mv2.jpg
+  bio: |
+    I studied biochemistry at the Georg-August-Universität Göttingen (Germany) before pursuing a graduate degree in neuroscience at the University of Oxford (UK). During my master's programme I gained experience in the analysis of neuroimaging data using machine learning tools while working in the Computational Psychiatry group. I joined the Kambeitz lab in 2021 for a PhD project in collaboration with the department of Cognitive Neuroscience of the Institute of Neuroscience and Medicine (INM-3) at the Forschungszentrum Jülich. My research focuses on functional connectivity; I am particularly interested in the insights individual brain activity patterns might reveal about the mechanisms of psychiatric and neurological disorders, as well as risk and resilience factors, and the relationship between functional connectivity and the underlying structural connectivity of the brain. To investigate these questions, I employ machine learning methods and computational models of brain activity.
+
+- name: Alina Zubair
+  title: cand. med.
+  order: 5
+  slug: alina-zubair
+  photo: 9bdb64_3be04d2578e94af380c5348d7b41ba6b~mv2.jpeg
+  bio: |
+    Alina is a medical student and working on her doctoral thesis. The aim of her thesis is to investigate the difference in cognition between cannabis users who developed a psychosis and healthy cannabis users
+
+- name: Nina Walter
+  title: cand. med.
+  order: 5
+  slug: nina-walter
+  photo: 9bdb64_babc520386334461ab9ae7f35b6bc077~mv2.jpg
+  bio: |
+    Nina is a medical student working on her doctoral thesis. In her project she is investigating the effects of neurocognitive training on different cognitive and social domains in patients with recent onset psychosis and recent onset depression. In addition to her doctoral thesis, she is also assisting in the current study on Personalized Neurocognitive Training under the supervision of Dr. Lana Kambeitz-Ilankovic.
+
+- name: Laura Völkel
+  title: cand. med.
+  order: 5
+  slug: laura-voelkel
+  photo: 9bdb64_f4854d1f81f140d09bff93e462693073~mv2.jpg
+  bio: |
+    Laura Völkel is a medical student working on her doctoral thesis. She is focusing on the effect of cognitive training on the functional brain connectivity of patients with depressive disorder.
+
+- name: Luzie Badde
+  title: cand. med.
+  order: 5
+  slug: luzie-badde
+  photo: 9bdb64_2d0f1b26bcaf45988e7b87934043301f~mv2.jpeg
+  bio: |
+    Luzie is a medical student and working on her doctoral thesis. The aim of her thesis is to investigate neurocognitive subgroups transdiagnostically, in patients with clinical high risk for psychosis, recent onset psychosis and recent onset depression.

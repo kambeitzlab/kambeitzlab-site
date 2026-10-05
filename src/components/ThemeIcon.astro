@@ -1,0 +1,49 @@
+---
+import type { ThemeId } from '../data/themes';
+interface Props { id: ThemeId; size?: number }
+const { id, size = 48 } = Astro.props;
+---
+
+<svg class="theme-icon" viewBox="0 0 48 48" width={size} height={size} aria-hidden="true" focusable="false">
+  {id === 'prediction' && (
+    <>
+      <path d="M6 38 Q18 34 24 24 T42 10" class="line" />
+      <path d="M6 38 Q18 30 24 18 T42 4 L42 16 Q30 26 24 30 T6 38Z" class="area" />
+      <circle cx="42" cy="10" r="4" class="dot" />
+    </>
+  )}
+  {id === 'language-digital' && (
+    <>
+      {[8, 14, 20, 26, 32, 38].map((x, i) => {
+        const h = [10, 22, 30, 16, 26, 12][i];
+        return <rect x={x - 2} y={24 - h / 2} width="4" height={h} rx="2" class="bar" />;
+      })}
+    </>
+  )}
+  {id === 'modeling' && (
+    <>
+      <path d="M10 34 L24 10 L38 30 Z M24 10 L24 26 M10 34 L24 26 L38 30" class="line" />
+      <circle cx="24" cy="10" r="4.5" class="dot" />
+      <circle cx="10" cy="34" r="4" class="node" />
+      <circle cx="38" cy="30" r="4" class="node" />
+      <circle cx="24" cy="26" r="3.5" class="node" />
+    </>
+  )}
+  {id === 'interventions' && (
+    <>
+      <path d="M8 30 C 14 30, 16 14, 24 14 S 34 24, 40 18" class="line" />
+      <path d="M34 14 L40 18 L36 24" class="line" />
+      <circle cx="8" cy="30" r="4" class="dot" />
+      <path d="M20 36 h8 M24 32 v8" class="line" />
+    </>
+  )}
+</svg>
+
+<style>
+  .theme-icon { color: var(--accent); flex: none; }
+  .line { fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+  .area { fill: currentColor; opacity: 0.14; }
+  .dot { fill: currentColor; }
+  .node { fill: var(--surface); stroke: currentColor; stroke-width: 2.4; }
+  .bar { fill: currentColor; }
+</style>

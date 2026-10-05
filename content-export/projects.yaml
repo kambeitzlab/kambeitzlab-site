@@ -1,0 +1,89 @@
+# Exported from Wix CMS collection "ResearchProjects" on 2026-10-05, sorted by Wix "order" field
+# image: Wix media id -> https://static.wixstatic.com/media/<image>
+
+- title: PRESCIENT / AMP SCZ
+  order: 1
+  slug: prescient-amp-scz
+  image: 9bdb64_7a5ddcf57d7e410ba8b982a60a75bc75~mv2.png
+  url: https://www.ampscz.or   # truncated in Wix - presumably https://www.ampscz.org
+  body: |
+    The PRESCIENT project, part of the Accelerating Medicines Partnership Schizophrenia (AMP SCZ) program, focuses on predicting clinical outcomes in individuals at clinical high risk (CHR) for psychosis. The project aims to develop models that use clinical and biomarker data to predict a wide range of outcomes for these individuals. By analyzing this data, the project seeks to facilitate early identification of individuals most at risk of progressing to psychosis and to inform clinical trial participation and treatment strategies.
+
+- title: LAMBDA study
+  order: 2
+  slug: lambda-study
+  image: 9bdb64_9a082478fc614c32a7e012664e5c7a09~mv2.png
+  url: https://lambda.uni-koeln.de/
+  body: |
+    The LAMBDA study (Language Markers and Brain Dysfunction in Early Psychosis) investigates the link between language and mental health, specifically focusing on psychosis. By using functional MRI (fMRI) and analyzing linguistic signals, the study aims to identify language markers as bio-social indicators of psychosis. It combines expertise from psychiatry, linguistics, and cognitive neuroscience to explore how language dysfunction relates to brain activity in psychosis, with potential to identify transdiagnostic markers across mental health conditions.
+
+- title: "Understanding Schizophrenia using Computational Modeling: Biological Simulations of the Brain's Functional Connectome"
+  order: 3
+  slug: computational-modeling-functional-connectome
+  image: 9bdb64_2324b8477f2f40fa915901498c1c595c~mv2.png
+  note: Wix title ends in " Copy" - likely a leftover from duplicating; dropped here
+  body: |
+    This project aims at demonstrating the applicability of biophysical brain network models to neuropsychiatry. We will investigate the mechanisms underlying aberrant whole-brain functional connectivity observed in patients with SCZ using a computational neuro-platform named "The Virtual Brain" (TVB). Specifically, we aim to test the influence of changes in structural connectivity, excitation/inhibition balance, and random noise on whole-brain functional connectivity. Moreover, the derived model parameters will be related to neurochemical and genetic findings in SCZ.
+
+- title: CARE Network
+  order: 4
+  slug: care-network
+  image: 9bdb64_c2ac8b3abf9b4db3930b59670228361b~mv2.png
+  url: https://care-network.eu/
+  body: |
+    The CARE study, part of the *CARE Network* (Computer-assisted Risk Evaluation), is an innovative clinical research project aimed at early detection and prevention of psychosis. The study focuses on individuals at high risk of developing psychosis, particularly targeting people between the ages of 16 and 40. Using AI-based algorithms, the study enhances risk assessments and provides individualized, modular treatment plans based on cognitive behavioral therapy (CBT). Its primary goal is to prevent psychosis or mitigate its progression by offering personalized early interventions. The project involves a nationwide network of child, adolescent, and adult psychiatric centers across Germany and includes a detailed evaluation of the cost-effectiveness of these interventions.
+
+    This study is supported by the German Innovation Fund and aims to contribute to preventive psychiatry, establishing high diagnostic and therapeutic standards for psychosis risk evaluation. The project also includes a health economic evaluation to assess the cost-benefit of this new care model.
+
+- title: PsyLetics
+  order: 5
+  slug: psyletics
+  image: 9bdb64_bc04b552a9ff44c5a94a98dab6692d81~mv2.jpg
+  body: |
+    PsyLetics is an innovative research project, investigating the effects of high-intensity training (HIT) in patients with schizophrenia. We compare the effects of HIT to a low-intensity sports intervention (vibration plate training) and a standard therapy (Treatment As Usual; TAU) concerning clinical symptoms (psychopathology, functional outcome) and cognition of patients with schizophrenia. Furthermore, the impact on biological correlates on the level of brain structure, inflammatory and metabolic markers as well as on motivational behavior and metabolic control are highlighted. The aim is to proof the efficacy of HIT in patients with schizophrenia as well as to characterize and understand the biological mechanisms of this type of training.
+
+    **Coordinator:** Dr. med. Theresa Lichtenstein
+
+    **Team:** Matthias Rißmayer, M.Sc. in Psychology in Sports and Exercise · Dr. Sophia Schleyken · Torben Jacobs, MD · Cand. med. Stefan Schumacher
+
+- title: Individualised prediction in clinical high risk
+  order: 6
+  slug: individualised-prediction-in-clinical-high-risk
+  image: 9bdb64_a3c44488be4e4a108c76dd0fcb04b7b5~mv2.png
+  body: |
+    A focus of our lab is the identification of individuals that are at-risk to develop a psychiatric disorder. This approach offers the opportunity to prevent disorders before they occur in full effect and also to provide those individuals with treatment that need it most. The clinical-high risk state is an established syndrome that is associated with increases risk to develop psychosis. Recent findings indicate that machine learning tools can be used to predict outcome ([Koutsouleris et al., 2018](https://pubmed.ncbi.nlm.nih.gov/30267047/)) and transition to psychosis in these individuals. However, before such tools can be translated to clinical practice, many questions need to be addressed. Currently, we are trying to answer the question of what data modalities are most promising to provide robust and reliable predictions in those individuals and how robust those models are if translated to different clinical contexts.
+
+- title: Longitudinal course of cannabis-induced psychosis (CIP)
+  order: 7
+  slug: cannabis-induced-psychosis
+  image: 9bdb64_991e2be9567b469bb1727b6e1abdeda8~mv2.png
+  body: |
+    Cannabis has been identified as one of the major risk factors for developing psychosis. Recent studies show that up to 50 % of all patients with cannabis-induced psychosis (CIP) continue to develop a permanent form of a psychotic disorder. Therefore, the aim of the present project is to set up a longitudinal, multimodal neuroimaging study of patients with CIP, including structural and functional neuroimaging at baseline as well as a follow up to record the clinical outcome of patients. By employing novel machine learning tools on such multimodal, longitudinal data, we hope to shed light on the neurobiological basis of cannabis-induced psychosis and to develop clinical tools that allow personalised prediction of outcome in individual patients.
+
+- title: Personalized cognitive training
+  order: 8
+  slug: personalized-cognitive-training
+  image: 9bdb64_3f51ec0ad60f43a6b502a5cc594d4f39~mv2.png
+  body: |
+    Cognitive symptoms are a central feature of most psychiatric diseases including psychotic and affective disorders. Recent results, including work from our lab ([Kambeitz-Ilankovic et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31557548/)), demonstrated that cognitive training can effectively improve cognitive performance in patients with psychosis. However, there is substantial variability with respect to how individuals patients respond to the treatment: while some show the desired treatment effect, some patients do not respond. Thus in the current project we aim to employ machine learning techniques to create tools that allow individualised prediction of treatment response to cognitive training. The ultimate goal is to personalise cognitive training and to provide efficient interventions according to the novel paradigm of precision psychiatry.
+
+- title: Transdiagnostic phenotyping of psychopathology in a help-seeking population (PhenoNetz) - an experience sampling study
+  order: 9
+  slug: phenonetz
+  image: 9bdb64_318b914ac2e44363b38e346b8884073c~mv2.jpg
+  body: |
+    Through our involvement in the Early Recognition and Intervention Service for Mental Disorders (FETZ) of the University Hospital Cologne, we noticed that the currently established prevention approach in psychiatry, which targets diagnosis-specific syndromes, does not cover the majority of help-seeking population. Therefore, PhenoNetz aims at an explorative transdiagnostic phenotyping of the help-seeking population of the FETZ using innovative, intensive longitudinal data collection via a smartphone app. A better understanding of relevant psychopathology in this burdened population is of great relevance, given the lack of adequate interventions. Combining ESM with network analyses allows for unique insights into yet under-researched early transdiagnostic psychopathological processes, as well as their association with risk, resilience, and psychosocial functioning. The hope is to inform and exploit the potential of prevention and, thus, to address a larger proportion of the help-seeking population. These insights might allow reducing mental illness and their associated personal, familial, societal, clinical as well as economic burden more effectively.
+
+- title: Symptom networks in psychotic and affective disorders
+  order: 10
+  slug: symptom-networks
+  image: 9bdb64_3eb8bd5e18ee4b8399f26c1a8ffc38ed~mv2.png
+  body: |
+    Psychiatric disorders are mainly defined by the occurrence of clinical symptoms such paranoia, social isolation or anxiety. However, what is frequently neglected in psychiatric research is the fact that these symptoms interact: paranoia can cause anxiety, axienty can lead to social isolation and social isolation in turn can increase paranoia. Novel methodological tools allow us to capture these interactions by thinking about symptoms as networks. This opens up numerous exciting applications by analysing the structure of symptom networks, their development over time or the interaction with genetic or environmental factors.
+
+- title: Digital Twins and Generative Agents in Mental Health
+  order: 12
+  slug: digital-twins-and-generative-agents-in-mental-health
+  image: null   # no image in Wix
+  body: |
+    We develop computational "digital twins" of patients and generative AI agents to simulate mental health trajectories. By combining large language models with clinical and behavioral data, we model how environmental and social factors shape psychopathology — enabling in-silico experiments, individualized prediction, and new approaches to early intervention in psychiatry.

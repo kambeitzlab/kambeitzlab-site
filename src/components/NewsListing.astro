@@ -1,0 +1,66 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import NewsItem from './NewsItem.astro';
+import { url } from '../lib/url';
+
+interface Props {
+  posts: CollectionEntry<'news'>[];
+  current: number;
+  last: number;
+}
+const { posts, current, last } = Astro.props;
+const pageHref = (n: number) => url(n === 1 ? '/news/' : `/news/page/${n}/`);
+---
+
+<Base title={current === 1 ? 'News' : `News – page ${current}`} description="News from the Kambeitz Lab: papers, awards, people and events.">
+  <div class="wrap section">
+    <header class="page-head">
+      <p class="eyebrow">News</p>
+      <h1>News</h1>
+    </header>
+    <div class="list">
+      {posts.map((post) => <NewsItem post={post} headingLevel="h2" />)}
+    </div>
+
+    {
+      last > 1 && (
+        <nav class="pager" aria-label="News pages">
+          {current > 1 ? <a href={pageHref(current - 1)} rel="prev">← Newer</a> : <span />}
+          <ol role="list">
+            {Array.from({ length: last }, (_, i) => i + 1).map((n) => (
+              <li>
+                {n === current ? (
+                  <span aria-current="page">{n}</span>
+                ) : (
+                  <a href={pageHref(n)} aria-label={`Page ${n}`}>{n}</a>
+                )}
+              </li>
+            ))}
+          </ol>
+          {current < last ? <a href={pageHref(current + 1)} rel="next">Older →</a> : <span />}
+        </nav>
+      )
+    }
+  </div>
+</Base>
+
+<style>
+  .page-head { margin-bottom: 2rem; }
+  .list { max-width: 820px; }
+  .list :global(.title) { font-size: 1.2rem; }
+  .pager {
+    max-width: 820px; margin-top: 2.5rem;
+    display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 1rem;
+  }
+  .pager > a { font-weight: 600; text-decoration: none; }
+  .pager > a[rel='next'] { justify-self: end; }
+  ol { list-style: none; display: flex; gap: 0.35rem; margin: 0; padding: 0; }
+  ol a, ol span {
+    display: grid; place-items: center; min-width: 2.4rem; height: 2.4rem; border-radius: 8px;
+    text-decoration: none; font-weight: 600;
+  }
+  ol a { border: 1px solid var(--border); }
+  ol a:hover { border-color: var(--accent); }
+  ol span[aria-current] { background: var(--accent); color: var(--on-accent); }
+</style>

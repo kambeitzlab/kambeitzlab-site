@@ -1,0 +1,67 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import PubItem from '../../components/PubItem.astro';
+import ThemeIcon from '../../components/ThemeIcon.astro';
+import { themes } from '../../data/themes';
+import { getPublications } from '../../lib/publications';
+import { url } from '../../lib/url';
+
+export function getStaticPaths() {
+  return themes.map((theme) => ({ params: { theme: theme.id }, props: { theme } }));
+}
+
+const { theme } = Astro.props;
+const projects = (await getCollection('projects'))
+  .filter((p) => p.data.theme === theme.id)
+  .sort((a, b) => a.data.order - b.data.order);
+const pubs = (await getPublications()).filter((p) => p.themes.includes(theme.id)).slice(0, 5);
+---
+
+<Base title={theme.title} description={theme.description}>
+  <div class="wrap section">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href={url('/research/')}>← Research</a></nav>
+    <header class="page-head">
+      <ThemeIcon id={theme.id} size={56} />
+      <div>
+        <p class="eyebrow">Research theme</p>
+        <h1>{theme.title}</h1>
+        <p class="lead">{theme.description}</p>
+      </div>
+    </header>
+
+    <section aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <ul class="cards" role="list">
+        {projects.map((project) => <li><ProjectCard project={project} showTheme={false} /></li>)}
+      </ul>
+    </section>
+
+    {
+      pubs.length > 0 && (
+        <section class="pubs" aria-labelledby="pubs-title">
+          <div class="section-head">
+            <h2 id="pubs-title">Publications</h2>
+            <a class="more-link" href={url(`/publications/?theme=${theme.id}`)}>All in this theme</a>
+          </div>
+          {pubs.map((pub) => <PubItem pub={pub} />)}
+        </section>
+      )
+    }
+  </div>
+</Base>
+
+<style>
+  .crumbs { margin-bottom: 2rem; font-size: 0.95rem; }
+  .crumbs a { text-decoration: none; }
+  .page-head { display: flex; gap: 1.25rem; align-items: flex-start; margin-bottom: 3rem; }
+  .page-head h1 { font-size: clamp(1.9rem, 1.4rem + 2vw, 2.8rem); }
+  .cards {
+    list-style: none; padding: 0; margin: 0 0 3.5rem;
+    display: grid; gap: clamp(1rem, 2.5vw, 1.75rem);
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  }
+  .pubs { max-width: 860px; }
+  @media (max-width: 600px) { .page-head { flex-direction: column; gap: 0.5rem; } }
+</style>

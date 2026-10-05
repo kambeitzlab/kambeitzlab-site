@@ -1,0 +1,43 @@
+---
+import { site } from '../data/site';
+---
+
+<aside class="patient" aria-labelledby="patient-title">
+  <div class="wrap inner">
+    <svg class="icon" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+      <path d="M12 21s-7.5-4.6-9.3-9.6C1.4 7.6 4 4 7.6 4c2 0 3.4 1.1 4.4 2.5C13 5.1 14.4 4 16.4 4 20 4 22.6 7.6 21.3 11.4 19.5 16.4 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
+    </svg>
+    <div class="text">
+      <h2 id="patient-title" class="visually-hidden">Patient information / Informationen für Betroffene</h2>
+      <p lang="de">
+        <strong>Sie suchen Unterstützung?</strong> Unser Früherkennungs- und Therapiezentrum FETZ hilft jungen Menschen mit psychischen Belastungen.
+      </p>
+      <p lang="en">
+        <strong>Looking for support?</strong> Our early recognition centre FETZ helps young people with mental health concerns.
+      </p>
+    </div>
+    <a class="go" href={site.fetz} lang="de">
+      Zum FETZ <span lang="en">/ Visit FETZ</span><span aria-hidden="true"> →</span>
+    </a>
+  </div>
+</aside>
+
+<style>
+  .patient {
+    background: var(--surface-2);
+    border-block: 1px solid var(--border);
+  }
+  .inner {
+    display: flex; align-items: center; gap: 1.25rem;
+    padding-block: 1.25rem; flex-wrap: wrap;
+  }
+  .icon { color: var(--accent); flex: none; }
+  .text { flex: 1 1 420px; }
+  .text p { margin: 0; font-size: 0.97rem; }
+  .text p + p { margin-top: 0.2rem; color: var(--muted); }
+  .go {
+    flex: none; font-weight: 600; text-decoration: none;
+    padding: 0.55rem 1rem; border-radius: 999px; border: 1.5px solid var(--accent);
+  }
+  .go:hover { background: var(--accent-soft); }
+</style>

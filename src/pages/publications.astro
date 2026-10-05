@@ -1,0 +1,138 @@
+---
+import Base from '../layouts/Base.astro';
+import PubItem from '../components/PubItem.astro';
+import { themes } from '../data/themes';
+import { getPublications } from '../lib/publications';
+
+const pubs = await getPublications();
+const years = [...new Set(pubs.map((p) => p.year))].sort((a, b) => b - a);
+
+const jsonLd = pubs.map((p) => ({
+  '@context': 'https://schema.org',
+  '@type': 'ScholarlyArticle',
+  headline: p.title.replace(/<[^>]+>/g, ''),
+  author: p.authors.map((a) => ({ '@type': 'Person', name: a.display })),
+  datePublished: String(p.year),
+  isPartOf: p.venue ? { '@type': 'Periodical', name: p.venue.replace(/<[^>]+>/g, '') } : undefined,
+  sameAs: p.doi ? `https://doi.org/${p.doi}` : undefined,
+}));
+---
+
+<Base title="Publications" description="Peer-reviewed publications and preprints of the Kambeitz Lab." jsonLd={jsonLd}>
+  <div class="wrap section">
+    <header class="page-head">
+      <p class="eyebrow">Publications</p>
+      <h1>Publications</h1>
+      <p class="lead">Lab members are shown in <strong class="member">bold</strong>.</p>
+    </header>
+
+    {
+      pubs.length === 0 ? (
+        <p>The publication list is coming soon.</p>
+      ) : (
+        <>
+          <form class="filters" id="pub-filters" hidden aria-label="Filter publications">
+            <label>
+              <span>Year</span>
+              <select name="year">
+                <option value="">All years</option>
+                {years.map((y) => <option value={y}>{y}</option>)}
+              </select>
+            </label>
+            <label>
+              <span>Theme</span>
+              <select name="theme">
+                <option value="">All themes</option>
+                {themes.map((t) => <option value={t.id}>{t.title}</option>)}
+              </select>
+            </label>
+            <label class="toggle">
+              <input type="checkbox" name="selected" />
+              <span>Selected only</span>
+            </label>
+            <p class="count" role="status" aria-live="polite"></p>
+          </form>
+          {/* Show the filters before first paint (no layout shift); they only work with JS. */}
+          <script is:inline>document.getElementById('pub-filters').hidden = false;</script>
+
+          {years.map((year) => (
+            <section class="year" data-year={year} aria-labelledby={`y${year}`}>
+              <h2 id={`y${year}`}>{year}</h2>
+              {pubs.filter((p) => p.year === year).map((pub) => (
+                <div class="entry" data-themes={pub.themes.join(' ')} data-selected={pub.selected ? '1' : '0'}>
+                  <PubItem pub={pub} maxAuthors={12} showThemes />
+                </div>
+              ))}
+            </section>
+          ))}
+          <p class="empty" hidden>No publications match these filters.</p>
+        </>
+      )
+    }
+  </div>
+</Base>
+
+<script>
+  const form = document.getElementById('pub-filters') as HTMLFormElement | null;
+  if (form) {
+    const params = new URLSearchParams(location.search);
+    for (const name of ['year', 'theme']) {
+      const v = params.get(name);
+      const el = form.elements.namedItem(name) as HTMLSelectElement;
+      if (v && [...el.options].some((o) => o.value === v)) el.value = v;
+    }
+    (form.elements.namedItem('selected') as HTMLInputElement).checked = params.get('selected') === '1';
+
+    const apply = () => {
+      const year = (form.elements.namedItem('year') as HTMLSelectElement).value;
+      const theme = (form.elements.namedItem('theme') as HTMLSelectElement).value;
+      const selected = (form.elements.namedItem('selected') as HTMLInputElement).checked;
+      let shown = 0;
+      document.querySelectorAll<HTMLElement>('.year').forEach((section) => {
+        let inYear = 0;
+        section.querySelectorAll<HTMLElement>('.entry').forEach((e) => {
+          const ok =
+            (!year || section.dataset.year === year) &&
+            (!theme || (e.dataset.themes ?? '').split(' ').includes(theme)) &&
+            (!selected || e.dataset.selected === '1');
+          e.hidden = !ok;
+          if (ok) inYear++;
+        });
+        section.hidden = inYear === 0;
+        shown += inYear;
+      });
+      form.querySelector('.count')!.textContent = `${shown} publication${shown === 1 ? '' : 's'}`;
+      (document.querySelector('.empty') as HTMLElement).hidden = shown > 0;
+      const q = new URLSearchParams();
+      if (year) q.set('year', year);
+      if (theme) q.set('theme', theme);
+      if (selected) q.set('selected', '1');
+      history.replaceState(null, '', q.size ? `?${q}` : location.pathname);
+    };
+    form.addEventListener('change', apply);
+    form.addEventListener('submit', (e) => e.preventDefault());
+    apply();
+  }
+</script>
+
+<style>
+  .page-head { margin-bottom: 2rem; }
+  .member { color: var(--text); }
+  .filters {
+    display: flex; flex-wrap: wrap; align-items: flex-end; gap: 1rem 1.5rem;
+    padding: 1rem 1.25rem; margin-bottom: 2.5rem;
+    background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  }
+  .filters[hidden] { display: none; }
+  .filters label { display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.82rem; font-weight: 600; color: var(--muted); }
+  select {
+    font: inherit; font-size: 0.95rem; font-weight: 400; color: var(--text);
+    background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 0.45rem 0.6rem; min-width: 12rem;
+  }
+  .toggle { flex-direction: row !important; align-items: center; gap: 0.5rem !important; font-size: 0.95rem !important; color: var(--text) !important; padding-bottom: 0.5rem; }
+  .toggle input { width: 1.1rem; height: 1.1rem; accent-color: var(--accent); }
+  .count { margin: 0 0 0.5rem auto; font-size: 0.9rem; color: var(--muted); }
+  .year { max-width: 900px; margin-bottom: 2.5rem; }
+  .year h2 { font-size: 1.3rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); margin-bottom: 1rem; }
+  .entry:last-child :global(.pub) { border-bottom: 0; }
+</style>

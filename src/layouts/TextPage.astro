@@ -1,0 +1,36 @@
+---
+// Layout for plain text pages written in Markdown (src/pages/*.md).
+// Frontmatter: title, description?, lang?, eyebrow?, draft?
+import Base from './Base.astro';
+
+const { frontmatter } = Astro.props;
+const { title, description, lang = 'en', eyebrow, draft = false } = frontmatter;
+---
+
+<Base title={title} description={description} lang={lang}>
+  <article class="wrap section">
+    {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+    <h1>{title}</h1>
+    {
+      draft && (
+        <p class="draft" role="note">
+          {lang === 'de'
+            ? 'Entwurf – noch nicht rechtlich geprüft. Platzhalter sind mit [[…]] markiert.'
+            : 'Draft – not yet legally reviewed. Placeholders are marked [[…]].'}
+        </p>
+      )
+    }
+    <div class="prose text"><slot /></div>
+  </article>
+</Base>
+
+<style>
+  .draft {
+    max-width: var(--measure); padding: 0.75rem 1rem; margin-bottom: 2rem;
+    border-left: 4px solid var(--accent); background: var(--accent-soft); border-radius: 0 8px 8px 0;
+    font-weight: 600;
+  }
+  .text :global(h2) { font-size: 1.35rem; margin-top: 2.25rem; }
+  .text :global(h3) { font-size: 1.1rem; margin-top: 1.5rem; }
+  .text :global(address) { font-style: normal; }
+</style>

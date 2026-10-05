@@ -1,0 +1,68 @@
+---
+import Base from '../layouts/Base.astro';
+import { site } from '../data/site';
+import { url } from '../lib/url';
+---
+
+<Base title="Contact" description="How to reach the Kambeitz Lab at the University Hospital Cologne.">
+  <div class="wrap section">
+    <header class="page-head">
+      <p class="eyebrow">Contact</p>
+      <h1>Get in touch</h1>
+    </header>
+
+    <div class="grid">
+      <section class="card box" aria-labelledby="c-general">
+        <h2 id="c-general">General enquiries &amp; collaborations</h2>
+        <p>For research collaborations, press and general questions, please email us.</p>
+        <p><a class="btn btn-primary" href={`mailto:${site.email}`}>{site.email}</a></p>
+      </section>
+
+      <section class="card box" aria-labelledby="c-join">
+        <h2 id="c-join">Positions &amp; theses</h2>
+        <p>PhD, MD and MSc theses, internships and visiting stays: see what to send and to whom.</p>
+        <p><a class="btn btn-ghost" href={url('/join/')}>Join us</a></p>
+      </section>
+
+      <section class="card box patient" aria-labelledby="c-patients">
+        <h2 id="c-patients">Patients and families</h2>
+        <p lang="de">
+          Wenn Sie Unterstützung bei psychischen Belastungen suchen, wenden Sie sich bitte an unser Früherkennungs- und Therapiezentrum FETZ.
+        </p>
+        <p lang="en">If you are looking for clinical support, please contact our early recognition centre FETZ.</p>
+        <p><a class="btn btn-ghost" href={site.fetz} lang="de">Zum FETZ <span lang="en">/ Visit FETZ</span> →</a></p>
+        <p class="crisis">
+          <strong lang="de">In akuten Krisen:</strong> <span lang="de">Notruf 112 oder die nächste Notaufnahme.</span>
+          <span lang="en">In an emergency, call 112 or go to the nearest emergency department.</span>
+        </p>
+      </section>
+    </div>
+
+    <section class="address" aria-labelledby="c-address">
+      <h2 id="c-address">Address</h2>
+      <address>
+        {site.longName}<br />
+        {site.institution}<br />
+        {site.address.map((line) => (<>{line}<br /></>))}
+      </address>
+      <p class="note">
+        We do not use a contact form or any tracking. Please do not send health information by unencrypted email. See our <a href={url('/datenschutz/')}>privacy policy</a>.
+      </p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .page-head { margin-bottom: 2.5rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 1.25rem; margin-bottom: 3rem; }
+  .box { padding: 1.5rem; display: flex; flex-direction: column; }
+  .box h2 { font-size: 1.2rem; }
+  .box p { color: var(--muted); }
+  .box p:has(.btn) { margin-top: auto; margin-bottom: 0; padding-top: 0.5rem; }
+  .btn { overflow-wrap: anywhere; }
+  .patient { background: var(--surface-2); box-shadow: none; }
+  .crisis { font-size: 0.88rem; margin: 1rem 0 0; }
+  .address h2 { font-size: 1.2rem; }
+  address { font-style: normal; line-height: 1.7; margin-bottom: 1rem; }
+  .note { color: var(--muted); font-size: 0.93rem; max-width: 70ch; }
+</style>

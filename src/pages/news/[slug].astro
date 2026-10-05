@@ -1,0 +1,87 @@
+---
+import { Picture, getImage } from 'astro:assets';
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { site } from '../../data/site';
+import { getNews } from '../../lib/news';
+import { formatDate, url } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const posts = await getNews();
+  return posts.map((post, i) => ({
+    params: { slug: post.id },
+    props: { post, newer: posts[i - 1], older: posts[i + 1] },
+  }));
+}
+
+const { post, newer, older } = Astro.props;
+const { title, date, type, image, image_alt, excerpt, gallery } = post.data;
+const { Content } = await render(post);
+
+const og = image ? (await getImage({ src: image, width: 1200, format: 'jpg' })).src : undefined;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: title,
+  datePublished: date.toISOString(),
+  description: excerpt || undefined,
+  publisher: { '@type': 'ResearchOrganization', name: site.longName },
+};
+---
+
+<Base title={title} description={excerpt || title} ogImage={og} jsonLd={jsonLd}>
+  <article class="wrap section post">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href={url('/news/')}>← News</a></nav>
+    <header>
+      <p class="meta">
+        <time datetime={date.toISOString().slice(0, 10)}>{formatDate(date)}</time>
+        <span class="tag">{type}</span>
+      </p>
+      <h1>{title}</h1>
+    </header>
+
+    {
+      image && (
+        <Picture class="hero-img" formats={['avif', 'webp']} src={image} alt={image_alt}
+          widths={[480, 800, 1200]} sizes="(max-width: 820px) 92vw, 760px" loading="eager" />
+      )
+    }
+
+    <div class="prose"><Content /></div>
+
+    {
+      gallery.length > 0 && (
+        <section class="gallery" aria-label="Photos">
+          {gallery.map((img, i) => (
+            <Picture formats={['avif', 'webp']} src={img} alt={`Photo ${i + 1} of ${gallery.length}: ${title}`} widths={[360, 720]} sizes="(max-width: 600px) 46vw, 250px" />
+          ))}
+        </section>
+      )
+    }
+
+    <nav class="adjacent" aria-label="More news">
+      {newer ? <a href={url(`/news/${newer.id}/`)} rel="prev"><span>Newer</span>{newer.data.title}</a> : <span />}
+      {older && <a href={url(`/news/${older.id}/`)} rel="next" class="older"><span>Older</span>{older.data.title}</a>}
+    </nav>
+  </article>
+</Base>
+
+<style>
+  .post { max-width: calc(760px + 2 * var(--gutter)); }
+  .crumbs { margin-bottom: 2rem; font-size: 0.95rem; }
+  .crumbs a { text-decoration: none; }
+  .meta { display: flex; align-items: center; gap: 0.6rem; color: var(--muted); font-size: 0.92rem; margin-bottom: 0.6rem; }
+  h1 { font-size: clamp(1.8rem, 1.3rem + 2vw, 2.6rem); }
+  .post :global(.hero-img), .post :global(.hero-img img) {
+    width: 100%; max-height: 480px; object-fit: contain; border-radius: var(--radius); margin: 1rem 0 2rem;
+    background: var(--surface-2);
+  }
+  .prose { max-width: none; overflow-wrap: anywhere; }
+  .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(220px, 44vw), 1fr)); gap: 0.75rem; margin-top: 2rem; }
+  .gallery :global(img) { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; }
+  .adjacent { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+  .adjacent a { text-decoration: none; color: var(--text); font-weight: 500; line-height: 1.4; }
+  .adjacent a:hover { color: var(--accent); }
+  .adjacent span { display: block; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 0.2rem; }
+  .adjacent .older { text-align: right; }
+</style>

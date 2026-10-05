@@ -1,0 +1,92 @@
+---
+import { Picture, getImage } from 'astro:assets';
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { site } from '../../data/site';
+import { themeById } from '../../data/themes';
+import { url } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  return projects.map((project) => ({ params: { slug: project.id }, props: { project } }));
+}
+
+const { project } = Astro.props;
+const { title, full_title, theme, status, years, funder, partners, url: projectUrl, image, image_alt, image_fit, summary } = project.data;
+const { Content } = await render(project);
+const t = themeById[theme];
+
+const facts = [
+  ['Status', status && status[0].toUpperCase() + status.slice(1)],
+  ['Years', years],
+  ['Funding', funder],
+  ['Partners', partners.join(', ')],
+].filter(([, v]) => v);
+
+const og = image ? (await getImage({ src: image, width: 1200, format: 'jpg' })).src : undefined;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ResearchProject',
+  name: full_title || title,
+  description: summary,
+  url: projectUrl || undefined,
+  funder: funder ? { '@type': 'Organization', name: funder } : undefined,
+  parentOrganization: { '@type': 'ResearchOrganization', name: site.longName },
+};
+---
+
+<Base title={title} description={summary} ogImage={og} jsonLd={jsonLd}>
+  <article class="wrap section">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href={url('/research/')}>Research</a>
+      <span aria-hidden="true">{' / '}</span>
+      <a href={url(`/research/${theme}/`)}>{t.title}</a>
+    </nav>
+    <header class="head">
+      <h1>{title}</h1>
+      {full_title && <p class="full">{full_title}</p>}
+    </header>
+
+    <div class="layout">
+      <div>
+        {image && (
+          <div class={`media ${image_fit}`}>
+            <Picture formats={['avif', 'webp']} src={image} alt={image_alt || `Illustration for the project ${title}`}
+              widths={[480, 800, 1200]} sizes="(max-width: 900px) 92vw, 760px" loading="eager" />
+          </div>
+        )}
+        <div class="prose"><Content /></div>
+      </div>
+      <aside class="facts" aria-label="Project details">
+        <dl>
+          <div><dt>Theme</dt><dd><a href={url(`/research/${theme}/`)}>{t.title}</a></dd></div>
+          {facts.map(([k, v]) => <div><dt>{k}</dt><dd>{v}</dd></div>)}
+        </dl>
+        {projectUrl && <a class="btn btn-ghost" href={projectUrl} rel="noopener">Project website ↗</a>}
+      </aside>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .crumbs { margin-bottom: 1.5rem; font-size: 0.95rem; color: var(--muted); }
+  .crumbs a { text-decoration: none; }
+  .head { margin-bottom: 2rem; }
+  .head h1 { font-size: clamp(1.9rem, 1.4rem + 2vw, 2.8rem); }
+  .head { max-width: 900px; }
+  .full { color: var(--muted); font: 400 1.15rem/1.45 var(--font-head); }
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: clamp(2rem, 5vw, 4rem); align-items: start; }
+  .media { border-radius: var(--radius); overflow: hidden; margin-bottom: 2rem; max-width: 760px; border: 1px solid var(--border); }
+  .media.contain { background: #fff; padding: 1.5rem; }
+  .media :global(img) { width: 100%; max-height: 420px; object-fit: contain; }
+  .media.cover :global(img) { object-fit: cover; max-height: none; aspect-ratio: 16 / 9; }
+  .facts { position: sticky; top: 5.5rem; padding: 1.25rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); }
+  dl { margin: 0 0 1rem; }
+  dl div + div { margin-top: 0.9rem; }
+  dt { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 600; }
+  dd { margin: 0.15rem 0 0; text-transform: none; }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; }
+    .facts { position: static; }
+  }
+</style>

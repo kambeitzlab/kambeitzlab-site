@@ -1,0 +1,68 @@
+---
+import { Picture, getImage } from 'astro:assets';
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { site } from '../../data/site';
+import { url } from '../../lib/url';
+
+export async function getStaticPaths() {
+  const team = await getCollection('team');
+  return team.map((person) => ({ params: { slug: person.id }, props: { person } }));
+}
+
+const { person } = Astro.props;
+const { name, title, position, photo, show_photo, photo_focus, email, orcid } = person.data;
+const { Content } = await render(person);
+const plain = person.body?.replace(/[*_#>\[\]]|\(http[^)]+\)/g, '').split(/\n/)[0].slice(0, 155);
+
+const og = show_photo && photo ? (await getImage({ src: photo, width: 600, format: 'jpg' })).src : undefined;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name,
+  honorificPrefix: title || undefined,
+  jobTitle: position,
+  email: email || undefined,
+  sameAs: orcid ? [orcid] : undefined,
+  affiliation: { '@type': 'ResearchOrganization', name: site.longName },
+};
+---
+
+<Base title={name} description={plain || `${name}, ${position} at the ${site.name}.`} ogImage={og} jsonLd={jsonLd}>
+  <article class="wrap section bio">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href={url('/team/')}>← Team</a></nav>
+    <div class="layout">
+      <div class="side">
+        {
+          show_photo && photo && (
+            <Picture formats={['avif', 'webp']} src={photo} alt={`Portrait of ${name}`} widths={[300, 600]} sizes="(max-width: 760px) 60vw, 300px"
+              loading="eager" style={`object-position:${photo_focus}`} />
+          )
+        }
+        <ul class="contact">
+          {email && <li><a href={`mailto:${email}`}>{email}</a></li>}
+          {orcid && <li><a href={orcid} rel="noopener">ORCID</a></li>}
+        </ul>
+      </div>
+      <div>
+        <p class="eyebrow">{position}</p>
+        <h1>{title && <span class="title">{title}</span>} {name}</h1>
+        <div class="prose"><Content /></div>
+      </div>
+    </div>
+  </article>
+</Base>
+
+<style>
+  .crumbs { margin-bottom: 2rem; font-size: 0.95rem; }
+  .crumbs a { text-decoration: none; }
+  .layout { display: grid; grid-template-columns: 300px 1fr; gap: clamp(2rem, 5vw, 4rem); align-items: start; }
+  .side :global(img) { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius); }
+  .contact { list-style: none; padding: 0; margin: 1rem 0 0; font-size: 0.95rem; }
+  h1 { font-size: clamp(1.9rem, 1.4rem + 2vw, 2.8rem); }
+  .title { color: var(--muted); font-weight: 400; }
+  @media (max-width: 760px) {
+    .layout { grid-template-columns: 1fr; }
+    .side { max-width: 260px; }
+  }
+</style>

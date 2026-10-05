@@ -1,0 +1,55 @@
+---
+import { site } from '../data/site';
+import { url } from '../lib/url';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="wrap cols">
+    <div>
+      <p class="name">{site.longName}</p>
+      <address>
+        {site.institution}<br />
+        {site.address.map((line) => (<>{line}<br /></>))}
+      </address>
+    </div>
+    <div>
+      <h2 class="visually-hidden">Contact and links</h2>
+      <ul class="links">
+        <li><a href={`mailto:${site.email}`}>{site.email}</a></li>
+        <li><a href={url('/code/')}>Code &amp; tools</a></li>
+        {site.github && <li><a href={site.github} rel="noopener">GitHub</a></li>}
+        {site.orcid && <li><a href={site.orcid} rel="noopener">ORCID</a></li>}
+      </ul>
+    </div>
+    <div>
+      <ul class="links">
+        <li><a href={url('/impressum/')}>Impressum</a></li>
+        <li><a href={url('/datenschutz/')}>Datenschutz</a></li>
+        <li><a href={site.fetz} lang="de">Patient care: FETZ</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap fine">
+    <p>© {year} {site.name}. No cookies, no tracking.</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: clamp(3rem, 8vw, 6rem);
+    background: var(--surface-2); border-top: 1px solid var(--border);
+    font-size: 0.95rem; color: var(--muted);
+  }
+  .cols {
+    display: grid; gap: 2rem; padding-block: 3rem 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+  .name { font: 600 1.05rem/1.4 var(--font-head); color: var(--text); margin-bottom: 0.5rem; }
+  address { font-style: normal; line-height: 1.7; }
+  .links { list-style: none; margin: 0; padding: 0; line-height: 2; }
+  .links a { color: var(--text); }
+  .links a:hover { color: var(--accent); }
+  .fine { border-top: 1px solid var(--border); padding-block: 1.25rem; font-size: 0.85rem; }
+  .fine p { margin: 0; }
+</style>
