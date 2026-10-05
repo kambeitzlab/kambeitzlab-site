@@ -19,7 +19,7 @@
 - [ ] **Address** in footer/contact: Kerpener Str. 62, 50937 Köln.
 
 ## Legal (before going live)
-- [ ] See LEGAL_TODO.md: postal address for the Impressum, Uniklinik mailbox note, hosting section, remove `draft: true`.
+- [ ] See LEGAL_TODO.md: texts complete; remove `draft: true` at launch.
 
 ## Done / decided
 - Team, alumni, roles and section structure confirmed (2026-10-05).

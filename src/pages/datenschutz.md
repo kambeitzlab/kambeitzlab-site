@@ -15,7 +15,10 @@ Verantwortlich für die Datenverarbeitung auf dieser Website ist:
 
 <address>
 Prof. Dr. Joseph Kambeitz<br>
-[[Straße und Hausnummer]], [[PLZ Ort]]<br>
+Klinik und Poliklinik für Psychiatrie und Psychotherapie<br>
+Medizinische Fakultät und Uniklinik Köln<br>
+Kerpener Str. 62<br>
+50937 Köln<br>
 E-Mail: <a href="mailto:fetz@uk-koeln.de">fetz@uk-koeln.de</a>
 </address>
 
@@ -25,11 +28,11 @@ Dies ist eine persönliche Website und kein Angebot der Uniklinik Köln (siehe [
 
 Beim Aufruf dieser Website übermittelt Ihr Browser automatisch Daten an den Server des Hosters, die dort in Logfiles gespeichert werden: IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite, übertragene Datenmenge, Referrer-URL sowie Browsertyp und Betriebssystem.
 
-Diese Daten sind technisch erforderlich, um die Website auszuliefern und ihre Sicherheit und Stabilität zu gewährleisten (z. B. Abwehr von Angriffen). Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bereitstellung und dem sicheren Betrieb der Website). Ich selbst habe keinen Zugriff auf diese Logdaten, werte sie nicht aus und führe sie nicht mit anderen Daten zusammen. [[Speicherdauer laut Hoster eintragen.]]
+Diese Daten sind technisch erforderlich, um die Website auszuliefern und ihre Sicherheit und Stabilität zu gewährleisten (z. B. Abwehr von Angriffen). Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bereitstellung und dem sicheren Betrieb der Website). Ich selbst habe keinen Zugriff auf diese Logdaten, werte sie nicht aus und führe sie nicht mit anderen Daten zusammen. Wie lange der Hoster die Logdaten speichert, richtet sich nach dessen Datenschutzbestimmungen (siehe Ziffer 3).
 
 ## 3. Hosting
 
-Diese Website wird bei **GitHub Pages** gehostet, einem Dienst der GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. GitHub verarbeitet die unter Ziffer 2 genannten Logdaten, um die Website auszuliefern; dabei kann eine Übermittlung in die USA erfolgen. GitHub Inc. ist unter dem EU-US Data Privacy Framework zertifiziert (Angemessenheitsbeschluss der EU-Kommission, Art. 45 DSGVO). Weitere Informationen: [GitHub Privacy Statement](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement). [[Adresse und DPF-Zertifizierung vor Veröffentlichung prüfen.]]
+Diese Website wird bei **GitHub Pages** gehostet, einem Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Beim Aufruf der Website protokolliert GitHub nach eigenen Angaben die IP-Adresse der Besucherinnen und Besucher aus Sicherheitsgründen. Dabei kann eine Übermittlung in die USA erfolgen. GitHub ist nach dem EU-US Data Privacy Framework zertifiziert, für das ein Angemessenheitsbeschluss der EU-Kommission besteht (Art. 45 DSGVO). Weitere Informationen: [GitHub-Datenschutzerklärung](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement).
 
 ## 4. Keine Cookies, kein Tracking, keine externen Inhalte
 
@@ -39,7 +42,7 @@ Diese Website setzt keine Cookies, keine Analyse- oder Marketingdienste und kein
 
 ## 5. Kontakt per E-Mail
 
-Diese Website hat kein Kontaktformular. Die angegebene E-Mail-Adresse (fetz@uk-koeln.de) ist ein Postfach der **Uniklinik Köln**. Wenn Sie dorthin schreiben, wird Ihre Nachricht über die E-Mail-Systeme der Uniklinik Köln empfangen und bearbeitet; dafür gilt die [Datenschutzerklärung der Uniklinik Köln](https://www.uk-koeln.de/datenschutz/). [[Link prüfen]]
+Diese Website hat kein Kontaktformular. Die angegebene E-Mail-Adresse (fetz@uk-koeln.de) ist ein Postfach der **Uniklinik Köln**. Wenn Sie dorthin schreiben, wird Ihre Nachricht über die E-Mail-Systeme der Uniklinik Köln empfangen und bearbeitet; dafür gilt die [Datenschutzerklärung der Uniklinik Köln](https://www.uk-koeln.de/datenschutz/).
 
 Ihre E-Mail-Adresse und die Angaben aus Ihrer Nachricht werden nur verwendet, um Ihre Anfrage zu beantworten (Art. 6 Abs. 1 lit. b bzw. f DSGVO), und gelöscht, sobald sie dafür nicht mehr erforderlich sind und keine gesetzlichen Aufbewahrungspflichten bestehen.
 
@@ -57,6 +60,6 @@ Sie haben außerdem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu b
 
 ## 8. Stand
 
-[[Datum der finalen Fassung]]
+Oktober 2026
 
 <p lang="en"><em>English summary: This website sets no cookies, uses no tracking or analytics and loads no third-party content. Personal data is only processed in the hosting provider's technically necessary server logs and when you get in touch by email (the address is a University Hospital Cologne mailbox, whose privacy policy applies). This is a personal website, not an official University Hospital Cologne site. The legally binding version is the German text above.</em></p>

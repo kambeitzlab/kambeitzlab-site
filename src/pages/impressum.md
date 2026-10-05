@@ -11,14 +11,15 @@ draft: true
 
 <address>
 Prof. Dr. Joseph Kambeitz<br>
-[[Straße und Hausnummer]]<br>
-[[PLZ Ort]]
+Klinik und Poliklinik für Psychiatrie und Psychotherapie<br>
+Medizinische Fakultät und Uniklinik Köln<br>
+Kerpener Str. 62<br>
+50937 Köln
 </address>
 
 ## Kontakt
 
-E-Mail: [fetz@uk-koeln.de](mailto:fetz@uk-koeln.de)<br>
-Telefon: [[optional]]
+E-Mail: [fetz@uk-koeln.de](mailto:fetz@uk-koeln.de)
 
 ## Verantwortlich für den Inhalt gemäß § 18 Abs. 2 MStV
 
@@ -26,7 +27,7 @@ Prof. Dr. Joseph Kambeitz, Anschrift wie oben.
 
 ## Hinweis zum Charakter dieser Website
 
-Dies ist die persönliche Website von Prof. Dr. Joseph Kambeitz über die Arbeit seiner Forschungsgruppe. Sie ist kein offizielles Angebot der Uniklinik Köln oder der Universität zu Köln. Die Nennung der Klinik dient ausschließlich der Angabe der beruflichen Zugehörigkeit.
+Dies ist die persönliche Website von Prof. Dr. Joseph Kambeitz über die Arbeit seiner Forschungsgruppe. Sie ist kein offizielles Angebot der Uniklinik Köln oder der Universität zu Köln. Die Nennung der Klinik dient der Angabe der beruflichen Zugehörigkeit und Erreichbarkeit.
 
 ## Hinweis für Patientinnen und Patienten
 
@@ -40,6 +41,6 @@ Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte ich
 
 ## Urheberrecht
 
-Texte und Bilder auf dieser Website unterliegen dem deutschen Urheberrecht. Fotos der Teammitglieder werden mit deren Einverständnis veröffentlicht. [[Ggf. Bildnachweise ergänzen.]]
+Texte und Bilder auf dieser Website unterliegen dem deutschen Urheberrecht. Fotos der Teammitglieder werden mit deren Einverständnis veröffentlicht.
 
 <p lang="en"><em>English summary: This is the personal website of Prof. Dr. Joseph Kambeitz about the work of his research group. It is not an official website of the University Hospital Cologne. The legally binding version of this notice is the German text above.</em></p>
