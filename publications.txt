@@ -629,3 +629,6 @@
 
     Kambeitz JP, Howes OD. The serotonin transporter in depression: Meta-analysis of in vivo and post mortem findings and implications for understanding and treating depression. J Affect Disord 2015;186:358–66.
   
+
+
+    Çokal D, Villalba M, He R, Flores Palominos C, Böke A, Homan P, von Heusinger K, Kambeitz J, Hinzen W. What is the retest reliability of computationally extractable speech and language markers? Comput Speech Lang 2026;100:101981. https://doi.org/10.1016/j.csl.2026.101981.
