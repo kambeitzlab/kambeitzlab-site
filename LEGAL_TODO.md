@@ -15,8 +15,8 @@ this works as long as post addressed to him there reliably reaches him.
 - [x] Note that fetz@uk-koeln.de is a Uniklinik mailbox, with a link to the Uniklinik privacy policy (link checked)
 - [x] Date ("Stand: Oktober 2026")
 
-## Before going live
-- [ ] Remove `draft: true` from both pages (removes the "Entwurf" banner).
+## Still to keep in mind
+- [x] Draft banner removed (7 October 2026); pages are live on kambeitzlab.com.
 - [ ] Make sure every person whose photo is shown has agreed (the Impressum says so).
 - [ ] Optional: check with the Uniklinik that using fetz@uk-koeln.de on a personal site is fine.
 

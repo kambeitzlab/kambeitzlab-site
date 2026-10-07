@@ -4,7 +4,6 @@ title: Datenschutzerklärung
 eyebrow: Privacy policy
 description: Datenschutzerklärung der Website des Kambeitz Lab. Keine Cookies, kein Tracking.
 lang: de
-draft: true
 ---
 
 **Kurz gesagt:** Diese Website verwendet **keine Cookies**, **kein Tracking**, **keine Analyse-Tools** und **keine Inhalte von Drittanbietern** (Schriften und Bilder werden vom selben Server geladen wie die Website). Personenbezogene Daten fallen nur in den technisch notwendigen Server-Logfiles des Hosters an und wenn Sie per E-Mail Kontakt aufnehmen.

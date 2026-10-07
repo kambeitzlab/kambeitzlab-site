@@ -4,7 +4,6 @@ title: Impressum
 eyebrow: Legal notice
 description: Impressum (Anbieterkennzeichnung) der Website des Kambeitz Lab.
 lang: de
-draft: true
 ---
 
 ## Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG) und § 18 Abs. 1 MStV

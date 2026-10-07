@@ -3,7 +3,7 @@
 ## Content to supply
 - [ ] **Publications – themes:** the 158 entries from `publications.txt` got their `theme` from keyword rules; 65 match no rule and only appear under "All themes". Please review/add `theme = {…}` in `content/publications.bib`.
 - [ ] **Publications – DOIs:** 24 entries still have no DOI (none in the list and no confident Crossref match). DOIs found via Crossref (105) were accepted only with a near-identical title; spot-check if in doubt.
-- [ ] **Publications – selected:** the 14 papers marked "selected" are still the ones from the old Wix site; adjust `keywords = {selected}` as you like (the home page shows the 3 newest).
+- [x] **Publications – selected:** Penzel et al. 2026 (Mol Psychiatry), Vogel & Kambeitz 2026 (Psychiatry Res), Kambeitz & Meyer-Lindenberg 2025 (npj Digit Med); set 2026-10-07. Change via `keywords = {selected}`.
 - [ ] **Project details:** status, years, funder and partners are empty for all 11 projects; a project URL is missing for 8 (PsyLetics, CHR prediction, CIP, cognitive training, PhenoNetz, symptom networks, TVB connectome, Digital Twins).
 - [ ] **Project summaries** (card text) were taken from the first sentences of each description. Please review; ≤ 40 words.
 - [ ] **Kathrin Seeger:** photo, and check the drafted bio.
@@ -19,7 +19,7 @@
 - [ ] **Address** in footer/contact: Kerpener Str. 62, 50937 Köln.
 
 ## Legal (before going live)
-- [ ] See LEGAL_TODO.md: texts complete; remove `draft: true` at launch.
+- [x] Legal pages final and live (draft banner removed 2026-10-07); see LEGAL_TODO.md.
 
 ## Done / decided
 - Team, alumni, roles and section structure confirmed (2026-10-05).
