@@ -7,7 +7,7 @@
 - [ ] **Project details:** status, years, funder and partners are empty for all 11 projects; a project URL is missing for 8 (PsyLetics, CHR prediction, CIP, cognitive training, PhenoNetz, symptom networks, TVB connectome, Digital Twins).
 - [ ] **Project summaries** (card text) were taken from the first sentences of each description. Please review; ≤ 40 words.
 - [ ] **Kathrin Seeger:** photo, and check the drafted bio.
-- [ ] **PhD students' bios** (Böke, Chakraborty, Baştürk) still describe their 2023 Master's theses (Hacker updated 2026-10-06).
+- [ ] **PhD students' bios** (Böke, Chakraborty) still describe their 2023 Master's theses (Hacker updated 2026-10-06, Baştürk 2026-10-07).
 - [ ] **Image alt texts:** `image_alt` is empty for news and project images (empty = treated as decorative).
 - [ ] **Partner logos:** later; the strip stays hidden until `partners` in `src/data/site.ts` has entries.
 - [ ] **Lab GitHub and ORCID links** (`src/data/site.ts`): hidden until set. Code page: list public repositories in `src/data/code.ts`.

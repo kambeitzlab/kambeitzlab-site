@@ -10,4 +10,4 @@ email: ''
 orcid: ''
 ---
 
-I received my Bachelor's degree in Psychology at Yaşar University in June 2021. I am currently enrolled Master of Science program in Experimental and Clinical Neuroscience at the University of Cologne. As from January 2023, to write my thesis focussing on personalized cognitive training in patients with psychosis I have become the member of Kambeitz Lab. I am investigating difference of different neuroanatomical subtypes in response to computerized cognitive intervention, under the supervision of Priv.-Doz. Dr. Lana Kambeitz-Ilankovic.
+I am a psychologist and neuroscientist, currently pursuing my doctoral degree. My research focuses on multimodal and transdiagnostic signatures of psychosocial adversity, with a particular interest in how childhood trauma and recent adversities are associated with cognitive functioning and brain structure. My work is centered on psychosis and clinical high-risk states, while also adopting a broader transdiagnostic perspective across different mental health conditions.
