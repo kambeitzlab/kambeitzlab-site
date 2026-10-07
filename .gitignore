@@ -7,3 +7,7 @@ dist/
 content-export/images/
 __pycache__/
 scripts/.doi-cache.json
+
+# private LinkedIn data export – never commit
+linkedin_content/
+/news/

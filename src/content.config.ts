@@ -69,6 +69,7 @@ const news = defineCollection({
       image_alt: z.string().default(''),
       excerpt: z.string().default(''),
       gallery: z.array(image()).default([]),
+      lang: z.string().optional(), // e.g. 'de' for posts written in German
     }),
 });
 

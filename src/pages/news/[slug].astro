@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 }
 
 const { post, newer, older } = Astro.props;
-const { title, date, type, image, image_alt, excerpt, gallery } = post.data;
+const { title, date, type, image, image_alt, excerpt, gallery, lang } = post.data;
 const { Content } = await render(post);
 
 const og = image ? (await getImage({ src: image, width: 1200, format: 'jpg' })).src : undefined;
@@ -37,7 +37,7 @@ const jsonLd = {
         <time datetime={date.toISOString().slice(0, 10)}>{formatDate(date)}</time>
         <span class="tag">{type}</span>
       </p>
-      <h1>{title}</h1>
+      <h1 lang={lang}>{title}</h1>
     </header>
 
     {
@@ -47,7 +47,7 @@ const jsonLd = {
       )
     }
 
-    <div class="prose"><Content /></div>
+    <div class="prose" lang={lang}><Content /></div>
 
     {
       gallery.length > 0 && (
