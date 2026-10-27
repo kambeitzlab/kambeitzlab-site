@@ -14,8 +14,16 @@ import { url } from '../lib/url';
     <div class="grid">
       <section class="card box" aria-labelledby="c-general">
         <h2 id="c-general">General enquiries &amp; collaborations</h2>
-        <p>For research collaborations, press and general questions, please email us.</p>
-        <p><a class="btn btn-primary" href={`mailto:${site.email}`}>{site.email}</a></p>
+        {
+          site.contactEmail ? (
+            <>
+              <p>For research collaborations, press and general questions, please email us.</p>
+              <p><a class="btn btn-primary" href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a></p>
+            </>
+          ) : (
+            <p>For research collaborations, press and general questions: a dedicated contact address is being set up and will be listed here soon.</p>
+          )
+        }
       </section>
 
       <section class="card box" aria-labelledby="c-join">

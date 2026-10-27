@@ -35,7 +35,7 @@ const mail = (subject: string) => `mailto:${site.applyEmail}?subject=${encodeURI
       <h2 id="open-positions-title">Open positions</h2>
       {
         positions.length === 0 ? (
-          <p class="none">There are no open positions at the moment. Unsolicited applications are always welcome; see below.</p>
+          <p class="none">There are no open positions at the moment.</p>
         ) : (
           <ul class="positions" role="list">
             {positions.map((p) => (
@@ -70,7 +70,9 @@ const mail = (subject: string) => `mailto:${site.applyEmail}?subject=${encodeURI
           </ul>
         </div>
       </div>
-      <p class="to">Send to: <a href={mail('PhD application')}>{site.applyEmail}</a>, subject "PhD application"</p>
+      {site.applyEmail ? (
+        <p class="to">Send to: <a href={mail('PhD application')}>{site.applyEmail}</a>, subject "PhD application"</p>
+      ) : <p class="to pending">Our application address is being set up and will be listed here soon.</p>}
     </section>
 
     <section id="doktorarbeit" class="block" lang="de" aria-labelledby="doktorarbeit-title">
@@ -97,7 +99,9 @@ const mail = (subject: string) => `mailto:${site.applyEmail}?subject=${encodeURI
           </ul>
         </div>
       </div>
-      <p class="to">An: <a href={mail('Doktorarbeit – Anfrage')}>{site.applyEmail}</a>, Betreff „Doktorarbeit – Anfrage“</p>
+      {site.applyEmail ? (
+        <p class="to">An: <a href={mail('Doktorarbeit – Anfrage')}>{site.applyEmail}</a>, Betreff „Doktorarbeit – Anfrage“</p>
+      ) : <p class="to pending">Die Bewerbungsadresse wird gerade eingerichtet und erscheint hier in Kürze.</p>}
     </section>
 
     <section id="msc" class="block" aria-labelledby="msc-title">
@@ -118,7 +122,9 @@ const mail = (subject: string) => `mailto:${site.applyEmail}?subject=${encodeURI
           </ul>
         </div>
       </div>
-      <p class="to">Send to: <a href={mail('MSc thesis enquiry')}>{site.applyEmail}</a>, subject "MSc thesis enquiry"</p>
+      {site.applyEmail ? (
+        <p class="to">Send to: <a href={mail('MSc thesis enquiry')}>{site.applyEmail}</a>, subject "MSc thesis enquiry"</p>
+      ) : <p class="to pending">Our application address is being set up and will be listed here soon.</p>}
     </section>
 
     <section id="visiting" class="block" aria-labelledby="visiting-title">
@@ -128,7 +134,9 @@ const mail = (subject: string) => `mailto:${site.applyEmail}?subject=${encodeURI
         fellowships (e.g. DAAD, Erasmus+). Please get in touch at least three months before your planned stay with a short description of what you
         would like to work on, your CV and the intended duration.
       </p>
-      <p class="to">Send to: <a href={mail('Research stay enquiry')}>{site.applyEmail}</a>, subject "Research stay enquiry"</p>
+      {site.applyEmail ? (
+        <p class="to">Send to: <a href={mail('Research stay enquiry')}>{site.applyEmail}</a>, subject "Research stay enquiry"</p>
+      ) : <p class="to pending">Our application address is being set up and will be listed here soon.</p>}
     </section>
 
     <p class="note">
@@ -153,6 +161,7 @@ const mail = (subject: string) => `mailto:${site.applyEmail}?subject=${encodeURI
   .cols ul { padding-left: 1.2rem; margin: 0; }
   .cols li + li { margin-top: 0.3rem; }
   .to { margin-top: 1rem; font-weight: 600; }
+  .pending { font-weight: 400; color: var(--muted); }
   .none { color: var(--muted); }
   .positions { list-style: none; padding: 0; display: grid; gap: 1rem; }
   .positions .card { padding: 1.25rem; }

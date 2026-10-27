@@ -25,7 +25,7 @@ const organization = {
   '@type': 'ResearchOrganization',
   name: site.longName,
   url: new URL(url('/'), Astro.site).href,
-  email: site.email,
+  ...(site.contactEmail && { email: site.contactEmail }),
   parentOrganization: { '@type': 'Hospital', name: 'University Hospital Cologne' },
   address: {
     '@type': 'PostalAddress',

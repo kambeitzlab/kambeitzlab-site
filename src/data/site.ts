@@ -10,9 +10,11 @@ export const site = {
   // TODO: confirm the public lab address
   institution: 'Department of Psychiatry and Psychotherapy, University Hospital Cologne',
   address: ['Kerpener Str. 62', '50937 Köln', 'Germany'],
+  // Legal contact (Impressum/Datenschutz only). fetz@ is reserved for clinical mail.
   email: 'fetz@uk-koeln.de',
-  // TODO: confirm where applications should go (Join us page)
-  applyEmail: 'fetz@uk-koeln.de',
+  // TODO: dedicated lab addresses. Contact page, footer and Join page hide the address while empty.
+  contactEmail: '',
+  applyEmail: '',
   // Links are hidden while empty.
   github: '', // TODO: lab GitHub organisation, e.g. https://github.com/kambeitzlab
   orcid: '', // TODO: Joseph's ORCID iD, e.g. https://orcid.org/0000-…

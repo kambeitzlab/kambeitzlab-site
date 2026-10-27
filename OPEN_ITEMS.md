@@ -13,7 +13,7 @@
 - [ ] **Lab GitHub and ORCID links** (`src/data/site.ts`): hidden until set. Code page: list public repositories in `src/data/code.ts`.
 
 ## To confirm
-- [ ] **Application email** on the Join page (`applyEmail` in `src/data/site.ts`), currently fetz@uk-koeln.de.
+- [ ] **Lab email addresses** (`contactEmail`, `applyEmail` in `src/data/site.ts`): currently empty, so Join/Contact/footer show "being set up". fetz@uk-koeln.de stays only in Impressum/Datenschutz (clinical use); update the Datenschutz wording if the new address is not a Uniklinik mailbox.
 - [ ] **Join us texts** (requirements, what to send) are drafts; the Doktorarbeit section is in German.
 - [ ] **Theme mapping:** follows the design brief; personalized cognitive training is under Prediction (could also go under Interventions).
 - [ ] **Address** in footer/contact: Kerpener Str. 62, 50937 Köln.
