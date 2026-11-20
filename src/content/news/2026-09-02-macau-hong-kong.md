@@ -2,6 +2,8 @@
 title: AI and brain sciences in Macau and Hong Kong
 date: '2026-09-02'
 type: event
+image: ../../assets/news/2026-09-02-macau-hong-kong.jpg
+image_alt: Poster of the 1st International Symposium on Artificial Intelligence and Brain Sciences at the University of Macau, 28–29 August 2026, with the list of invited speakers
 excerpt: Joseph spoke at the International Symposium on Artificial Intelligence and Brain Sciences at the University of Macau and visited the University of Hong Kong.
 gallery: []
 ---
