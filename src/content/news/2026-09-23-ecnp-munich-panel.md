@@ -2,6 +2,8 @@
 title: 'ECNP Congress Munich: panel on AI in mental health'
 date: '2026-09-23'
 type: event
+image: ../../assets/news/2026-09-23-ecnp-munich-panel.jpg
+image_alt: Five panellists standing on stage after the session at the ECNP Congress in Munich, in front of a screen with the congress feedback survey
 excerpt: Joseph joins the panel "AI in Mental Health – Progress and Perils" at the 39th ECNP Congress on 13 October 2026.
 gallery: []
 ---
