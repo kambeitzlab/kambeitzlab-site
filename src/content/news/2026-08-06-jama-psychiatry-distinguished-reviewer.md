@@ -2,6 +2,8 @@
 title: Joseph joins the first cohort of Distinguished Reviewers for JAMA Psychiatry
 date: '2026-08-06'
 type: award
+image: ../../assets/news/2026-08-06-jama-psychiatry-distinguished-reviewer.png
+image_alt: 'Heading of the JAMA Psychiatry masthead page: "JAMA Psychiatry Masthead"'
 excerpt: JAMA Psychiatry now names its reviewers on the masthead, and Joseph is part of the inaugural cohort.
 gallery: []
 ---
