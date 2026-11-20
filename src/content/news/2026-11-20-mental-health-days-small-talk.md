@@ -2,6 +2,8 @@
 title: 'Mental Health Days Cologne: workshop "Small Talk – more than a short conversation"'
 date: '2026-11-20'
 type: event
+image: ../../assets/news/2026-11-20-mental-health-days-small-talk.png
+image_alt: 'Line drawing of two people talking, with the text "Small Talk – mehr als nur ein kurzes Gespräch" and the date 9 December, 10–11:30'
 excerpt: Lana Kambeitz-Ilankovic (FETZ) leads a hands-on workshop on small talk and social anxiety on 9 December 2026 as part of the University of Cologne's Mental Health Days.
 gallery: []
 ---
@@ -12,7 +14,7 @@ Small talk helps build contacts and relationships, but it can be a source of rea
 
 The workshop is open to everyone interested.
 
-- **When:** Wednesday, 9 December 2026, 10:00
+- **When:** Wednesday, 9 December 2026, 10:00–11:30
 - **Where:** Well-Being Lounge (Mensa Zülpicher Straße), Cologne
 - **Registration:** until 2 December 2026
 
